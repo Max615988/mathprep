@@ -1,0 +1,25 @@
+
+> mathprep@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.194:3000
+✓ Ready in 674ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+ GET /api/questions 200 in 516ms (next.js: 467ms, application-code: 49ms)
+ GET / 200 in 2.8s (next.js: 2.5s, application-code: 309ms)
+ GET /quiz?competition=AMC+8 200 in 461ms (next.js: 411ms, application-code: 51ms)
+ GET /api/questions?competition=AMC+8&topic= 200 in 17ms (next.js: 6ms, application-code: 11ms)
+ GET /api/questions?competition=AMC+8&topic= 200 in 14ms (next.js: 5ms, application-code: 9ms)
+ GET / 200 in 49ms (next.js: 8ms, application-code: 41ms)
+ GET /quiz?competition=SAT 200 in 34ms (next.js: 4ms, application-code: 30ms)
+ GET /api/questions?competition=SAT&topic= 200 in 11ms (next.js: 5ms, application-code: 6ms)
+ GET /api/questions?competition=SAT&topic= 200 in 14ms (next.js: 5ms, application-code: 8ms)
+ GET / 200 in 35ms (next.js: 3ms, application-code: 32ms)
+✓ Compiled in 290ms

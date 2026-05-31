@@ -4860,5 +4860,447 @@
     ],
     "answer": "D",
     "explanation": "Introduce a slack variable $w = 15 - x - y - z \\geq 0$, converting to $x + y + z + w = 15$. By stars and bars: $\\binom{15+3}{3} = \\binom{18}{3} = 816$."
+  },
+  {
+    "id": 287,
+    "competition": "AMC 10",
+    "year": 2019,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "A sequence is defined by $a_1 = 1$, $a_2 = \\dfrac{3}{7}$, and $a_n = \\dfrac{a_{n-2} \\cdot a_{n-1}}{2a_{n-2} - a_{n-1}}$ for $n \\geq 3$. If $a_{2019} = \\dfrac{p}{q}$ where $\\gcd(p,q)=1$, what is $p + q$?",
+    "choices": [
+      "4039",
+      "6057",
+      "6061",
+      "8078",
+      "20202"
+    ],
+    "answer": "D",
+    "explanation": "Let $b_n = 1/a_n$. The recurrence becomes $b_n = 2b_{n-1} - b_{n-2}$, an arithmetic sequence with $b_1=1$, $b_2=7/3$. The common difference is $4/3$, so $b_n = (4n-1)/3$. Thus $b_{2019} = 8075/3$, giving $a_{2019} = 3/8075$. Since $\\gcd(3, 8075)=1$, $p+q = 3+8075 = 8078$."
+  },
+  {
+    "id": 288,
+    "competition": "AMC 10",
+    "year": 2019,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "A child builds towers using identically-shaped cubes of different colors. How many different towers of height 8 can the child build with 2 red cubes, 3 blue cubes, and 4 green cubes? (The child has 9 cubes total and picks 8.)",
+    "choices": [
+      "24",
+      "288",
+      "312",
+      "1260",
+      "40320"
+    ],
+    "answer": "D",
+    "explanation": "Exclude one cube: if one red excluded: $8!/(1!3!4!)=280$; if one blue: $8!/(2!2!4!)=420$; if one green: $8!/(2!3!3!)=560$. Total: $280+420+560=1260$."
+  },
+  {
+    "id": 289,
+    "competition": "AMC 10",
+    "year": 2019,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "For some positive integer $k$, the repeating base-$k$ representation of $\\dfrac{7}{51}$ is $0.\\overline{23}_k = 0.232323\\ldots_k$. What is $k$?",
+    "choices": [
+      "13",
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": "D",
+    "explanation": "$0.\\overline{23}_k = \\dfrac{2k+3}{k^2-1}$. Setting equal to $7/51$: $51(2k+3) = 7(k^2-1)$, which gives $7k^2 - 102k - 160 = 0$. Solving: $k = \\dfrac{102 + 122}{14} = 16$."
+  },
+  {
+    "id": 290,
+    "competition": "AMC 10",
+    "year": 2019,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "What is the least possible value of $(x+1)(x+2)(x+3)(x+4) + 2019$ where $x$ is a real number?",
+    "choices": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "answer": "B",
+    "explanation": "Regroup: $(x+1)(x+4) = x^2+5x+4$ and $(x+2)(x+3)=x^2+5x+6$. Let $u = x^2+5x+5$; the product is $(u-1)(u+1)=u^2-1$. The expression becomes $u^2 - 1 + 2019 = u^2 + 2018 \\geq 2018$, achieved when $u=0$."
+  },
+  {
+    "id": 291,
+    "competition": "AMC 10",
+    "year": 2019,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many sequences of 0s and 1s of length 19 begin with a 0, end with a 0, contain no two consecutive 0s, and contain no three consecutive 1s?",
+    "choices": [
+      "55",
+      "60",
+      "65",
+      "70",
+      "75"
+    ],
+    "answer": "C",
+    "explanation": "The string has $k$ zeros creating $k-1$ internal gaps of 1 or 2 ones each (to avoid 3 consecutive). With total length 19: $k + \\text{gaps} = 19$ where each gap is 1 or 2. Counting by $k$: $k=7$: 1 way; $k=8$: $\\binom{7}{4}=35$; $k=9$: $\\binom{8}{2}=28$; $k=10$: 1 way. Total: $1+35+28+1=65$."
+  },
+  {
+    "id": 292,
+    "competition": "AMC 10",
+    "year": 2019,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "Right triangles $T_1$ and $T_2$ have areas 1 and 2, respectively. A side of $T_1$ is congruent to a side of $T_2$, and a different side of $T_1$ is congruent to a different side of $T_2$. What is the square of the product of the other (third) sides of $T_1$ and $T_2$?",
+    "choices": [
+      "28/3",
+      "10",
+      "32/3",
+      "34/3",
+      "12"
+    ],
+    "answer": "A",
+    "explanation": "Let $T_1$ have legs $a,b$ and hypotenuse $c$, and $T_2$ have legs $c,d$. Then $ab/2=1$ and $cd/2=2$. From sharing: $ab=2$, $ac=4$, so $b=2/a$, $c=4/a$. Using $c^2=a^2+b^2$: $16/a^2=a^2+4/a^2$ gives $a^4=12$. The third sides are $b$ and $r$ where $r^2=c^2+d^2$. Computing $b^2 r^2 = 28/3$."
+  },
+  {
+    "id": 293,
+    "competition": "AMC 10",
+    "year": 2019,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "A red ball and a green ball are each tossed into bins $1, 2, 3, \\ldots$ where the probability of landing in bin $k$ is $2^{-k}$. What is the probability that the red ball lands in a higher-numbered bin than the green ball?",
+    "choices": [
+      "1/4",
+      "2/7",
+      "1/3",
+      "3/8",
+      "3/7"
+    ],
+    "answer": "C",
+    "explanation": "By symmetry, $P(\\text{red} > \\text{green}) = P(\\text{green} > \\text{red})$. Also $P(\\text{tie}) = \\sum_{k=1}^{\\infty} (2^{-k})^2 = \\sum 4^{-k} = \\frac{1/4}{1-1/4} = \\frac{1}{3}$. So $P(\\text{red} > \\text{green}) = (1 - 1/3)/2 = 1/3$."
+  },
+  {
+    "id": 294,
+    "competition": "AMC 10",
+    "year": 2019,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Henry walks $\\frac{3}{4}$ of the way toward his gym (2 km away), then turns and walks $\\frac{3}{4}$ of the way back toward home, then repeats indefinitely. He oscillates between two points $A$ km and $B$ km from home. What is $|A - B|$?",
+    "choices": [
+      "2/3",
+      "1",
+      "6/5",
+      "5/4",
+      "3/2"
+    ],
+    "answer": "C",
+    "explanation": "Starting at $A$, he walks $\\frac{3}{4}$ toward gym to reach $B = A + \\frac{3}{4}(2-A)$. Then walks $\\frac{3}{4}$ back: $A = \\frac{1}{4}B$. Substituting: $A = \\frac{1}{4}(A/4 + 3/2) \\Rightarrow A = 2/5$, $B = 8/5$. Thus $|A-B| = 6/5$."
+  },
+  {
+    "id": 295,
+    "competition": "AMC 10",
+    "year": 2019,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "Let $S$ be the set of all positive integer divisors of $100{,}000$. How many integers are the product of two distinct elements of $S$?",
+    "choices": [
+      "98",
+      "100",
+      "117",
+      "119",
+      "121"
+    ],
+    "answer": "C",
+    "explanation": "$100000 = 2^5 \\cdot 5^5$ has divisors $2^a 5^b$ with $0 \\leq a,b \\leq 5$. Products of two distinct divisors give values $2^s 5^t$ where $0 \\leq s,t \\leq 10$ — that's $11 \\times 11 = 121$ pairs. Subtract the 4 values only achievable by a divisor times itself (not distinct): $(s,t) \\in \\{(0,0),(0,10),(10,0),(10,10)\\}$. Answer: $121-4=117$."
+  },
+  {
+    "id": 296,
+    "competition": "AMC 10",
+    "year": 2018,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "Let $S$ be a set of 6 integers from $\\{1, 2, \\ldots, 12\\}$ such that if $a, b \\in S$ with $a < b$, then $b$ is not a multiple of $a$. What is the least possible value of an element in $S$?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": "C",
+    "explanation": "We need 6 elements with no divisibility. The set $\\{4, 6, 7, 9, 10, 11\\}$ works (minimum 4, no element divides another). Checking min 2 or 3 is impossible: with 2 in the set, all even numbers are excluded, leaving too few options. Similarly for 3. So the minimum is 4."
+  },
+  {
+    "id": 297,
+    "competition": "AMC 10",
+    "year": 2018,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "How many nonnegative integers can be written in the form $\\sum_{i=0}^{7} a_i \\cdot 3^i$ where $a_i \\in \\{-1, 0, 1\\}$ for $0 \\leq i \\leq 7$?",
+    "choices": [
+      "512",
+      "729",
+      "1094",
+      "3281",
+      "59048"
+    ],
+    "answer": "D",
+    "explanation": "This is balanced ternary with 8 digits. Every integer from $-(3^8-1)/2 = -3280$ to $3280$ has a unique balanced ternary representation. The nonnegative ones are $0$ through $3280$: that is $\\mathbf{3281}$ values."
+  },
+  {
+    "id": 298,
+    "competition": "AMC 10",
+    "year": 2018,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "A number $m$ is chosen from $\\{11,13,15,17,19\\}$ and $n$ from $\\{1999, 2000, \\ldots, 2018\\}$ uniformly at random. What is the probability that $m^n$ has units digit 1?",
+    "choices": [
+      "1/5",
+      "1/4",
+      "3/10",
+      "7/20",
+      "2/5"
+    ],
+    "answer": "E",
+    "explanation": "$11^n$ always ends in 1 (prob 1). $13^n$ ends in 1 when $4|n$: 5 of 20 values (prob 1/4). $15^n$ never ends in 1 (prob 0). $17^n$ ends in 1 when $4|n$: prob 1/4. $19^n$ ends in 1 when $n$ is even: 10 of 20 (prob 1/2). Average: $\\frac{1}{5}(1 + \\frac{1}{4} + 0 + \\frac{1}{4} + \\frac{1}{2}) = \\frac{1}{5} \\cdot 2 = \\frac{2}{5}$."
+  },
+  {
+    "id": 299,
+    "competition": "AMC 10",
+    "year": 2018,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "For which values of $a$ do the curves $x^2 + y^2 = a^2$ and $y = x^2 - a$ intersect at exactly 3 points?",
+    "choices": [
+      "a=1/4",
+      "1/4 < a < 1/2",
+      "a > 1/4",
+      "a = 1/2",
+      "a > 1/2"
+    ],
+    "answer": "E",
+    "explanation": "Substituting $y = x^2 - a$ into $x^2 + y^2 = a^2$ gives $x^2(x^2 - (2a-1)) = 0$. This yields $x=0$ always, and two more solutions when $2a-1 > 0$, i.e., $a > 1/2$. So exactly 3 intersection points when $a > 1/2$."
+  },
+  {
+    "id": 300,
+    "competition": "AMC 10",
+    "year": 2018,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "Let $a, b, c, d$ be positive integers with $\\gcd(a,b)=24$, $\\gcd(b,c)=36$, $\\gcd(c,d)=54$, and $70 < \\gcd(d,a) < 100$. Which of the following must be a divisor of $a$?",
+    "choices": [
+      "5",
+      "7",
+      "11",
+      "13",
+      "17"
+    ],
+    "answer": "D",
+    "explanation": "From the chain of GCDs: $v_2(a)=3$, $v_2(d)=1$, $v_3(a)=1$, $v_3(d)=3$. So $\\gcd(d,a)=2 \\cdot 3 \\cdot \\gcd'$ where $\\gcd' > 70/6 \\approx 11.7$ and $< 100/6 \\approx 16.7$. The only prime in this range is 13. Thus $13 \\mid a$."
+  },
+  {
+    "id": 301,
+    "competition": "AMC 10",
+    "year": 2017,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "Chloe chooses a real number uniformly at random from $[0, 2017]$. Laurent independently chooses from $[0, 4034]$. What is the probability that Laurent's number is greater than Chloe's?",
+    "choices": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "5/6",
+      "7/8"
+    ],
+    "answer": "C",
+    "explanation": "Over the rectangle $[0,2017] \\times [0,4034]$, $P(L > C) = \\int_0^{2017} \\frac{4034-C}{4034} \\cdot \\frac{dC}{2017} = 1 - \\frac{2017}{2 \\cdot 4034} = 1 - \\frac{1}{4} = \\frac{3}{4}$."
+  },
+  {
+    "id": 302,
+    "competition": "AMC 10",
+    "year": 2017,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "Amelia's coin shows heads with probability $\\frac{1}{3}$; Blaine's coin shows heads with probability $\\frac{2}{5}$. They alternate flipping, Amelia first, until someone gets heads. The probability Amelia wins is $\\frac{p}{q}$ in lowest terms. What is $q - p$?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "D",
+    "explanation": "$P(\\text{Amelia wins}) = \\frac{1/3}{1 - (2/3)(3/5)} = \\frac{1/3}{1 - 2/5} = \\frac{1/3}{3/5} = \\frac{5}{9}$. So $p=5$, $q=9$, and $q-p=4$."
+  },
+  {
+    "id": 303,
+    "competition": "AMC 10",
+    "year": 2017,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "Alice refuses to sit next to Bob or Carla. Derek refuses to sit next to Eric. In how many ways can these five people sit in a row?",
+    "choices": [
+      "12",
+      "16",
+      "28",
+      "32",
+      "40"
+    ],
+    "answer": "C",
+    "explanation": "Total: $5!=120$. By inclusion-exclusion, subtract forbidden arrangements. $|A\\cup B\\cup C|=48+48+48-12-24-24+8=92$, where $A$=Alice next to Bob, $B$=Alice next to Carla, $C$=Derek next to Eric. Valid arrangements: $120-92=28$."
+  },
+  {
+    "id": 304,
+    "competition": "AMC 10",
+    "year": 2017,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "For a particular positive integer $n$, $S(n)$ equals the sum of its digits and $S(n) = 1274$. Which of the following could be $S(n+1)$?",
+    "choices": [
+      "1",
+      "3",
+      "12",
+      "1239",
+      "1265"
+    ],
+    "answer": "D",
+    "explanation": "If $n$ ends in $k$ nines, then $S(n+1) = S(n) - 9k + 1 = 1275 - 9k$. For $k=4$: $S(n+1) = 1275 - 36 = 1239$. The other answer choices are not of this form."
+  },
+  {
+    "id": 305,
+    "competition": "AMC 10",
+    "year": 2017,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many of the base-ten numerals for positive integers less than or equal to 2017 contain the digit 0?",
+    "choices": [
+      "469",
+      "471",
+      "475",
+      "478",
+      "481"
+    ],
+    "answer": "A",
+    "explanation": "2-digit with a 0: 9. 3-digit with at least one 0: $900 - 9^3 = 171$. 4-digit 1000–1999 with a 0: $1000 - 9^3 = 271$. 2000–2017: all 18 numbers contain a 0 (the hundreds digit is 0). Total: $9+171+271+18=469$."
+  },
+  {
+    "id": 306,
+    "competition": "AMC 10",
+    "year": 2017,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "A positive integer is called monotonous if it is a one-digit number or its digits form a strictly increasing or strictly decreasing sequence. How many monotonous positive integers are there?",
+    "choices": [
+      "1024",
+      "1524",
+      "1533",
+      "1536",
+      "2048"
+    ],
+    "answer": "B",
+    "explanation": "One-digit: 9. Strictly increasing (2+ digits, digits from $\\{1,...,9\\}$): $\\sum_{k=2}^{9}\\binom{9}{k}=2^9-1-9=502$. Strictly decreasing (2+ digits, digits from $\\{0,...,9\\}$): $\\sum_{k=2}^{10}\\binom{10}{k}=2^{10}-1-10=1013$. Total: $9+502+1013=1524$."
+  },
+  {
+    "id": 307,
+    "competition": "AMC 10",
+    "year": 2017,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "In equilateral triangle $ABC$, extend side $\\overrightarrow{AB}$ beyond $B$ to $B'$ where $BB'=3 \\cdot AB$. Similarly extend $\\overrightarrow{BC}$ beyond $C$ to $C'$ and $\\overrightarrow{CA}$ beyond $A$ to $A'$ with the same ratio. What is the ratio of the area of $\\triangle A'B'C'$ to $\\triangle ABC$?",
+    "choices": [
+      "9:1",
+      "16:1",
+      "25:1",
+      "36:1",
+      "37:1"
+    ],
+    "answer": "E",
+    "explanation": "Place $A=(0,0)$, $B=(1,0)$, $C=(0,1)$. Then $B'=(4,0)$, $C'=(-3,4)$, $A'=(0,-3)$. Area of $\\triangle A'B'C'$ by the determinant formula: $\\frac{1}{2}|{\\det}|=37/2$. Ratio: $37:1$."
+  },
+  {
+    "id": 308,
+    "competition": "AMC 10",
+    "year": 2017,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "The number $21! = 5.109 \\times 10^{19}$ has over 60,000 positive integer divisors. If one is chosen at random, what is the probability that it is odd?",
+    "choices": [
+      "1/21",
+      "1/19",
+      "1/18",
+      "1/2",
+      "11/21"
+    ],
+    "answer": "B",
+    "explanation": "$21! = 2^{18} \\cdot m$ where $m$ is odd ($v_2(21!)=10+5+2+1=18$). The number of divisors is $19 \\cdot \\tau(m)$. Odd divisors: $\\tau(m)$. Probability: $\\tau(m)/(19 \\cdot \\tau(m)) = 1/19$."
+  },
+  {
+    "id": 309,
+    "competition": "AMC 10",
+    "year": 2017,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "Let $N$ be the 79-digit number $1234567891011\\ldots4344$ formed by writing the integers from 1 to 44 in order. What is the remainder when $N$ is divided by 45?",
+    "choices": [
+      "1",
+      "4",
+      "9",
+      "18",
+      "44"
+    ],
+    "answer": "C",
+    "explanation": "For mod 9: digit sum of $N$ = sum of digits of 1 to 44 $= 45 + 80 + 145 = 270 \\equiv 0 \\pmod{9}$. For mod 5: last digit of $N$ is 4, so $N \\equiv 4 \\pmod{5}$. By CRT: $N \\equiv 9 \\pmod{45}$."
+  },
+  {
+    "id": 310,
+    "competition": "AMC 10",
+    "year": 2016,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "For some positive integer $N$, the expansion of $(a+b+c+d+1)^N$ contains exactly 1001 terms that include all four variables $a, b, c, d$, each to a positive power. What is $N$?",
+    "choices": [
+      "9",
+      "14",
+      "16",
+      "17",
+      "19"
+    ],
+    "answer": "B",
+    "explanation": "Terms with all four variables positive: distribute $N$ among 5 slots with first four $\\geq 1$. By stars-and-bars: $\\binom{N}{4}=1001$. Since $14 \\cdot 13 \\cdot 12 \\cdot 11 / 24 = 1001$, we get $N=14$."
+  },
+  {
+    "id": 311,
+    "competition": "AMC 10",
+    "year": 2016,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "A binary operation $\\diamond$ satisfies $a\\diamond(b\\diamond c) = (a\\diamond b)\\cdot c$ and $a\\diamond a=1$ for all nonzero reals. The solution to $2016\\diamond(6\\diamond x)=100$ is $p/q$ in lowest terms. What is $p+q$?",
+    "choices": [
+      "109",
+      "201",
+      "301",
+      "3049",
+      "33601"
+    ],
+    "answer": "A",
+    "explanation": "The operation $a\\diamond b = a/b$ satisfies both axioms. So $6\\diamond x = 6/x$ and $2016\\diamond(6/x)=2016x/6=336x=100$. Thus $x=100/336=25/84$, giving $p+q=25+84=109$."
+  },
+  {
+    "id": 312,
+    "competition": "AMC 10",
+    "year": 2016,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "How many ordered triples $(x,y,z)$ of positive integers satisfy $\\text{lcm}(x,y)=72$, $\\text{lcm}(x,z)=600$, and $\\text{lcm}(y,z)=900$?",
+    "choices": [
+      "15",
+      "16",
+      "24",
+      "27",
+      "64"
+    ],
+    "answer": "A",
+    "explanation": "Write $x=2^a3^b$, $y=2^d3^e$, $z=2^g3^h5^2$. From the LCMs: $a=3$, $c=0$, $f=0$, $i=2$, $e=2$. For the 2-exponents: max$(d,g)=2$ with $d,g\\leq 2$: 5 pairs. For 3-exponents: $e=2$ fixed, max$(b,h)=1$ with $b,h\\in\\{0,1\\}$: 3 pairs. Total: $5\\times 3 = 15$."
   }
 ]

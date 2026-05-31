@@ -4605,5 +4605,260 @@
     ],
     "answer": "E",
     "explanation": "Let $f(n)$ = ways to climb $n$ stairs. $f(1)=1, f(2)=2, f(3)=4$. $f(4)=7, f(5)=13, f(6)=f(5)+f(4)+f(3)=13+7+4=24$."
+  },
+  {
+    "id": 272,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many solutions in non-negative integers does $a + b + c + d = 20$ have if each of $a, b, c, d$ is at least 2?",
+    "choices": [
+      "286",
+      "364",
+      "420",
+      "455",
+      "560"
+    ],
+    "answer": "D",
+    "explanation": "Substitute $a' = a-2$, $b' = b-2$, $c' = c-2$, $d' = d-2$ to get $a'+b'+c'+d'=12$ with each $\\geq 0$. By stars and bars: $\\binom{12+3}{3} = \\binom{15}{3} = 455$."
+  },
+  {
+    "id": 273,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many lattice paths from $(0,0)$ to $(7,4)$, using only steps right (R) and up (U), pass through the point $(3,2)$?",
+    "choices": [
+      "90",
+      "120",
+      "150",
+      "180",
+      "330"
+    ],
+    "answer": "C",
+    "explanation": "By the bijection with sequences of R's and U's, split into two legs. Paths to $(3,2)$: $\\binom{5}{2}=10$. Paths from $(3,2)$ to $(7,4)$: $\\binom{6}{2}=15$. Total: $10 \\times 15 = 150$."
+  },
+  {
+    "id": 274,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many lattice paths from $(0,0)$ to $(8,5)$, using only steps right and up, do NOT pass through the point $(4,3)$?",
+    "choices": [
+      "530",
+      "620",
+      "720",
+      "762",
+      "840"
+    ],
+    "answer": "D",
+    "explanation": "Total paths: $\\binom{13}{5}=1287$. Paths through $(4,3)$: $\\binom{7}{3} \\times \\binom{6}{2} = 35 \\times 15 = 525$. Paths avoiding $(4,3)$: $1287 - 525 = 762$."
+  },
+  {
+    "id": 275,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many non-decreasing sequences of 5 integers are there with each integer between 1 and 8 inclusive? (An example is $1, 3, 3, 5, 8$.)",
+    "choices": [
+      "462",
+      "560",
+      "672",
+      "792",
+      "1001"
+    ],
+    "answer": "D",
+    "explanation": "By bijection, each non-decreasing sequence corresponds to a multiset of size 5 chosen from $\\{1, \\ldots, 8\\}$. The count is $\\binom{8+5-1}{5} = \\binom{12}{5} = 792$."
+  },
+  {
+    "id": 276,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many 5-element subsets of $\\{1, 2, 3, \\ldots, 15\\}$ contain no two consecutive integers?",
+    "choices": [
+      "252",
+      "330",
+      "396",
+      "462",
+      "528"
+    ],
+    "answer": "D",
+    "explanation": "Use the bijection: map each valid subset $\\{a_1 < a_2 < a_3 < a_4 < a_5\\}$ to $\\{a_1, a_2-1, a_3-2, a_4-3, a_5-4\\}$, which is a 5-element subset of $\\{1, \\ldots, 11\\}$. Count: $\\binom{11}{5} = 462$."
+  },
+  {
+    "id": 277,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "In how many ways can 12 be written as an ordered sum of exactly 4 positive integers? (Order matters, so $1+2+4+5$ and $5+4+2+1$ are different.)",
+    "choices": [
+      "84",
+      "120",
+      "165",
+      "210",
+      "330"
+    ],
+    "answer": "C",
+    "explanation": "By bijection with binary strings: write 12 as 12 ones in a row and place 3 dividers in the 11 gaps between them. This gives $\\binom{11}{3} = 165$ compositions."
+  },
+  {
+    "id": 278,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many lattice paths from $(0,0)$ to $(6,6)$, using only steps right and up, never go strictly above the main diagonal? (At every point $(x, y)$ reached, we require $y \\leq x$.)",
+    "choices": [
+      "42",
+      "84",
+      "100",
+      "132",
+      "200"
+    ],
+    "answer": "D",
+    "explanation": "This counts the Catalan number $C_6$. By bijection with valid parenthesizations, $C_6 = \\frac{1}{7}\\binom{12}{6} = \\frac{924}{7} = 132$."
+  },
+  {
+    "id": 279,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many binary strings of length 9 contain exactly 4 ones, with no two ones adjacent to each other?",
+    "choices": [
+      "10",
+      "12",
+      "15",
+      "21",
+      "35"
+    ],
+    "answer": "C",
+    "explanation": "Place the 5 zeros first, creating 6 gaps (before, between, and after the zeros). Choose 4 of these gaps to place a one: $\\binom{6}{4} = 15$. This bijection guarantees no two ones are adjacent."
+  },
+  {
+    "id": 280,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many strictly increasing functions $f:\\{1,2,3,4,5\\} \\to \\{1,2,3,4,5,6,7,8\\}$ exist?",
+    "choices": [
+      "42",
+      "48",
+      "56",
+      "64",
+      "70"
+    ],
+    "answer": "C",
+    "explanation": "Each strictly increasing function is uniquely determined by its set of 5 output values. By bijection, count 5-element subsets of $\\{1,\\ldots,8\\}$: $\\binom{8}{5} = 56$."
+  },
+  {
+    "id": 281,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many ways can 5 indistinguishable balls be placed into 6 distinct boxes so that each box contains at most 2 balls?",
+    "choices": [
+      "84",
+      "106",
+      "120",
+      "126",
+      "168"
+    ],
+    "answer": "D",
+    "explanation": "Total unrestricted: $\\binom{10}{5}=252$. Subtract cases where some box has $\\geq 3$: $6 \\cdot \\binom{7}{5} = 6 \\times 21 = 126$. Two boxes with $\\geq 3$ each would require $\\geq 6$ balls (impossible). Answer: $252 - 126 = 126$."
+  },
+  {
+    "id": 282,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many strings of length 12 consisting of A's and B's have exactly 5 A's and 7 B's, with no three consecutive B's?",
+    "choices": [
+      "84",
+      "100",
+      "114",
+      "126",
+      "140"
+    ],
+    "answer": "D",
+    "explanation": "Place the 5 A's, creating 6 gaps. Distribute 7 B's with each gap receiving $\\leq 2$. By inclusion-exclusion on the 6-gap stars-and-bars: $\\binom{12}{5} - 6\\binom{9}{5} + \\binom{6}{2}\\binom{6}{5} = 792 - 756 + 90 = 126$."
+  },
+  {
+    "id": 283,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many 7-digit positive integers use only the digits 1, 2, and 3, with each digit appearing at least once?",
+    "choices": [
+      "1440",
+      "1632",
+      "1806",
+      "1944",
+      "2058"
+    ],
+    "answer": "C",
+    "explanation": "Total strings: $3^7 = 2187$. By inclusion-exclusion, subtract those missing at least one digit: $3 \\cdot 2^7 - 3 \\cdot 1^7 = 384 - 3 = 381$. Answer: $2187 - 381 = 1806$."
+  },
+  {
+    "id": 284,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many ways can 10 identical books be distributed among 3 students if the first student receives at least 2, the second at least 3, and the third at least 1?",
+    "choices": [
+      "6",
+      "10",
+      "15",
+      "21",
+      "28"
+    ],
+    "answer": "C",
+    "explanation": "Substitute $a'=a-2$, $b'=b-3$, $c'=c-1$ so $a'+b'+c'=4$ with $a',b',c' \\geq 0$. By stars and bars: $\\binom{4+2}{2} = \\binom{6}{2} = 15$."
+  },
+  {
+    "id": 285,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many 4-element subsets of $\\{1, 2, 3, \\ldots, 10\\}$ contain no two elements that differ by exactly 1?",
+    "choices": [
+      "21",
+      "28",
+      "35",
+      "42",
+      "56"
+    ],
+    "answer": "C",
+    "explanation": "We need subsets with no two consecutive integers. By bijection, map $\\{a_1<a_2<a_3<a_4\\}$ to $\\{a_1, a_2-1, a_3-2, a_4-3\\}$, a 4-element subset of $\\{1,\\ldots,7\\}$. Count: $\\binom{7}{4} = 35$."
+  },
+  {
+    "id": 286,
+    "competition": "AoPS",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many ordered triples $(x, y, z)$ of non-negative integers satisfy $x + y + z \\leq 15$?",
+    "choices": [
+      "560",
+      "680",
+      "780",
+      "816",
+      "900"
+    ],
+    "answer": "D",
+    "explanation": "Introduce a slack variable $w = 15 - x - y - z \\geq 0$, converting to $x + y + z + w = 15$. By stars and bars: $\\binom{15+3}{3} = \\binom{18}{3} = 816$."
   }
 ]

@@ -23,6 +23,14 @@ export default function MathText({ text }: { text: string }) {
     }
 
     if (inlineStart === 0) {
+      // Currency sign: $ followed by a digit → treat as literal text
+      if (/^\$\d/.test(remaining)) {
+        const m = remaining.match(/^\$[\d,]+(\.\d+)?/);
+        const literal = m ? m[0] : "$";
+        parts.push(<span key={key++}>{literal}</span>);
+        remaining = remaining.slice(literal.length);
+        continue;
+      }
       const end = remaining.indexOf("$", 1);
       if (end !== -1) {
         const math = remaining.slice(1, end);

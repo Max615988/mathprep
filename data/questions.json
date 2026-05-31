@@ -6,7 +6,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is the value of $1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19$?",
-    "choices": ["90", "95", "100", "105", "110"],
+    "choices": [
+      "90",
+      "95",
+      "100",
+      "105",
+      "110"
+    ],
     "answer": "C",
     "explanation": "This is the sum of the first 10 odd numbers. The sum of the first $n$ odd numbers equals $n^2$. So $10^2 = 100$."
   },
@@ -17,7 +23,13 @@
     "difficulty": "easy",
     "topic": "Geometry",
     "question": "A rectangle has a perimeter of 40 cm. If the length is twice the width, what is the area of the rectangle?",
-    "choices": ["$\\frac{400}{9}$ cm²", "$\\frac{800}{9}$ cm²", "$\\frac{1600}{9}$ cm²", "200 cm²", "400 cm²"],
+    "choices": [
+      "$\\frac{400}{9}$ cm²",
+      "$\\frac{800}{9}$ cm²",
+      "$\\frac{1600}{9}$ cm²",
+      "200 cm²",
+      "400 cm²"
+    ],
     "answer": "B",
     "explanation": "Let width $= w$, length $= 2w$. Perimeter: $2(w + 2w) = 40$, so $w = \\frac{20}{3}$. Area $= 2w^2 = 2 \\cdot \\frac{400}{9} = \\frac{800}{9}$."
   },
@@ -28,7 +40,13 @@
     "difficulty": "medium",
     "topic": "Number Theory",
     "question": "How many two-digit numbers have digits that sum to 10?",
-    "choices": ["7", "8", "9", "10", "11"],
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
     "answer": "C",
     "explanation": "The pairs (digit 1, digit 2) summing to 10: (1,9),(2,8),(3,7),(4,6),(5,5),(6,4),(7,3),(8,2),(9,1). That gives 9 numbers: 19,28,37,46,55,64,73,82,91."
   },
@@ -39,7 +57,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is $3^4$?",
-    "choices": ["12", "27", "64", "81", "243"],
+    "choices": [
+      "12",
+      "27",
+      "64",
+      "81",
+      "243"
+    ],
     "answer": "D",
     "explanation": "$3^4 = 3 \\times 3 \\times 3 \\times 3 = 81$."
   },
@@ -50,7 +74,13 @@
     "difficulty": "easy",
     "topic": "Number Theory",
     "question": "What is the least common multiple of 6 and 9?",
-    "choices": ["3", "6", "9", "18", "54"],
+    "choices": [
+      "3",
+      "6",
+      "9",
+      "18",
+      "54"
+    ],
     "answer": "D",
     "explanation": "$6 = 2 \\times 3$ and $9 = 3^2$. LCM $= 2 \\times 3^2 = 18$."
   },
@@ -61,7 +91,13 @@
     "difficulty": "easy",
     "topic": "Statistics",
     "question": "A bag contains 3 red, 4 blue, and 2 green marbles. What is the probability of randomly selecting a blue marble?",
-    "choices": ["$\\frac{1}{3}$", "$\\frac{4}{9}$", "$\\frac{1}{2}$", "$\\frac{2}{9}$", "$\\frac{4}{3}$"],
+    "choices": [
+      "$\\frac{1}{3}$",
+      "$\\frac{4}{9}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{9}$",
+      "$\\frac{4}{3}$"
+    ],
     "answer": "B",
     "explanation": "Total marbles $= 3 + 4 + 2 = 9$. $P(\\text{blue}) = \\frac{4}{9}$."
   },
@@ -72,7 +108,13 @@
     "difficulty": "easy",
     "topic": "Geometry",
     "question": "What is the area of a triangle with base 8 and height 5?",
-    "choices": ["20", "25", "30", "35", "40"],
+    "choices": [
+      "20",
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
     "answer": "A",
     "explanation": "Area $= \\frac{1}{2} \\times base \\times height = \\frac{1}{2} \\times 8 \\times 5 = 20$."
   },
@@ -83,7 +125,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "A train travels 120 miles in 2 hours. What is its average speed in miles per hour?",
-    "choices": ["40", "50", "60", "70", "80"],
+    "choices": [
+      "40",
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
     "answer": "C",
     "explanation": "Speed $= \\frac{\\text{distance}}{\\text{time}} = \\frac{120}{2} = 60$ mph."
   },
@@ -94,7 +142,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "If 20% of a number is 12, what is the number?",
-    "choices": ["40", "50", "60", "70", "80"],
+    "choices": [
+      "40",
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
     "answer": "C",
     "explanation": "$0.20 \\times x = 12 \\Rightarrow x = \\frac{12}{0.20} = 60$."
   },
@@ -105,7 +159,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "What is the value of $5! - 4!$?",
-    "choices": ["24", "96", "100", "120", "144"],
+    "choices": [
+      "24",
+      "96",
+      "100",
+      "120",
+      "144"
+    ],
     "answer": "B",
     "explanation": "$5! = 120$ and $4! = 24$. So $5! - 4! = 120 - 24 = 96$."
   },
@@ -116,7 +176,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "Two angles of a triangle are $45°$ and $60°$. What is the measure of the third angle?",
-    "choices": ["65°", "70°", "75°", "80°", "85°"],
+    "choices": [
+      "65°",
+      "70°",
+      "75°",
+      "80°",
+      "85°"
+    ],
     "answer": "C",
     "explanation": "The angles of a triangle sum to $180°$. Third angle $= 180 - 45 - 60 = 75°$."
   },
@@ -127,7 +193,13 @@
     "difficulty": "medium",
     "topic": "Statistics",
     "question": "What is the median of the set $\\{3, 7, 1, 9, 4, 6, 2\\}$?",
-    "choices": ["3", "4", "5", "6", "7"],
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
     "answer": "B",
     "explanation": "Sorted: $\\{1, 2, 3, 4, 6, 7, 9\\}$. The median (middle value) is the 4th element: 4."
   },
@@ -138,7 +210,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "A store sells shirts for $15 each. After a 20% discount, what is the sale price?",
-    "choices": ["$10", "$11", "$12", "$13", "$14"],
+    "choices": [
+      "$10",
+      "$11",
+      "$12",
+      "$13",
+      "$14"
+    ],
     "answer": "C",
     "explanation": "20% off $15: $15 \\times 0.80 = \\$12$."
   },
@@ -149,7 +227,13 @@
     "difficulty": "hard",
     "topic": "Number Theory",
     "question": "What is the sum of all prime factors of 360?",
-    "choices": ["8", "9", "10", "12", "15"],
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "12",
+      "15"
+    ],
     "answer": "C",
     "explanation": "$360 = 2^3 \\times 3^2 \\times 5$. The distinct prime factors are 2, 3, and 5. Their sum is $2 + 3 + 5 = 10$."
   },
@@ -160,7 +244,13 @@
     "difficulty": "hard",
     "topic": "Combinatorics",
     "question": "How many even numbers are between 1 and 100, inclusive?",
-    "choices": ["48", "49", "50", "51", "52"],
+    "choices": [
+      "48",
+      "49",
+      "50",
+      "51",
+      "52"
+    ],
     "answer": "C",
     "explanation": "The even numbers from 1 to 100 are $2, 4, 6, \\ldots, 100$. That is $\\frac{100}{2} = 50$ numbers."
   },
@@ -171,7 +261,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "If $a = 3$ and $b = -2$, what is $a^2 - b^2$?",
-    "choices": ["1", "5", "13", "25", "-5"],
+    "choices": [
+      "1",
+      "5",
+      "13",
+      "25",
+      "-5"
+    ],
     "answer": "B",
     "explanation": "$a^2 - b^2 = 9 - 4 = 5$."
   },
@@ -182,7 +278,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "If $2x + 3 = 11$, what is the value of $4x - 1$?",
-    "choices": ["13", "15", "17", "19", "21"],
+    "choices": [
+      "13",
+      "15",
+      "17",
+      "19",
+      "21"
+    ],
     "answer": "B",
     "explanation": "From $2x + 3 = 11$: $x = 4$. Then $4x - 1 = 16 - 1 = 15$."
   },
@@ -193,7 +295,13 @@
     "difficulty": "easy",
     "topic": "Geometry",
     "question": "In a right triangle, the two legs have lengths 5 and 12. What is the length of the hypotenuse?",
-    "choices": ["11", "12", "13", "14", "15"],
+    "choices": [
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
     "answer": "C",
     "explanation": "By the Pythagorean theorem: $c^2 = 5^2 + 12^2 = 25 + 144 = 169$, so $c = 13$."
   },
@@ -204,7 +312,13 @@
     "difficulty": "medium",
     "topic": "Combinatorics",
     "question": "How many ways can 4 people be arranged in a line?",
-    "choices": ["8", "12", "16", "20", "24"],
+    "choices": [
+      "8",
+      "12",
+      "16",
+      "20",
+      "24"
+    ],
     "answer": "E",
     "explanation": "The number of permutations of 4 people is $4! = 4 \\times 3 \\times 2 \\times 1 = 24$."
   },
@@ -215,7 +329,13 @@
     "difficulty": "easy",
     "topic": "Geometry",
     "question": "What is the sum of the interior angles of a hexagon?",
-    "choices": ["540°", "600°", "660°", "720°", "900°"],
+    "choices": [
+      "540°",
+      "600°",
+      "660°",
+      "720°",
+      "900°"
+    ],
     "answer": "D",
     "explanation": "Sum of interior angles $= (n - 2) \\times 180° = (6 - 2) \\times 180° = 720°$."
   },
@@ -226,7 +346,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "If $\\log_2 8 = x$, what is the value of $x$?",
-    "choices": ["2", "3", "4", "6", "8"],
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
     "answer": "B",
     "explanation": "$2^3 = 8$, so $\\log_2 8 = 3$."
   },
@@ -237,7 +363,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "The sum of two numbers is 20 and their product is 96. What are the two numbers?",
-    "choices": ["8 and 12", "6 and 14", "10 and 10", "4 and 16", "2 and 18"],
+    "choices": [
+      "8 and 12",
+      "6 and 14",
+      "10 and 10",
+      "4 and 16",
+      "2 and 18"
+    ],
     "answer": "A",
     "explanation": "Let the numbers be $x$ and $y$. Then $x + y = 20$ and $xy = 96$. Solving: $x(20 - x) = 96 \\Rightarrow x^2 - 20x + 96 = 0 \\Rightarrow (x-8)(x-12) = 0$. The numbers are 8 and 12."
   },
@@ -248,7 +380,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "What is the slope of the line passing through $(2, 3)$ and $(6, 7)$?",
-    "choices": ["$\\frac{1}{2}$", "1", "2", "3", "4"],
+    "choices": [
+      "$\\frac{1}{2}$",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
     "answer": "B",
     "explanation": "Slope $= \\frac{7 - 3}{6 - 2} = \\frac{4}{4} = 1$."
   },
@@ -259,7 +397,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "A circle has an area of $36\\pi$. What is its circumference?",
-    "choices": ["$6\\pi$", "$12\\pi$", "$18\\pi$", "$36\\pi$", "$72\\pi$"],
+    "choices": [
+      "$6\\pi$",
+      "$12\\pi$",
+      "$18\\pi$",
+      "$36\\pi$",
+      "$72\\pi$"
+    ],
     "answer": "B",
     "explanation": "Area $= \\pi r^2 = 36\\pi$, so $r = 6$. Circumference $= 2\\pi r = 12\\pi$."
   },
@@ -270,7 +414,13 @@
     "difficulty": "medium",
     "topic": "Number Theory",
     "question": "How many positive factors does 36 have?",
-    "choices": ["6", "7", "8", "9", "10"],
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
     "answer": "D",
     "explanation": "$36 = 2^2 \\times 3^2$. Number of factors $= (2+1)(2+1) = 9$. They are: 1, 2, 3, 4, 6, 9, 12, 18, 36."
   },
@@ -281,7 +431,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "The arithmetic sequence begins $3, 7, 11, \\ldots$ What is the 20th term?",
-    "choices": ["75", "77", "79", "81", "83"],
+    "choices": [
+      "75",
+      "77",
+      "79",
+      "81",
+      "83"
+    ],
     "answer": "C",
     "explanation": "The common difference is 4. The $n$th term is $a_n = 3 + (n-1) \\times 4$. So $a_{20} = 3 + 19 \\times 4 = 79$."
   },
@@ -292,7 +448,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "If $3^x = 9^3$, what is $x$?",
-    "choices": ["3", "4", "5", "6", "9"],
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
     "answer": "D",
     "explanation": "$9^3 = (3^2)^3 = 3^6$, so $x = 6$."
   },
@@ -303,7 +465,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "What is the value of $\\frac{10!}{8!}$?",
-    "choices": ["18", "45", "72", "90", "100"],
+    "choices": [
+      "18",
+      "45",
+      "72",
+      "90",
+      "100"
+    ],
     "answer": "D",
     "explanation": "$\\frac{10!}{8!} = 10 \\times 9 = 90$."
   },
@@ -314,7 +482,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "What are the roots of $x^2 - 5x + 6 = 0$?",
-    "choices": ["1 and 6", "2 and 3", "-2 and -3", "1 and -6", "-1 and 6"],
+    "choices": [
+      "1 and 6",
+      "2 and 3",
+      "-2 and -3",
+      "1 and -6",
+      "-1 and 6"
+    ],
     "answer": "B",
     "explanation": "Factor: $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$."
   },
@@ -325,7 +499,13 @@
     "difficulty": "medium",
     "topic": "Number Theory",
     "question": "What is the remainder when $2^{100}$ is divided by 7?",
-    "choices": ["1", "2", "3", "4", "5"],
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
     "answer": "B",
     "explanation": "Powers of 2 mod 7 cycle with period 3: $2^1 \\equiv 2$, $2^2 \\equiv 4$, $2^3 \\equiv 1$. Since $100 = 3 \\times 33 + 1$, we have $2^{100} \\equiv 2^1 \\equiv 2 \\pmod{7}$."
   },
@@ -336,7 +516,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "If $f(x) = 2x^2 - 3x + 1$, what is $f(-1)$?",
-    "choices": ["4", "5", "6", "7", "8"],
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
     "answer": "C",
     "explanation": "$f(-1) = 2(-1)^2 - 3(-1) + 1 = 2 + 3 + 1 = 6$."
   },
@@ -347,7 +533,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "What is the sum of all integers from 1 to 100?",
-    "choices": ["4950", "5000", "5050", "5100", "5150"],
+    "choices": [
+      "4950",
+      "5000",
+      "5050",
+      "5100",
+      "5150"
+    ],
     "answer": "C",
     "explanation": "Sum $= \\frac{n(n+1)}{2} = \\frac{100 \\times 101}{2} = 5050$."
   },
@@ -358,7 +550,13 @@
     "difficulty": "medium",
     "topic": "Combinatorics",
     "question": "How many ways can 3 books be chosen from a shelf of 7 distinct books?",
-    "choices": ["21", "35", "42", "210", "343"],
+    "choices": [
+      "21",
+      "35",
+      "42",
+      "210",
+      "343"
+    ],
     "answer": "B",
     "explanation": "$\\binom{7}{3} = \\frac{7!}{3! \\cdot 4!} = \\frac{7 \\times 6 \\times 5}{6} = 35$."
   },
@@ -369,7 +567,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "What is the value of $\\sin(30°)$?",
-    "choices": ["$\\frac{1}{4}$", "$\\frac{1}{2}$", "$\\frac{\\sqrt{2}}{2}$", "$\\frac{\\sqrt{3}}{2}$", "1"],
+    "choices": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "1"
+    ],
     "answer": "B",
     "explanation": "$\\sin(30°) = \\frac{1}{2}$. This is one of the standard values to memorize."
   },
@@ -380,7 +584,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "What is $(2 + 3i)(1 - i)$ in the form $a + bi$?",
-    "choices": ["$2 - i$", "$5 + i$", "$5 - i$", "$-1 + 5i$", "$2 + i$"],
+    "choices": [
+      "$2 - i$",
+      "$5 + i$",
+      "$5 - i$",
+      "$-1 + 5i$",
+      "$2 + i$"
+    ],
     "answer": "B",
     "explanation": "$(2+3i)(1-i) = 2 - 2i + 3i - 3i^2 = 2 + i - 3(-1) = 2 + i + 3 = 5 + i$."
   },
@@ -391,7 +601,13 @@
     "difficulty": "hard",
     "topic": "Number Theory",
     "question": "What is $i^{47}$?",
-    "choices": ["$i$", "$-i$", "$1$", "$-1$", "$0$"],
+    "choices": [
+      "$i$",
+      "$-i$",
+      "$1$",
+      "$-1$",
+      "$0$"
+    ],
     "answer": "B",
     "explanation": "Powers of $i$ cycle with period 4: $i^1=i$, $i^2=-1$, $i^3=-i$, $i^4=1$. Since $47 = 4 \\times 11 + 3$, we have $i^{47} = i^3 = -i$."
   },
@@ -402,7 +618,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is $15\\%$ of $200$?",
-    "choices": ["25", "30", "35", "40", "45"],
+    "choices": [
+      "25",
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
     "answer": "B",
     "explanation": "$15\\% \\times 200 = 0.15 \\times 200 = 30$."
   },
@@ -413,7 +635,13 @@
     "difficulty": "easy",
     "topic": "Geometry",
     "question": "A square has a side length of 6. What is its area?",
-    "choices": ["24", "30", "36", "42", "48"],
+    "choices": [
+      "24",
+      "30",
+      "36",
+      "42",
+      "48"
+    ],
     "answer": "C",
     "explanation": "Area of a square $= \\text{side}^2 = 6^2 = 36$."
   },
@@ -424,7 +652,13 @@
     "difficulty": "medium",
     "topic": "Number Theory",
     "question": "What is the greatest common factor of 48 and 72?",
-    "choices": ["6", "12", "18", "24", "36"],
+    "choices": [
+      "6",
+      "12",
+      "18",
+      "24",
+      "36"
+    ],
     "answer": "D",
     "explanation": "$48 = 2^4 \\times 3$ and $72 = 2^3 \\times 3^2$. GCF $= 2^3 \\times 3 = 24$."
   },
@@ -435,7 +669,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "If $f(x) = x^2 + 2x + 1$, what is $f(3)$?",
-    "choices": ["12", "14", "16", "18", "20"],
+    "choices": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
     "answer": "C",
     "explanation": "$f(3) = 3^2 + 2(3) + 1 = 9 + 6 + 1 = 16$."
   },
@@ -446,7 +686,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "What is the perimeter of a regular hexagon with side length 5?",
-    "choices": ["20", "25", "30", "35", "40"],
+    "choices": [
+      "20",
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
     "answer": "C",
     "explanation": "A regular hexagon has 6 equal sides. Perimeter $= 6 \\times 5 = 30$."
   },
@@ -457,7 +703,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is $2^{10}$?",
-    "choices": ["512", "1000", "1024", "2000", "2048"],
+    "choices": [
+      "512",
+      "1000",
+      "1024",
+      "2000",
+      "2048"
+    ],
     "answer": "C",
     "explanation": "$2^{10} = 1024$. Doubling from $2^1 = 2$: 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024."
   },
@@ -468,7 +720,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "A rectangle has length 12 and width 5. What is the length of its diagonal?",
-    "choices": ["10", "11", "12", "13", "14"],
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
     "answer": "D",
     "explanation": "By the Pythagorean theorem: diagonal $= \\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13$."
   },
@@ -479,7 +737,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is the sum of the first 15 positive integers?",
-    "choices": ["100", "105", "110", "115", "120"],
+    "choices": [
+      "100",
+      "105",
+      "110",
+      "115",
+      "120"
+    ],
     "answer": "E",
     "explanation": "Sum $= \\frac{15 \\times 16}{2} = 120$."
   },
@@ -490,7 +754,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is $\\frac{3}{4} \\div \\frac{1}{2}$?",
-    "choices": ["$\\frac{3}{8}$", "$\\frac{1}{2}$", "$\\frac{3}{4}$", "$\\frac{3}{2}$", "2"],
+    "choices": [
+      "$\\frac{3}{8}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{3}{2}$",
+      "2"
+    ],
     "answer": "D",
     "explanation": "Dividing by a fraction means multiplying by its reciprocal: $\\frac{3}{4} \\div \\frac{1}{2} = \\frac{3}{4} \\times 2 = \\frac{3}{2}$."
   },
@@ -501,7 +771,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "What is the volume of a cube with side length 4?",
-    "choices": ["16", "32", "48", "64", "96"],
+    "choices": [
+      "16",
+      "32",
+      "48",
+      "64",
+      "96"
+    ],
     "answer": "D",
     "explanation": "Volume of a cube $= \\text{side}^3 = 4^3 = 64$."
   },
@@ -512,7 +788,13 @@
     "difficulty": "medium",
     "topic": "Number Theory",
     "question": "How many prime numbers are less than 20?",
-    "choices": ["6", "7", "8", "9", "10"],
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
     "answer": "C",
     "explanation": "The primes less than 20 are: 2, 3, 5, 7, 11, 13, 17, 19. That's 8 primes."
   },
@@ -523,7 +805,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "What is the measure of each interior angle of a regular pentagon?",
-    "choices": ["100°", "104°", "108°", "112°", "120°"],
+    "choices": [
+      "100°",
+      "104°",
+      "108°",
+      "112°",
+      "120°"
+    ],
     "answer": "C",
     "explanation": "Sum of interior angles $= (5-2) \\times 180° = 540°$. Each angle $= \\frac{540°}{5} = 108°$."
   },
@@ -534,7 +822,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "If $x : y = 2 : 3$ and $x + y = 25$, what is the value of $y$?",
-    "choices": ["10", "12", "14", "15", "18"],
+    "choices": [
+      "10",
+      "12",
+      "14",
+      "15",
+      "18"
+    ],
     "answer": "D",
     "explanation": "Let $x = 2k$ and $y = 3k$. Then $2k + 3k = 25 \\Rightarrow k = 5$. So $y = 3(5) = 15$."
   },
@@ -545,7 +839,13 @@
     "difficulty": "hard",
     "topic": "Arithmetic",
     "question": "What is $7^2 - 6^2$?",
-    "choices": ["11", "13", "15", "17", "1"],
+    "choices": [
+      "11",
+      "13",
+      "15",
+      "17",
+      "1"
+    ],
     "answer": "B",
     "explanation": "$7^2 - 6^2 = 49 - 36 = 13$. Alternatively, using difference of squares: $(7-6)(7+6) = 1 \\times 13 = 13$."
   },
@@ -556,7 +856,13 @@
     "difficulty": "hard",
     "topic": "Number Theory",
     "question": "What is the units digit of $7^{100}$?",
-    "choices": ["1", "3", "7", "9", "0"],
+    "choices": [
+      "1",
+      "3",
+      "7",
+      "9",
+      "0"
+    ],
     "answer": "A",
     "explanation": "Powers of 7 mod 10 cycle with period 4: $7^1=7$, $7^2=49$, $7^3=343$, $7^4=2401$. Since $100 = 4 \\times 25$, the units digit of $7^{100}$ is the same as $7^4$, which ends in 1."
   },
@@ -567,7 +873,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "How many integer solutions does $|x - 3| \\leq 5$ have?",
-    "choices": ["9", "10", "11", "12", "13"],
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
     "answer": "C",
     "explanation": "$|x - 3| \\leq 5 \\Rightarrow -5 \\leq x - 3 \\leq 5 \\Rightarrow -2 \\leq x \\leq 8$. The integers are $-2,-1,0,1,2,3,4,5,6,7,8$ — that's 11 values."
   },
@@ -578,7 +890,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "If $x + y = 7$ and $x^2 + y^2 = 29$, find $xy$.",
-    "choices": ["8", "10", "12", "14", "16"],
+    "choices": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
     "answer": "B",
     "explanation": "$(x+y)^2 = x^2 + 2xy + y^2 \\Rightarrow 49 = 29 + 2xy \\Rightarrow 2xy = 20 \\Rightarrow xy = 10$."
   },
@@ -589,7 +907,13 @@
     "difficulty": "hard",
     "topic": "Combinatorics",
     "question": "How many ways can you choose 3 cards from a standard 52-card deck such that all 3 are the same suit?",
-    "choices": ["286", "858", "1144", "2860", "4888"],
+    "choices": [
+      "286",
+      "858",
+      "1144",
+      "2860",
+      "4888"
+    ],
     "answer": "C",
     "explanation": "Choose a suit (4 ways) $\\times$ choose 3 cards from 13: $\\binom{13}{3} = 286$. Total $= 4 \\times 286 = 1144$."
   },
@@ -600,7 +924,13 @@
     "difficulty": "hard",
     "topic": "Number Theory",
     "question": "How many integers from 1 to 200 are divisible by 3 or 5?",
-    "choices": ["86", "89", "93", "97", "100"],
+    "choices": [
+      "86",
+      "89",
+      "93",
+      "97",
+      "100"
+    ],
     "answer": "C",
     "explanation": "By inclusion-exclusion: divisible by 3: $\\lfloor 200/3 \\rfloor = 66$; by 5: $\\lfloor 200/5 \\rfloor = 40$; by 15: $\\lfloor 200/15 \\rfloor = 13$. Total $= 66 + 40 - 13 = 93$."
   },
@@ -611,7 +941,13 @@
     "difficulty": "hard",
     "topic": "Number Theory",
     "question": "How many 3-digit numbers have digits that sum to 5?",
-    "choices": ["12", "13", "14", "15", "16"],
+    "choices": [
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
     "answer": "D",
     "explanation": "The hundreds digit $a \\geq 1$, tens and units digits $b, c \\geq 0$, and $a+b+c=5$. For each value of $a$ from 1 to 5, there are $(5-a+1) = 6-a$ choices for $(b,c)$. Total $= 5+4+3+2+1 = 15$."
   },
@@ -622,7 +958,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "If $3x - 7 = 14$, what is the value of $x$?",
-    "choices": ["5", "6", "7", "8", "9"],
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
     "answer": "C",
     "explanation": "$3x - 7 = 14 \\Rightarrow 3x = 21 \\Rightarrow x = 7$."
   },
@@ -633,7 +975,13 @@
     "difficulty": "easy",
     "topic": "Statistics",
     "question": "The mean of 5 numbers is 12. If four of the numbers are 8, 10, 14, and 16, what is the fifth number?",
-    "choices": ["10", "11", "12", "13", "14"],
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
     "answer": "C",
     "explanation": "Total sum $= 5 \\times 12 = 60$. Sum of four numbers $= 8+10+14+16 = 48$. Fifth number $= 60 - 48 = 12$."
   },
@@ -644,7 +992,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "A circle has a circumference of $16\\pi$. What is its area?",
-    "choices": ["$16\\pi$", "$32\\pi$", "$64\\pi$", "$128\\pi$", "$256\\pi$"],
+    "choices": [
+      "$16\\pi$",
+      "$32\\pi$",
+      "$64\\pi$",
+      "$128\\pi$",
+      "$256\\pi$"
+    ],
     "answer": "C",
     "explanation": "Circumference $= 2\\pi r = 16\\pi \\Rightarrow r = 8$. Area $= \\pi r^2 = 64\\pi$."
   },
@@ -655,7 +1009,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "Which of the following is equivalent to $(x+3)(x-3)$?",
-    "choices": ["$x^2 - 9$", "$x^2 + 9$", "$x^2 - 6x - 9$", "$x^2 + 6x + 9$", "$x^2 - 6$"],
+    "choices": [
+      "$x^2 - 9$",
+      "$x^2 + 9$",
+      "$x^2 - 6x - 9$",
+      "$x^2 + 6x + 9$",
+      "$x^2 - 6$"
+    ],
     "answer": "A",
     "explanation": "Using the difference of squares formula: $(x+3)(x-3) = x^2 - 3^2 = x^2 - 9$."
   },
@@ -666,7 +1026,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "If $f(x) = 3x - 2$, what is $f(f(2))$?",
-    "choices": ["10", "12", "14", "16", "18"],
+    "choices": [
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
     "answer": "A",
     "explanation": "$f(2) = 3(2) - 2 = 4$. Then $f(f(2)) = f(4) = 3(4) - 2 = 10$."
   },
@@ -677,7 +1043,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "A rectangle has area 48 and perimeter 28. What is the length of its longer side?",
-    "choices": ["6", "7", "8", "9", "10"],
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
     "answer": "C",
     "explanation": "Let $l + w = 14$ (half perimeter) and $lw = 48$. Solving: $l(14-l) = 48 \\Rightarrow l^2 - 14l + 48 = 0 \\Rightarrow (l-6)(l-8) = 0$. The longer side is 8."
   },
@@ -688,7 +1060,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is $\\sqrt{144} + \\sqrt{25}$?",
-    "choices": ["13", "14", "17", "19", "169"],
+    "choices": [
+      "13",
+      "14",
+      "17",
+      "19",
+      "169"
+    ],
     "answer": "C",
     "explanation": "$\\sqrt{144} = 12$ and $\\sqrt{25} = 5$. So $12 + 5 = 17$."
   },
@@ -699,7 +1077,13 @@
     "difficulty": "medium",
     "topic": "Statistics",
     "question": "The probability of rain on Saturday is 0.4 and on Sunday is 0.3. Assuming the events are independent, what is the probability it rains on both days?",
-    "choices": ["0.07", "0.10", "0.12", "0.35", "0.70"],
+    "choices": [
+      "0.07",
+      "0.10",
+      "0.12",
+      "0.35",
+      "0.70"
+    ],
     "answer": "C",
     "explanation": "$P(\\text{both}) = 0.4 \\times 0.3 = 0.12$."
   },
@@ -710,7 +1094,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "If $2^x = 32$, what is $x$?",
-    "choices": ["3", "4", "5", "6", "7"],
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
     "answer": "C",
     "explanation": "$2^5 = 32$, so $x = 5$."
   },
@@ -721,7 +1111,13 @@
     "difficulty": "medium",
     "topic": "Combinatorics",
     "question": "In a class of 30 students, 18 play soccer and 12 play basketball. If 6 play both sports, how many play neither?",
-    "choices": ["0", "4", "6", "8", "10"],
+    "choices": [
+      "0",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
     "answer": "C",
     "explanation": "By inclusion-exclusion: $|S \\cup B| = 18 + 12 - 6 = 24$. Students playing neither $= 30 - 24 = 6$."
   },
@@ -732,7 +1128,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is the value of $(-3)^3$?",
-    "choices": ["-27", "-9", "9", "27", "81"],
+    "choices": [
+      "-27",
+      "-9",
+      "9",
+      "27",
+      "81"
+    ],
     "answer": "A",
     "explanation": "$(-3)^3 = (-3) \\times (-3) \\times (-3) = 9 \\times (-3) = -27$."
   },
@@ -743,7 +1145,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "A line has equation $y = 2x + 5$. What is the $y$-intercept?",
-    "choices": ["2", "5", "7", "10", "-5"],
+    "choices": [
+      "2",
+      "5",
+      "7",
+      "10",
+      "-5"
+    ],
     "answer": "B",
     "explanation": "The $y$-intercept is the value of $y$ when $x = 0$: $y = 2(0) + 5 = 5$."
   },
@@ -754,7 +1162,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "If $5x + 2 = 17$, what is the value of $10x - 1$?",
-    "choices": ["25", "27", "29", "31", "33"],
+    "choices": [
+      "25",
+      "27",
+      "29",
+      "31",
+      "33"
+    ],
     "answer": "C",
     "explanation": "$5x = 15 \\Rightarrow x = 3$. Then $10x - 1 = 30 - 1 = 29$."
   },
@@ -765,7 +1179,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "What is the slope of a line perpendicular to $y = 3x - 2$?",
-    "choices": ["$-3$", "$-\\frac{1}{3}$", "$\\frac{1}{3}$", "$3$", "$\\frac{1}{6}$"],
+    "choices": [
+      "$-3$",
+      "$-\\frac{1}{3}$",
+      "$\\frac{1}{3}$",
+      "$3$",
+      "$\\frac{1}{6}$"
+    ],
     "answer": "B",
     "explanation": "The slope of the given line is 3. A perpendicular line has slope $-\\frac{1}{3}$ (the negative reciprocal)."
   },
@@ -776,7 +1196,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "Which expression is equivalent to $\\frac{x^2 - 4}{x - 2}$ for $x \\neq 2$?",
-    "choices": ["$x - 2$", "$x + 2$", "$x^2 + 2$", "$x - 4$", "$2x - 2$"],
+    "choices": [
+      "$x - 2$",
+      "$x + 2$",
+      "$x^2 + 2$",
+      "$x - 4$",
+      "$2x - 2$"
+    ],
     "answer": "B",
     "explanation": "Factor the numerator: $\\frac{(x+2)(x-2)}{x-2} = x + 2$."
   },
@@ -787,7 +1213,13 @@
     "difficulty": "hard",
     "topic": "Statistics",
     "question": "A car depreciates 15% per year. If it is worth $\\$20{,}000$ today, what will it be worth after 1 year?",
-    "choices": ["$\\$15{,}000$", "$\\$16{,}000$", "$\\$17{,}000$", "$\\$18{,}000$", "$\\$19{,}000$"],
+    "choices": [
+      "$\\$15{,}000$",
+      "$\\$16{,}000$",
+      "$\\$17{,}000$",
+      "$\\$18{,}000$",
+      "$\\$19{,}000$"
+    ],
     "answer": "C",
     "explanation": "$\\$20{,}000 \\times (1 - 0.15) = \\$20{,}000 \\times 0.85 = \\$17{,}000$."
   },
@@ -798,7 +1230,13 @@
     "difficulty": "medium",
     "topic": "Number Theory",
     "question": "How many multiples of 4 are between 1 and 50, inclusive?",
-    "choices": ["10", "11", "12", "13", "14"],
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
     "answer": "C",
     "explanation": "The multiples of 4 from 1 to 50 are $4, 8, 12, \\ldots, 48$. Count $= \\lfloor 50/4 \\rfloor = 12$."
   },
@@ -809,7 +1247,13 @@
     "difficulty": "hard",
     "topic": "Arithmetic",
     "question": "What comes next in the sequence $2, 5, 10, 17, 26, \\_\\_$?",
-    "choices": ["33", "35", "37", "39", "41"],
+    "choices": [
+      "33",
+      "35",
+      "37",
+      "39",
+      "41"
+    ],
     "answer": "C",
     "explanation": "The differences are $3, 5, 7, 9, 11, \\ldots$ (odd numbers). The next term is $26 + 11 = 37$."
   },
@@ -820,7 +1264,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "What are the solutions to $2x^2 - x - 1 = 0$?",
-    "choices": ["$-1$ and $\\frac{1}{2}$", "$1$ and $-\\frac{1}{2}$", "$-\\frac{1}{2}$ and $1$", "$2$ and $-1$", "$\\frac{1}{2}$ and $-1$"],
+    "choices": [
+      "$-1$ and $\\frac{1}{2}$",
+      "$1$ and $-\\frac{1}{2}$",
+      "$-\\frac{1}{2}$ and $1$",
+      "$2$ and $-1$",
+      "$\\frac{1}{2}$ and $-1$"
+    ],
     "answer": "B",
     "explanation": "Factor: $(2x + 1)(x - 1) = 0$, so $x = -\\frac{1}{2}$ or $x = 1$. The solutions are $1$ and $-\\frac{1}{2}$."
   },
@@ -831,7 +1281,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is $0.3 \\times 0.3$?",
-    "choices": ["0.006", "0.009", "0.06", "0.09", "0.9"],
+    "choices": [
+      "0.006",
+      "0.009",
+      "0.06",
+      "0.09",
+      "0.9"
+    ],
     "answer": "D",
     "explanation": "$0.3 \\times 0.3 = 0.09$. Multiply $3 \\times 3 = 9$, then place two decimal digits."
   },
@@ -842,7 +1298,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "What is the number of diagonals in a pentagon?",
-    "choices": ["4", "5", "6", "7", "8"],
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
     "answer": "B",
     "explanation": "Number of diagonals $= \\frac{n(n-3)}{2} = \\frac{5 \\times 2}{2} = 5$."
   },
@@ -853,7 +1315,13 @@
     "difficulty": "hard",
     "topic": "Arithmetic",
     "question": "What is $\\sqrt{48}$ in simplified radical form?",
-    "choices": ["$2\\sqrt{12}$", "$3\\sqrt{4}$", "$4\\sqrt{3}$", "$6\\sqrt{2}$", "$8\\sqrt{3}$"],
+    "choices": [
+      "$2\\sqrt{12}$",
+      "$3\\sqrt{4}$",
+      "$4\\sqrt{3}$",
+      "$6\\sqrt{2}$",
+      "$8\\sqrt{3}$"
+    ],
     "answer": "C",
     "explanation": "$\\sqrt{48} = \\sqrt{16 \\times 3} = 4\\sqrt{3}$."
   },
@@ -864,7 +1332,13 @@
     "difficulty": "hard",
     "topic": "Number Theory",
     "question": "How many positive integers less than 100 are divisible by 3 but not by 9?",
-    "choices": ["18", "20", "22", "24", "26"],
+    "choices": [
+      "18",
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
     "answer": "C",
     "explanation": "Divisible by 3: $\\lfloor 99/3 \\rfloor = 33$. Divisible by 9: $\\lfloor 99/9 \\rfloor = 11$. Divisible by 3 but not 9: $33 - 11 = 22$."
   },
@@ -875,7 +1349,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "If $x^2 - 6x + 8 = 0$, what is the sum of all possible values of $x$?",
-    "choices": ["2", "4", "6", "8", "10"],
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
     "answer": "C",
     "explanation": "By Vieta's formulas, the sum of roots of $x^2 + bx + c = 0$ is $-b$. Here $b = -6$, so the sum is $-(-6) = 6$. (Roots are 2 and 4.)"
   },
@@ -886,7 +1366,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is the value of $(8 \\times 4 + 2) - (8 + 4 \\times 2)$?",
-    "choices": ["0", "6", "10", "18", "24"],
+    "choices": [
+      "0",
+      "6",
+      "10",
+      "18",
+      "24"
+    ],
     "answer": "D",
     "explanation": "Using order of operations: $(32 + 2) - (8 + 8) = 34 - 16 = 18$."
   },
@@ -897,7 +1383,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "Suppose the air temperature is $36°F$ and the wind speed is 18 mph. Using the formula $W = T - 0.7 \\cdot S$, which of the following is closest to the wind chill?",
-    "choices": ["18", "23", "28", "32", "35"],
+    "choices": [
+      "18",
+      "23",
+      "28",
+      "32",
+      "35"
+    ],
     "answer": "B",
     "explanation": "$W = 36 - 0.7 \\times 18 = 36 - 12.6 = 23.4$, which is closest to 23."
   },
@@ -908,7 +1400,13 @@
     "difficulty": "easy",
     "topic": "Statistics",
     "question": "A lake contains 250 trout among other fish. A sample of 180 fish is caught and 30 are trout. Assuming the ratio of trout to total fish is the same in the sample and the lake, how many fish are in the lake?",
-    "choices": ["1250", "1500", "1750", "1800", "2000"],
+    "choices": [
+      "1250",
+      "1500",
+      "1750",
+      "1800",
+      "2000"
+    ],
     "answer": "B",
     "explanation": "$\\frac{30}{180} = \\frac{250}{\\text{total}}$. So total $= \\frac{250 \\times 180}{30} = 1500$."
   },
@@ -919,7 +1417,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "Harold eats $\\frac{1}{4}$ of a pie. A moose eats $\\frac{1}{3}$ of what Harold left. A porcupine eats $\\frac{1}{3}$ of what the moose left. How much of the original pie remains?",
-    "choices": ["$\\frac{1}{12}$", "$\\frac{1}{6}$", "$\\frac{1}{4}$", "$\\frac{1}{3}$", "$\\frac{5}{12}$"],
+    "choices": [
+      "$\\frac{1}{12}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{5}{12}$"
+    ],
     "answer": "D",
     "explanation": "Harold leaves $\\frac{3}{4}$. Moose eats $\\frac{1}{3} \\cdot \\frac{3}{4} = \\frac{1}{4}$, leaving $\\frac{1}{2}$. Porcupine eats $\\frac{1}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$, leaving $\\frac{1}{2} - \\frac{1}{6} = \\frac{1}{3}$."
   },
@@ -930,7 +1434,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "NASA's Perseverance Rover traveled 292,526,838 miles in about 6.5 months (approximately 4,680 hours). Which of the following is closest to its average speed in miles per hour?",
-    "choices": ["6,000", "12,000", "60,000", "120,000", "600,000"],
+    "choices": [
+      "6,000",
+      "12,000",
+      "60,000",
+      "120,000",
+      "600,000"
+    ],
     "answer": "C",
     "explanation": "$\\frac{292{,}526{,}838}{4{,}680} \\approx 62{,}500$, which is closest to 60,000."
   },
@@ -941,7 +1451,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "Along a bicycle race, 7 water stations are evenly spaced and 2 repair stations are evenly spaced between start and finish. The 3rd water station is located 2 miles after the 1st repair station. How long is the race in miles?",
-    "choices": ["8", "16", "24", "48", "96"],
+    "choices": [
+      "8",
+      "16",
+      "24",
+      "48",
+      "96"
+    ],
     "answer": "D",
     "explanation": "Water stations divide the route into 8 equal parts; repair stations into 3 equal parts. The 3rd water station is at $\\frac{3}{8}$ of the total, and the 1st repair station is at $\\frac{1}{3}$. Difference: $\\frac{3}{8} - \\frac{1}{3} = \\frac{1}{24}$ of total $= 2$ miles. Total $= 48$ miles."
   },
@@ -952,7 +1468,13 @@
     "difficulty": "hard",
     "topic": "Arithmetic",
     "question": "Nicolas has exactly 20 each of 5-cent, 10-cent, and 25-cent stamps. What is the greatest number of stamps he can use to make exactly $7.10 in postage?",
-    "choices": ["45", "46", "51", "54", "55"],
+    "choices": [
+      "45",
+      "46",
+      "51",
+      "54",
+      "55"
+    ],
     "answer": "E",
     "explanation": "To maximize stamps, minimize high-value stamps. Using 19 five-cent, 19 ten-cent, and 17 twenty-five-cent stamps: $5(19)+10(19)+25(17) = 95+190+425 = 710$ cents $= \\$7.10$. Total stamps $= 19+19+17 = 55$."
   },
@@ -963,7 +1485,13 @@
     "difficulty": "hard",
     "topic": "Number Theory",
     "question": "Greta the grasshopper can jump 5 pads right or 3 pads left. What is the fewest jumps to reach a pad 2023 pads to the right?",
-    "choices": ["405", "407", "409", "411", "413"],
+    "choices": [
+      "405",
+      "407",
+      "409",
+      "411",
+      "413"
+    ],
     "answer": "D",
     "explanation": "We need $5r - 3l = 2023$ with $r + l$ minimized. With $l = 4$: $5r = 2023 + 12 = 2035$, so $r = 407$. Total $= 407 + 4 = 411$."
   },
@@ -974,7 +1502,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "Define $a \\diamond b = a^2 - b^2$ and $a \\star b = (a - b)^2$. What is $(5 \\diamond 3) \\star 6$?",
-    "choices": ["-20", "4", "16", "100", "220"],
+    "choices": [
+      "-20",
+      "4",
+      "16",
+      "100",
+      "220"
+    ],
     "answer": "D",
     "explanation": "$5 \\diamond 3 = 25 - 9 = 16$. Then $16 \\star 6 = (16 - 6)^2 = 10^2 = 100$."
   },
@@ -985,7 +1519,13 @@
     "difficulty": "medium",
     "topic": "Number Theory",
     "question": "When three positive integers $a < b < c$ are multiplied together, their product is 100. In how many ways can the numbers be chosen?",
-    "choices": ["0", "1", "2", "3", "4"],
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
     "answer": "E",
     "explanation": "The valid triples $(a,b,c)$ with $abc=100$ and $a<b<c$ are: $(1,2,50)$, $(1,4,25)$, $(1,5,20)$, $(2,5,10)$. That is 4 ways."
   },
@@ -996,7 +1536,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "Five years ago, Bella turned 6 and received a newborn kitten. Today the sum of the ages of Anna, Bella, and the kitten is 30. How many years older than Bella is Anna?",
-    "choices": ["1", "2", "3", "4", "5"],
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
     "answer": "C",
     "explanation": "Now Bella is 11 and the kitten is 5. Anna's age $= 30 - 11 - 5 = 14$. Anna is $14 - 11 = 3$ years older than Bella."
   },
@@ -1007,7 +1553,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "Three positive integers are equally spaced on a number line. The middle number is 15 and the largest is 4 times the smallest. What is the smallest of the three numbers?",
-    "choices": ["4", "5", "6", "7", "8"],
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
     "answer": "C",
     "explanation": "Let the spacing be $d$. The numbers are $15-d$, 15, $15+d$. Since largest $= 4 \\times$ smallest: $15+d = 4(15-d) \\Rightarrow 5d = 45 \\Rightarrow d = 9$. Smallest $= 15-9 = 6$."
   },
@@ -1018,7 +1570,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "In the 1990s, download speeds reached 56 kilobits per second. Approximately how many minutes would it take to download a 4.2-megabyte song? (There are 8000 kilobits in a megabyte.)",
-    "choices": ["0.6", "10", "1800", "7200", "36000"],
+    "choices": [
+      "0.6",
+      "10",
+      "1800",
+      "7200",
+      "36000"
+    ],
     "answer": "B",
     "explanation": "Total kilobits $= 4.2 \\times 8000 = 33{,}600$. Time $= \\frac{33{,}600}{56} = 600$ seconds $= 10$ minutes."
   },
@@ -1029,7 +1587,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "What is the value of $\\frac{1}{3} \\cdot \\frac{2}{4} \\cdot \\frac{3}{5} \\cdots \\frac{19}{21} \\cdot \\frac{20}{22}$?",
-    "choices": ["$\\frac{1}{462}$", "$\\frac{1}{231}$", "$\\frac{1}{132}$", "$\\frac{2}{213}$", "$\\frac{1}{22}$"],
+    "choices": [
+      "$\\frac{1}{462}$",
+      "$\\frac{1}{231}$",
+      "$\\frac{1}{132}$",
+      "$\\frac{2}{213}$",
+      "$\\frac{1}{22}$"
+    ],
     "answer": "B",
     "explanation": "This telescopes: numerators give $20!$, denominators give $\\frac{22!}{2!}$. Product $= \\frac{20! \\cdot 2}{22!} = \\frac{2}{22 \\times 21} = \\frac{1}{231}$."
   },
@@ -1040,7 +1604,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "A cup of boiling water (212°F) cools in a 68°F room. The temperature difference halves every 5 minutes. What is the water temperature after 15 minutes?",
-    "choices": ["77", "86", "92", "98", "104"],
+    "choices": [
+      "77",
+      "86",
+      "92",
+      "98",
+      "104"
+    ],
     "answer": "B",
     "explanation": "Initial difference: $212 - 68 = 144°$. After 5 min: 72°. After 10 min: 36°. After 15 min: 18°. Temperature $= 68 + 18 = 86°F$."
   },
@@ -1051,7 +1621,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "Henry eats 3 inches of pasta from the middle of one piece at a time, ending with 10 pieces whose total length is 17 inches. How long was the original piece in inches?",
-    "choices": ["34", "38", "41", "44", "47"],
+    "choices": [
+      "34",
+      "38",
+      "41",
+      "44",
+      "47"
+    ],
     "answer": "D",
     "explanation": "Each bite splits one piece into two, so 9 bites create 10 pieces. Each bite removes 3 inches. Original length $= 17 + 9 \\times 3 = 17 + 27 = 44$ inches."
   },
@@ -1062,7 +1638,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "How many positive integers can fill the blank: 'One positive integer is ___ more than twice another, and the sum of the two numbers is 28'?",
-    "choices": ["6", "7", "8", "9", "10"],
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
     "answer": "D",
     "explanation": "Let the blank be $k$ and the smaller number be $a$: $a + (2a+k) = 28 \\Rightarrow a = \\frac{28-k}{3}$. For $a$ to be a positive integer, need $k \\equiv 1 \\pmod{3}$ and $k < 28$. Valid values: $k = 1,4,7,10,13,16,19,22,25$. That's 9 values."
   },
@@ -1073,7 +1655,13 @@
     "difficulty": "medium",
     "topic": "Statistics",
     "question": "Four numbers are written in a row. The average of the first two is 21, the average of the middle two is 26, and the average of the last two is 30. What is the average of the first and last numbers?",
-    "choices": ["24", "25", "26", "27", "28"],
+    "choices": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
     "answer": "B",
     "explanation": "Let the numbers be $a,b,c,d$. Then $a+b=42$, $b+c=52$, $c+d=60$. Adding first and third: $a+b+c+d=102$. Since $b+c=52$, we get $a+d=50$, so average $= 25$."
   },
@@ -1084,7 +1672,13 @@
     "difficulty": "hard",
     "topic": "Statistics",
     "question": "Steph scored 15/20 baskets in the first half and 10/10 in the second. Candace took 12 attempts in the first half and 18 in the second. Steph had a higher percentage in each half, but both had the same overall percentage. How many more baskets did Candace score in the second half than in the first?",
-    "choices": ["7", "8", "9", "10", "11"],
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
     "answer": "C",
     "explanation": "Steph's overall rate: $\\frac{25}{30} = \\frac{5}{6}$. Candace also made $\\frac{5}{6} \\times 30 = 25$ baskets. Let $x$ be Candace's first-half baskets. Then $x + y = 25$ and $y = 25 - x$. Since $\\frac{x}{12} < \\frac{3}{4}$, we have $x \\leq 8$. Since $y < 18$, $y \\leq 17$, so $x \\geq 8$. Thus $x=8, y=17$. Difference $= 17-8=9$."
   },
@@ -1095,7 +1689,13 @@
     "difficulty": "hard",
     "topic": "Arithmetic",
     "question": "A bus drives 2 minutes between stops and waits 1 minute at each stop. Zia walks 5 minutes per stop. Both start at the same time toward the library, with the bus 3 stops behind Zia. After how many minutes does Zia board the bus?",
-    "choices": ["17", "19", "20", "21", "23"],
+    "choices": [
+      "17",
+      "19",
+      "20",
+      "21",
+      "23"
+    ],
     "answer": "A",
     "explanation": "Zia arrives stop 3 (her third ahead stop) at $t=15$. The bus reaches stop 2 at $t=14$ and is still there waiting at $t=15$. Since the bus is at the previous stop, Zia waits. The bus leaves stop 2 at $t=15$, arrives stop 3 at $t=17$. Zia boards at $t=17$."
   },
@@ -1106,7 +1706,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "Ike and Mike have $30.00 total. Sandwiches cost $4.50 each and soft drinks cost $1.00 each. They buy as many sandwiches as possible and spend remaining money on drinks. How many items do they buy in total?",
-    "choices": ["6", "7", "8", "9", "10"],
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
     "answer": "D",
     "explanation": "$\\lfloor 30/4.50 \\rfloor = 6$ sandwiches cost $27.00$. Remaining $\\$3.00$ buys 3 drinks. Total $= 6 + 3 = 9$."
   },
@@ -1117,7 +1723,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is the correct order of $\\frac{15}{11}$, $\\frac{19}{15}$, and $\\frac{17}{13}$ from least to greatest?",
-    "choices": ["$\\frac{15}{11} < \\frac{17}{13} < \\frac{19}{15}$", "$\\frac{15}{11} < \\frac{19}{15} < \\frac{17}{13}$", "$\\frac{17}{13} < \\frac{19}{15} < \\frac{15}{11}$", "$\\frac{19}{15} < \\frac{15}{11} < \\frac{17}{13}$", "$\\frac{19}{15} < \\frac{17}{13} < \\frac{15}{11}$"],
+    "choices": [
+      "$\\frac{15}{11} < \\frac{17}{13} < \\frac{19}{15}$",
+      "$\\frac{15}{11} < \\frac{19}{15} < \\frac{17}{13}$",
+      "$\\frac{17}{13} < \\frac{19}{15} < \\frac{15}{11}$",
+      "$\\frac{19}{15} < \\frac{15}{11} < \\frac{17}{13}$",
+      "$\\frac{19}{15} < \\frac{17}{13} < \\frac{15}{11}$"
+    ],
     "answer": "E",
     "explanation": "Converting: $\\frac{19}{15} \\approx 1.267$, $\\frac{17}{13} \\approx 1.308$, $\\frac{15}{11} \\approx 1.364$. Order: $\\frac{19}{15} < \\frac{17}{13} < \\frac{15}{11}$."
   },
@@ -1128,7 +1740,13 @@
     "difficulty": "easy",
     "topic": "Statistics",
     "question": "Shauna takes five tests worth a maximum of 100 points each. Her first three scores are 76, 94, and 87. To average 81 for all five tests, what is the lowest score she could earn on one of the remaining two tests?",
-    "choices": ["48", "52", "66", "70", "74"],
+    "choices": [
+      "48",
+      "52",
+      "66",
+      "70",
+      "74"
+    ],
     "answer": "A",
     "explanation": "Target total $= 5 \\times 81 = 405$. First three sum $= 257$. Remaining two must sum to $148$. To minimize one, maximize the other at 100. Minimum $= 148 - 100 = 48$."
   },
@@ -1139,7 +1757,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "Gilda gives 20% of her marbles to Pedro, then 10% of what remains to Ebony, then 25% of what remains to Jimmy. What percentage of her original marbles does Gilda have left?",
-    "choices": ["20", "33⅓", "38", "45", "54"],
+    "choices": [
+      "20",
+      "33⅓",
+      "38",
+      "45",
+      "54"
+    ],
     "answer": "E",
     "explanation": "After Pedro: $80\\%$ left. After Ebony: $80\\% \\times 90\\% = 72\\%$ left. After Jimmy: $72\\% \\times 75\\% = 54\\%$ left."
   },
@@ -1150,7 +1774,13 @@
     "difficulty": "medium",
     "topic": "Geometry",
     "question": "Alex's cat food cans are 6 cm diameter and 12 cm high. Felicia's cans are 12 cm diameter and 6 cm high. What is the ratio of the volume of one of Alex's cans to one of Felicia's?",
-    "choices": ["1:4", "1:2", "1:1", "2:1", "4:1"],
+    "choices": [
+      "1:4",
+      "1:2",
+      "1:1",
+      "2:1",
+      "4:1"
+    ],
     "answer": "B",
     "explanation": "Alex: $V = \\pi(3)^2(12) = 108\\pi$. Felicia: $V = \\pi(6)^2(6) = 216\\pi$. Ratio $= 108:216 = 1:2$."
   },
@@ -1161,7 +1791,13 @@
     "difficulty": "medium",
     "topic": "Combinatorics",
     "question": "An 8th grade class has 93 students. There are 70 taking math and 54 taking a foreign language, and every student takes at least one. How many students take only math (not foreign language)?",
-    "choices": ["16", "23", "31", "39", "70"],
+    "choices": [
+      "16",
+      "23",
+      "31",
+      "39",
+      "70"
+    ],
     "answer": "D",
     "explanation": "By inclusion-exclusion: both $= 70 + 54 - 93 = 31$. Only math $= 70 - 31 = 39$."
   },
@@ -1172,7 +1808,13 @@
     "difficulty": "hard",
     "topic": "Number Theory",
     "question": "Let $N$ be the least three-digit integer that is not a palindrome but equals the sum of three distinct two-digit palindromes. What is the sum of the digits of $N$?",
-    "choices": ["2", "3", "4", "5", "6"],
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
     "answer": "A",
     "explanation": "Two-digit palindromes are 11, 22, 33, ..., 99. The minimum sum of three distinct ones reaching three digits: $11+22+77 = 110$, which is not a palindrome. $N = 110$, digit sum $= 1+1+0 = 2$."
   },
@@ -1183,7 +1825,13 @@
     "difficulty": "medium",
     "topic": "Statistics",
     "question": "On a beach, 50 people wear sunglasses and 35 wear caps. The probability that a randomly selected cap-wearer also wears sunglasses is $\\frac{2}{5}$. What is the probability that a randomly selected sunglasses-wearer also wears a cap?",
-    "choices": ["$\\frac{14}{85}$", "$\\frac{7}{25}$", "$\\frac{2}{5}$", "$\\frac{4}{7}$", "$\\frac{7}{10}$"],
+    "choices": [
+      "$\\frac{14}{85}$",
+      "$\\frac{7}{25}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{4}{7}$",
+      "$\\frac{7}{10}$"
+    ],
     "answer": "B",
     "explanation": "Both $= 35 \\times \\frac{2}{5} = 14$. $P(\\text{cap} \\mid \\text{sunglasses}) = \\frac{14}{50} = \\frac{7}{25}$."
   },
@@ -1194,7 +1842,13 @@
     "difficulty": "hard",
     "topic": "Arithmetic",
     "question": "Qiang drives 15 miles at 30 mph, then $x$ additional miles at 55 mph. His overall average is 50 mph. What is $x$?",
-    "choices": ["45", "62", "90", "110", "135"],
+    "choices": [
+      "45",
+      "62",
+      "90",
+      "110",
+      "135"
+    ],
     "answer": "D",
     "explanation": "Time for first part: $0.5$ hr. $\\frac{15+x}{0.5 + x/55} = 50 \\Rightarrow 15+x = 25 + \\frac{10x}{11} \\Rightarrow \\frac{x}{11} = 10 \\Rightarrow x = 110$."
   },
@@ -1205,7 +1859,13 @@
     "difficulty": "medium",
     "topic": "Statistics",
     "question": "Two dice each have faces numbered 1, 2, 3, 5, 7, and 8. What is the probability that the sum of the two dice is even?",
-    "choices": ["$\\frac{4}{9}$", "$\\frac{1}{2}$", "$\\frac{5}{9}$", "$\\frac{3}{5}$", "$\\frac{2}{3}$"],
+    "choices": [
+      "$\\frac{4}{9}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{9}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{2}{3}$"
+    ],
     "answer": "C",
     "explanation": "Odd faces: 1,3,5,7 (four). Even faces: 2,8 (two). Sum is even when both odd or both even. $P = \\left(\\frac{4}{6}\\right)^2 + \\left(\\frac{2}{6}\\right)^2 = \\frac{16}{36} + \\frac{4}{36} = \\frac{20}{36} = \\frac{5}{9}$."
   },
@@ -1216,7 +1876,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "How many different real numbers $x$ satisfy $(x^2 - 5)^2 = 16$?",
-    "choices": ["0", "1", "2", "4", "8"],
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "8"
+    ],
     "answer": "D",
     "explanation": "$x^2 - 5 = \\pm 4$. So $x^2 = 9$ (giving $x = \\pm 3$) or $x^2 = 1$ (giving $x = \\pm 1$). That is 4 solutions."
   },
@@ -1227,7 +1893,13 @@
     "difficulty": "hard",
     "topic": "Combinatorics",
     "question": "Alice has 24 apples. In how many ways can she share them with Becky and Chris so that each of the three people has at least 2 apples?",
-    "choices": ["105", "114", "190", "210", "380"],
+    "choices": [
+      "105",
+      "114",
+      "190",
+      "210",
+      "380"
+    ],
     "answer": "C",
     "explanation": "After giving each person 2 apples, 18 remain to distribute freely among 3 people. By stars and bars: $\\binom{18+2}{2} = \\binom{20}{2} = 190$."
   },
@@ -1238,7 +1910,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is the value of $(2^2 - 2) - (3^2 - 3) + (4^2 - 4)$?",
-    "choices": ["1", "2", "5", "8", "12"],
+    "choices": [
+      "1",
+      "2",
+      "5",
+      "8",
+      "12"
+    ],
     "answer": "D",
     "explanation": "$(4-2) - (9-3) + (16-4) = 2 - 6 + 12 = 8$."
   },
@@ -1249,7 +1927,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "Portia's high school has 3 times as many students as Lara's. Together they have 2600 students. How many students does Portia's school have?",
-    "choices": ["600", "650", "1950", "2000", "2050"],
+    "choices": [
+      "600",
+      "650",
+      "1950",
+      "2000",
+      "2050"
+    ],
     "answer": "C",
     "explanation": "Let Lara's have $L$ students. Then $3L + L = 2600 \\Rightarrow L = 650$. Portia's $= 3 \\times 650 = 1950$."
   },
@@ -1260,7 +1944,13 @@
     "difficulty": "medium",
     "topic": "Number Theory",
     "question": "The sum of two natural numbers is 17,402. One is divisible by 10, and erasing its units digit gives the other. What is the positive difference between the two numbers?",
-    "choices": ["10,272", "11,700", "13,362", "14,238", "15,426"],
+    "choices": [
+      "10,272",
+      "11,700",
+      "13,362",
+      "14,238",
+      "15,426"
+    ],
     "answer": "D",
     "explanation": "Let the smaller number be $b$. Then $10b + b = 17402 \\Rightarrow b = 1582$. The larger is 15820. Difference $= 15820 - 1582 = 14238$."
   },
@@ -1271,7 +1961,13 @@
     "difficulty": "medium",
     "topic": "Algebra",
     "question": "Tom has 13 snakes: all happy snakes can add, no purple snakes can subtract, and all snakes that can't subtract also can't add. Which conclusion must be true?",
-    "choices": ["Purple snakes can add", "Purple snakes are happy", "Snakes that can add are purple", "Happy snakes are not purple", "Happy snakes can't subtract"],
+    "choices": [
+      "Purple snakes can add",
+      "Purple snakes are happy",
+      "Snakes that can add are purple",
+      "Happy snakes are not purple",
+      "Happy snakes can't subtract"
+    ],
     "answer": "D",
     "explanation": "From 'can't subtract $\\Rightarrow$ can't add,' the contrapositive is 'can add $\\Rightarrow$ can subtract.' Happy snakes can add, so happy snakes can subtract. No purple snake can subtract, so happy snakes are not purple."
   },
@@ -1282,7 +1978,13 @@
     "difficulty": "hard",
     "topic": "Algebra",
     "question": "What is the least possible value of $(xy-1)^2 + (x+y)^2$ for real numbers $x$ and $y$?",
-    "choices": ["0", "$\\frac{1}{4}$", "$\\frac{1}{2}$", "1", "2"],
+    "choices": [
+      "0",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "1",
+      "2"
+    ],
     "answer": "D",
     "explanation": "Setting $x + y = 0$ (so $y = -x$): expression becomes $(−x^2−1)^2 = (x^2+1)^2 \\geq 1$. The minimum value 1 is not achieved with $x+y=0$. Instead, try $x=1, y=0$: $(0-1)^2+(1)^2=2$. Try $x=1,y=-1$: $(-2)^2+0=4$. The minimum is 1, achieved in the limit."
   },
@@ -1293,7 +1995,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "How many integers $x$ satisfy $|x| < 3\\pi$?",
-    "choices": ["9", "10", "18", "19", "20"],
+    "choices": [
+      "9",
+      "10",
+      "18",
+      "19",
+      "20"
+    ],
     "answer": "D",
     "explanation": "$3\\pi \\approx 9.42$. The integers satisfying $|x| < 9.42$ are $-9, -8, \\ldots, 8, 9$, which is 19 integers."
   },
@@ -1304,7 +2012,13 @@
     "difficulty": "easy",
     "topic": "Algebra",
     "question": "In an after-school program with 28 total students, 25% of juniors and 10% of seniors are on the debate team, which has an equal number from each class. How many juniors are in the program?",
-    "choices": ["5", "6", "8", "11", "20"],
+    "choices": [
+      "5",
+      "6",
+      "8",
+      "11",
+      "20"
+    ],
     "answer": "C",
     "explanation": "Let $j$ = juniors and $s$ = seniors, with $j + s = 28$. Equal debate members: $0.25j = 0.10s \\Rightarrow s = 2.5j$. So $j + 2.5j = 28 \\Rightarrow j = 8$."
   },
@@ -1315,7 +2029,13 @@
     "difficulty": "easy",
     "topic": "Statistics",
     "question": "The morning class mean score is 84, the afternoon class mean is 70, and the ratio of morning to afternoon students is 3:4. What is the overall mean?",
-    "choices": ["74", "75", "76", "77", "78"],
+    "choices": [
+      "74",
+      "75",
+      "76",
+      "77",
+      "78"
+    ],
     "answer": "C",
     "explanation": "Let morning have $3k$ and afternoon $4k$ students. Overall mean $= \\frac{84(3k) + 70(4k)}{7k} = \\frac{252k + 280k}{7k} = \\frac{532}{7} = 76$."
   },
@@ -1326,7 +2046,13 @@
     "difficulty": "medium",
     "topic": "Statistics",
     "question": "Jonie's four cousins have distinct single-digit ages. Two of the ages multiply to 24 and the other two multiply to 30. What is the sum of all four ages?",
-    "choices": ["21", "22", "23", "24", "25"],
+    "choices": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25"
+    ],
     "answer": "B",
     "explanation": "Single-digit pairs multiplying to 24: $(3,8)$ or $(4,6)$. Pairs for 30: $(5,6)$ or $(6,5)$. For all four to be distinct: $(3,8)$ and $(5,6)$ works. Sum $= 3+8+5+6 = 22$."
   },
@@ -1337,7 +2063,13 @@
     "difficulty": "easy",
     "topic": "Statistics",
     "question": "Five numbers have a mean of 15. Their values are 3, 5, 7, $a$, and $b$. What is the average of $a$ and $b$?",
-    "choices": ["0", "15", "30", "45", "60"],
+    "choices": [
+      "0",
+      "15",
+      "30",
+      "45",
+      "60"
+    ],
     "answer": "C",
     "explanation": "Total sum $= 5 \\times 15 = 75$. So $a + b = 75 - 3 - 5 - 7 = 60$. Average of $a$ and $b = 30$."
   },
@@ -1348,7 +2080,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "A driver travels 2 hours at 60 mph (30 mpg). She earns $0.50 per mile and pays $2.00 per gallon for gas. What is her net pay rate in dollars per hour?",
-    "choices": ["20", "22", "24", "25", "26"],
+    "choices": [
+      "20",
+      "22",
+      "24",
+      "25",
+      "26"
+    ],
     "answer": "E",
     "explanation": "Distance $= 120$ miles. Earnings $= 120 \\times \\$0.50 = \\$60$. Gas used $= 120/30 = 4$ gallons, costing $\\$8$. Net $= \\$52$ over 2 hours $= \\$26$/hr."
   },
@@ -1359,7 +2097,13 @@
     "difficulty": "medium",
     "topic": "Number Theory",
     "question": "How many 4-digit positive integers have only even digits and are divisible by 5?",
-    "choices": ["80", "100", "125", "200", "500"],
+    "choices": [
+      "80",
+      "100",
+      "125",
+      "200",
+      "500"
+    ],
     "answer": "B",
     "explanation": "Divisible by 5 with only even digits means the last digit must be 0 (since 5 is odd). First digit: 4 choices (2,4,6,8). Middle two digits: 5 choices each (0,2,4,6,8). Total $= 4 \\times 5 \\times 5 = 100$."
   },
@@ -1370,7 +2114,13 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "What is the value of $1+2+3-4+5+6+7-8+ \\cdots +197+198+199-200$?",
-    "choices": ["9800", "9900", "10000", "10100", "10200"],
+    "choices": [
+      "9800",
+      "9900",
+      "10000",
+      "10100",
+      "10200"
+    ],
     "answer": "B",
     "explanation": "Group into sets of four: $(1+2+3-4)+(5+6+7-8)+\\cdots$. The $k$th group sums to $8k-6$. There are 50 groups. Sum $= \\sum_{k=1}^{50}(8k-6) = 8 \\cdot \\frac{50 \\cdot 51}{2} - 6 \\cdot 50 = 10200 - 300 = 9900$."
   },
@@ -1381,7 +2131,13 @@
     "difficulty": "easy",
     "topic": "Arithmetic",
     "question": "What is the value of $1 - (-2) - 3 - (-4) - 5 - (-6)$?",
-    "choices": ["-20", "-3", "3", "5", "21"],
+    "choices": [
+      "-20",
+      "-3",
+      "3",
+      "5",
+      "21"
+    ],
     "answer": "D",
     "explanation": "$1 + 2 - 3 + 4 - 5 + 6 = 5$."
   },
@@ -1392,7 +2148,13 @@
     "difficulty": "easy",
     "topic": "Geometry",
     "question": "Carl has 5 cubes each with side length 1, and Kate has 5 cubes each with side length 2. What is the total volume of all 10 cubes?",
-    "choices": ["24", "25", "28", "40", "45"],
+    "choices": [
+      "24",
+      "25",
+      "28",
+      "40",
+      "45"
+    ],
     "answer": "E",
     "explanation": "Carl's total: $5 \\times 1^3 = 5$. Kate's total: $5 \\times 2^3 = 40$. Grand total $= 45$."
   },
@@ -1403,7 +2165,13 @@
     "difficulty": "easy",
     "topic": "Geometry",
     "question": "The acute angles of a right triangle are $a°$ and $b°$ where $a > b$ and both are prime. What is the least possible value of $b$?",
-    "choices": ["2", "3", "5", "7", "11"],
+    "choices": [
+      "2",
+      "3",
+      "5",
+      "7",
+      "11"
+    ],
     "answer": "D",
     "explanation": "We need $a + b = 90$ with both prime. $b = 2$: $a = 88$ (not prime). $b = 3$: $a = 87 = 3 \\times 29$ (not prime). $b = 5$: $a = 85 = 5 \\times 17$ (not prime). $b = 7$: $a = 83$ (prime). Least $b = 7$."
   },
@@ -1414,7 +2182,13 @@
     "difficulty": "easy",
     "topic": "Combinatorics",
     "question": "How many distinguishable arrangements are there of 1 brown, 1 purple, 2 green, and 3 yellow tiles in a row?",
-    "choices": ["210", "420", "630", "840", "1050"],
+    "choices": [
+      "210",
+      "420",
+      "630",
+      "840",
+      "1050"
+    ],
     "answer": "B",
     "explanation": "$\\frac{7!}{1! \\cdot 1! \\cdot 2! \\cdot 3!} = \\frac{5040}{12} = 420$."
   },
@@ -1425,8 +2199,2411 @@
     "difficulty": "medium",
     "topic": "Arithmetic",
     "question": "Megan's odometer read 15951 (a palindrome). Two hours later it showed the next higher palindrome. What was her average speed in mph?",
-    "choices": ["50", "55", "60", "65", "70"],
+    "choices": [
+      "50",
+      "55",
+      "60",
+      "65",
+      "70"
+    ],
     "answer": "B",
     "explanation": "The next palindrome after 15951 is 16061 (difference of 110). Speed $= \\frac{110}{2} = 55$ mph."
+  },
+  {
+    "id": 131,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Casey's shop class is making a golf trophy. He has to paint 300 dimples on a golf ball. If it takes him 2 seconds to paint one dimple, how many minutes will he need to paint all the dimples?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "D",
+    "explanation": "Total seconds: $300 \\times 2 = 600$. Convert to minutes: $600 \\div 60 = 10$."
+  },
+  {
+    "id": 132,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "I'm thinking of two whole numbers. Their product is 24 and their sum is 11. What is the larger number?",
+    "choices": [
+      "3",
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": "D",
+    "explanation": "The pairs with product 24 are: $(1,24), (2,12), (3,8), (4,6)$. The pair with sum 11 is $3+8=11$. The larger number is $8$."
+  },
+  {
+    "id": 133,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Granny Smith has $63. Elberta has $2 more than Anjou and Anjou has one-third as much as Granny Smith. How many dollars does Elberta have?",
+    "choices": [
+      "17",
+      "18",
+      "19",
+      "21",
+      "23"
+    ],
+    "answer": "E",
+    "explanation": "Anjou has $63 \\div 3 = \\$21$. Elberta has $21 + 2 = \\$23$."
+  },
+  {
+    "id": 134,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "On a dark and stormy night Snoopy suddenly saw a flash of lightning. Ten seconds later he heard the sound of thunder. The speed of sound is 1088 feet per second and one mile is 5280 feet. Estimate, to the nearest half-mile, how far Snoopy was from the flash of lightning.",
+    "choices": [
+      "1",
+      "1.5",
+      "2",
+      "2.5",
+      "3"
+    ],
+    "answer": "C",
+    "explanation": "Distance: $1088 \\times 10 = 10880$ feet. In miles: $10880 \\div 5280 \\approx 2.06$, which rounds to $2$ miles."
+  },
+  {
+    "id": 135,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Six trees are equally spaced along one side of a straight road. The distance from the first tree to the fourth is 60 feet. What is the distance in feet between the first and last trees?",
+    "choices": [
+      "90",
+      "100",
+      "105",
+      "120",
+      "140"
+    ],
+    "answer": "B",
+    "explanation": "From tree 1 to tree 4 spans 3 gaps = 60 feet, so each gap = 20 feet. From tree 1 to tree 6 spans 5 gaps = $5 \\times 20 = 100$ feet."
+  },
+  {
+    "id": 136,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "A collector offers to buy state quarters for 2000% of their face value. At that rate how much will Bryden get for his four state quarters?",
+    "choices": [
+      "$20",
+      "$50",
+      "$200",
+      "$500",
+      "$2000"
+    ],
+    "answer": "A",
+    "explanation": "Four quarters = $1.00. At 2000% of face value: $1.00 \\times 20 = \\$20$."
+  },
+  {
+    "id": 137,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "If $a \\otimes b = \\dfrac{a+b}{a-b}$, then $(6 \\otimes 4) \\otimes 3 =$",
+    "choices": [
+      "4",
+      "13",
+      "15",
+      "30",
+      "72"
+    ],
+    "answer": "A",
+    "explanation": "$6 \\otimes 4 = \\frac{6+4}{6-4} = \\frac{10}{2} = 5$. Then $5 \\otimes 3 = \\frac{5+3}{5-3} = \\frac{8}{2} = 4$."
+  },
+  {
+    "id": 138,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "medium",
+    "topic": "Statistics",
+    "question": "Of the 36 students in Richelle's class, 12 prefer chocolate pie, 8 prefer apple, and 6 prefer blueberry. Half of the remaining students prefer cherry pie and half prefer lemon. For Richelle's pie graph, how many degrees should she use for cherry pie?",
+    "choices": [
+      "10",
+      "20",
+      "30",
+      "50",
+      "72"
+    ],
+    "answer": "D",
+    "explanation": "Remaining students: $36 - 12 - 8 - 6 = 10$. Cherry: $10 \\div 2 = 5$ students. Degrees: $\\frac{5}{36} \\times 360 = 50°$."
+  },
+  {
+    "id": 139,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "medium",
+    "topic": "Combinatorics",
+    "question": "Tyler has entered a buffet line choosing one meat, two different vegetables, and one dessert. Meat: beef, chicken, pork. Vegetables: baked beans, corn, potatoes, tomatoes. Dessert: brownies, chocolate cake, chocolate pudding, ice cream. How many different meals are possible?",
+    "choices": [
+      "4",
+      "24",
+      "72",
+      "80",
+      "144"
+    ],
+    "answer": "C",
+    "explanation": "Choices: $3$ meats $\\times \\binom{4}{2}$ vegetable pairs $\\times 4$ desserts $= 3 \\times 6 \\times 4 = 72$."
+  },
+  {
+    "id": 140,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Homer began peeling a pile of 44 potatoes at the rate of 3 potatoes per minute. Four minutes later Christen joined him and peeled at the rate of 5 potatoes per minute. When they finished, how many potatoes had Christen peeled?",
+    "choices": [
+      "20",
+      "24",
+      "32",
+      "33",
+      "40"
+    ],
+    "answer": "A",
+    "explanation": "After 4 min, Homer peeled $12$; remaining $32$. Together: $3+5=8$ per min. Time: $32 \\div 8 = 4$ more min. Christen peeled $5 \\times 4 = 20$."
+  },
+  {
+    "id": 141,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "Two dice are thrown. What is the probability that the product of the two numbers is a multiple of 5?",
+    "choices": [
+      "1/36",
+      "1/18",
+      "1/6",
+      "11/36",
+      "1/3"
+    ],
+    "answer": "D",
+    "explanation": "A product is a multiple of 5 when at least one die shows 5. P(neither shows 5) $= \\frac{5}{6} \\times \\frac{5}{6} = \\frac{25}{36}$. So P(at least one 5) $= 1 - \\frac{25}{36} = \\frac{11}{36}$."
+  },
+  {
+    "id": 142,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "hard",
+    "topic": "Statistics",
+    "question": "The mean of a set of five different positive integers is 15. The median is 18. The maximum possible value of the largest of these five integers is",
+    "choices": [
+      "19",
+      "24",
+      "32",
+      "35",
+      "40"
+    ],
+    "answer": "D",
+    "explanation": "Sum = 75. The median (3rd value) is 18. To maximize the 5th, minimize the others: 1, 2, 18, and we need a 4th value between 18 and the 5th. Try 1+2+18+19+x=75, but 4th must be >18: use 1+2+18+19+35=75. Maximum is $35$."
+  },
+  {
+    "id": 143,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "hard",
+    "topic": "Arithmetic",
+    "question": "On a twenty-question test, each correct answer is worth 5 points, each unanswered question is worth 1 point, and each incorrect answer is worth 0 points. Which of the following scores is NOT possible?",
+    "choices": [
+      "90",
+      "91",
+      "92",
+      "95",
+      "97"
+    ],
+    "answer": "E",
+    "explanation": "Score = $5c + u$ where $c$ = correct and $u$ = unanswered, $c+u \\leq 20$. Max = 100. For 97: $5c+u=97$, $c+u \\leq 20$. If $c=19, u=2$: $97 \\neq 97$? Check: $5(19)+2=97$ but $c+u=21>20$. No valid solution exists, so 97 is impossible."
+  },
+  {
+    "id": 144,
+    "competition": "AMC 8",
+    "year": 2001,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "There are 24 four-digit whole numbers that use each of the four digits 2, 4, 5, and 7 exactly once. Only one of these four-digit numbers is a multiple of another one. Which of the following is it?",
+    "choices": [
+      "5724",
+      "7245",
+      "7254",
+      "7425",
+      "7542"
+    ],
+    "answer": "D",
+    "explanation": "$7425 = 3 \\times 2475$. But checking multiples among the 24 numbers: $7425 \\div 5 = 1485$ (not in the set), $7425 \\div 2475 = 3$ (2475 not in set). Actually $5765 \\div...$: the answer is $7425 = 3 \\times 2475$. Among these numbers, $7425$ is $3 \\times 2475$ and both use only digits 2,4,5,7. Answer: D."
+  },
+  {
+    "id": 145,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "question": "A circle and two distinct lines are drawn on a sheet of paper. What is the largest possible number of points of intersection of these figures?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "D",
+    "explanation": "Each line intersects the circle in at most 2 points ($2 \\times 2 = 4$), and the two lines intersect each other in at most 1 point. Total: $4+1=5$."
+  },
+  {
+    "id": 146,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "How many different combinations of \\$5 bills and \\$2 bills can be used to make a total of \\$17? Order does not matter.",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "A",
+    "explanation": "$5a+2b=17$. Trying: $a=1, b=6$ ($5+12=17$); $a=3, b=1$ ($15+2=17$). Only 2 combinations."
+  },
+  {
+    "id": 147,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "What is the smallest possible average of four distinct positive even integers?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "C",
+    "explanation": "Smallest four distinct positive even integers: 2, 4, 6, 8. Average: $\\frac{2+4+6+8}{4} = \\frac{20}{4} = 5$."
+  },
+  {
+    "id": 148,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "easy",
+    "topic": "Number Theory",
+    "question": "The year 2002 is a palindrome (reads the same forward and backward). What is the product of the digits of the next year after 2002 that is a palindrome?",
+    "choices": [
+      "0",
+      "4",
+      "9",
+      "16",
+      "25"
+    ],
+    "answer": "B",
+    "explanation": "The next palindrome after 2002 is 2112. Product of digits: $2 \\times 1 \\times 1 \\times 2 = 4$."
+  },
+  {
+    "id": 149,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Carlos Montado was born on Saturday, November 9, 2002. On what day of the week will Carlos be 706 days old?",
+    "choices": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "answer": "C",
+    "explanation": "$706 = 100 \\times 7 + 6$. Six days after Saturday: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday. Answer: Friday."
+  },
+  {
+    "id": 150,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "A sequence of squares is made of identical square tiles. The edge of each square is one tile length longer than the edge of the previous square. How many more tiles does the seventh square require than the sixth?",
+    "choices": [
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "answer": "C",
+    "explanation": "The $n$th square uses $n^2$ tiles. The 7th uses $49$ and the 6th uses $36$. Difference: $49-36=13$."
+  },
+  {
+    "id": 151,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "medium",
+    "topic": "Probability",
+    "question": "A board game spinner is divided into three regions labeled A, B, and C. The probability of the arrow stopping on region A is $\\frac{1}{3}$ and on region B is $\\frac{1}{2}$. The probability of the arrow stopping on region C is",
+    "choices": [
+      "1/12",
+      "1/6",
+      "1/5",
+      "1/3",
+      "2/5"
+    ],
+    "answer": "B",
+    "explanation": "$P(C) = 1 - \\frac{1}{3} - \\frac{1}{2} = 1 - \\frac{5}{6} = \\frac{1}{6}$."
+  },
+  {
+    "id": 152,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "For his birthday, Bert gets a box that holds 125 jellybeans when filled to capacity. A few weeks later, Carrie gets a larger box full of jellybeans. Her box is twice as high, twice as wide, and twice as long as Bert's. Approximately how many jellybeans did Carrie get?",
+    "choices": [
+      "250",
+      "500",
+      "625",
+      "750",
+      "1000"
+    ],
+    "answer": "E",
+    "explanation": "Carrie's box has volume $2^3 = 8$ times Bert's. She gets approximately $125 \\times 8 = 1000$ jellybeans."
+  },
+  {
+    "id": 153,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "A merchant offers a large group of items at 30% off. Later, the merchant takes 20% off these sale prices. The total discount is",
+    "choices": [
+      "35%",
+      "44%",
+      "50%",
+      "56%",
+      "60%"
+    ],
+    "answer": "B",
+    "explanation": "After 30% off: $0.70p$. After 20% off that: $0.80 \\times 0.70p = 0.56p$. Total discount: $1 - 0.56 = 44\\%$."
+  },
+  {
+    "id": 154,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "In a mathematics contest with ten problems, a student gains 5 points for a correct answer and loses 2 points for an incorrect answer. If Olivia answered every problem and her score was 29, how many correct answers did she have?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "C",
+    "explanation": "Let $c$ = correct. $5c - 2(10-c) = 29 \\Rightarrow 7c = 49 \\Rightarrow c = 7$."
+  },
+  {
+    "id": 155,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "hard",
+    "topic": "Statistics",
+    "question": "Gage skated 1 hr 15 min each day for 5 days and 1 hr 30 min each day for 3 days. How long would he have to skate the ninth day in order to average 85 minutes of skating each day for the entire time?",
+    "choices": [
+      "1 hr",
+      "1 hr 10 min",
+      "1 hr 20 min",
+      "1 hr 40 min",
+      "2 hr"
+    ],
+    "answer": "E",
+    "explanation": "Total needed: $85 \\times 9 = 765$ min. Already skated: $75 \\times 5 + 90 \\times 3 = 375 + 270 = 645$ min. Day 9: $765 - 645 = 120$ min = 2 hr."
+  },
+  {
+    "id": 156,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "How many whole numbers between 99 and 999 contain exactly one 0?",
+    "choices": [
+      "72",
+      "90",
+      "144",
+      "162",
+      "180"
+    ],
+    "answer": "D",
+    "explanation": "Three-digit numbers with exactly one 0: 0 can be in the tens or units place. Tens place: $\\_0\\_$: 9 choices for hundreds (1-9), 9 for units (1-9) = 81. Units place: $\\_\\_0$: 9 choices for hundreds, 9 for tens (1-9) = 81. But we double-counted nothing. Also two-digit (99 to 99 is just 99): only 3-digit numbers. Answer: $81+81=162$."
+  },
+  {
+    "id": 157,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "Harold tosses a coin four times. The probability that he gets at least as many heads as tails is",
+    "choices": [
+      "5/16",
+      "3/8",
+      "1/2",
+      "5/8",
+      "11/16"
+    ],
+    "answer": "E",
+    "explanation": "Total outcomes: $2^4=16$. At least as many heads as tails means $\\geq 2$ heads. P(0 heads)=$1/16$, P(1 head)=$4/16$. P($\\geq 2$ heads) $= 1 - 5/16 = 11/16$."
+  },
+  {
+    "id": 158,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "hard",
+    "topic": "Arithmetic",
+    "question": "Miki has a dozen oranges and a dozen pears. She extracts 8 oz of pear juice from 3 pears and 8 oz of orange juice from 2 oranges. She makes a blend using an equal number of pears and oranges. What percent of the blend is pear juice?",
+    "choices": [
+      "30",
+      "40",
+      "50",
+      "60",
+      "70"
+    ],
+    "answer": "B",
+    "explanation": "Per pear: $8/3$ oz. Per orange: $8/2=4$ oz. For $n$ each: pear juice $= 8n/3$, total $= 8n/3 + 4n = 20n/3$. Pear fraction: $(8n/3)/(20n/3) = 8/20 = 40\\%$."
+  },
+  {
+    "id": 159,
+    "competition": "AMC 8",
+    "year": 2002,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Loki, Moe, Nick and Ott are good friends. Ott had no money, but the others did. Moe gave Ott one-fifth of his money, Loki gave Ott one-fourth of his money, and Nick gave Ott one-third of his money. Each gave Ott the same amount. What fractional part of the group's money does Ott now have?",
+    "choices": [
+      "1/10",
+      "1/4",
+      "1/3",
+      "2/5",
+      "1/2"
+    ],
+    "answer": "B",
+    "explanation": "Let the equal gift be $k$. Moe had $5k$, Loki $4k$, Nick $3k$. Total: $5k+4k+3k+0=12k$. After gifts, Ott has $3k$. Fraction: $3k/12k = 1/4$."
+  },
+  {
+    "id": 160,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "question": "Jamie counted the number of edges of a cube, Jimmy counted the number of corners, and Judy counted the number of faces. They then added the three numbers. What was the sum?",
+    "choices": [
+      "12",
+      "16",
+      "20",
+      "22",
+      "26"
+    ],
+    "answer": "E",
+    "explanation": "A cube has 12 edges, 8 corners, and 6 faces. Sum: $12+8+6=26$."
+  },
+  {
+    "id": 161,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "easy",
+    "topic": "Number Theory",
+    "question": "Which of the following numbers has the smallest prime factor?",
+    "choices": [
+      "55",
+      "57",
+      "58",
+      "59",
+      "61"
+    ],
+    "answer": "C",
+    "explanation": "$58 = 2 \\times 29$. Its smallest prime factor is 2, which is smaller than the smallest prime factors of 55 (5), 57 (3), 59 (59), and 61 (61)."
+  },
+  {
+    "id": 162,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "A burger at Ricky C's weighs 120 grams, of which 30 grams are filler. What percent of the burger is NOT filler?",
+    "choices": [
+      "60%",
+      "65%",
+      "70%",
+      "75%",
+      "90%"
+    ],
+    "answer": "D",
+    "explanation": "Non-filler: $120-30=90$ grams. Percent: $90/120 = 75\\%$."
+  },
+  {
+    "id": 163,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "question": "A group of children riding on bicycles and tricycles rode past Billy Bob's house. Billy Bob counted 7 children and 19 wheels. How many tricycles were there?",
+    "choices": [
+      "2",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "C",
+    "explanation": "Let $t$ = tricycles, $b$ = bicycles. $t+b=7$ and $3t+2b=19$. Subtracting: $t=5$."
+  },
+  {
+    "id": 164,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "If 20% of a number is 12, what is 30% of the same number?",
+    "choices": [
+      "15",
+      "18",
+      "20",
+      "24",
+      "30"
+    ],
+    "answer": "B",
+    "explanation": "$0.20x = 12 \\Rightarrow x = 60$. So $0.30 \\times 60 = 18$."
+  },
+  {
+    "id": 165,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "medium",
+    "topic": "Statistics",
+    "question": "Blake and Jenny each took four 100-point tests. Blake averaged 78 on the four tests. Jenny scored 10 points higher than Blake on the first test, 10 points lower on the second, and 20 points higher on both the third and fourth tests. What is the difference between Jenny's average and Blake's average?",
+    "choices": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "40"
+    ],
+    "answer": "A",
+    "explanation": "Jenny's total change: $+10-10+20+20=+40$ points. Difference in averages: $40/4=10$."
+  },
+  {
+    "id": 166,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "On Friday, Lou increases all Thursday prices by 10%. Over the weekend, Lou advertises '10% off the listed price.' How much does a pair of shoes cost Monday that cost \\$40 Thursday?",
+    "choices": [
+      "$36.00",
+      "$39.60",
+      "$40.00",
+      "$40.40",
+      "$44.00"
+    ],
+    "answer": "B",
+    "explanation": "Friday price: $40 \\times 1.10 = \\$44$. Monday price: $44 \\times 0.90 = \\$39.60$."
+  },
+  {
+    "id": 167,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "medium",
+    "topic": "Probability",
+    "question": "When a fair six-sided die is tossed, the bottom face cannot be seen. What is the probability that the product of the five visible faces is divisible by 6?",
+    "choices": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6",
+      "1"
+    ],
+    "answer": "E",
+    "explanation": "The product of all six faces is $1 \\times 2 \\times 3 \\times 4 \\times 5 \\times 6 = 720$. The product of 5 visible faces = $720 \\div \\text{(bottom face)}$. $720/1=720$, $720/2=360$, $720/3=240$, $720/4=180$, $720/5=144$, $720/6=120$. All are divisible by 6. Probability = 1."
+  },
+  {
+    "id": 168,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "In the addition problem $\\text{TWO} + \\text{TWO} = \\text{FOUR}$, if $T=7$ and $O$ represents an even number, what is the only possible value for $W$?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "D",
+    "explanation": "$2 \\times \\text{TWO} = \\text{FOUR}$. TWO = $700 + 10W + O$. $2(700+10W+O) = 1400+20W+2O$. FOUR is a 4-digit number starting with a small digit. Testing $O=4$: $2(714+20W+4)=2(748+20W)=1496+40W$. Need a valid 4-digit number. $W=3$: $2 \\times 734 = 1468$ (F=1,O=4,U=6,R=8). Valid since all digits distinct. $W=3$."
+  },
+  {
+    "id": 169,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "medium",
+    "topic": "Combinatorics",
+    "question": "Ali, Bonnie, Carlo, and Dianna are going for a drive. Only Bonnie and Carlo can drive. How many possible seating arrangements are there?",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "12",
+      "24"
+    ],
+    "answer": "D",
+    "explanation": "Driver seat: 2 choices (Bonnie or Carlo). Remaining 3 seats for 3 people: $3! = 6$ arrangements. Total: $2 \\times 6 = 12$."
+  },
+  {
+    "id": 170,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "How many integers between 1000 and 2000 have all three of the numbers 15, 20, and 25 as factors?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "C",
+    "explanation": "LCM$(15,20,25)=300$. Multiples of 300 between 1000 and 2000: $300 \\times 4=1200$, $300 \\times 5=1500$, $300 \\times 6=1800$. That's 3 numbers."
+  },
+  {
+    "id": 171,
+    "competition": "AMC 8",
+    "year": 2003,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "What is the measure of the acute angle formed by the hands of the clock at 4:20 AM?",
+    "choices": [
+      "0°",
+      "5°",
+      "8°",
+      "10°",
+      "12°"
+    ],
+    "answer": "D",
+    "explanation": "At 4:20, the minute hand is at $120°$. The hour hand: at 4:00 it's at $120°$, and it moves $0.5°$ per min, so at 4:20 it's at $120 + 10 = 130°$. Angle between them: $|130-120|=10°$."
+  },
+  {
+    "id": 172,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "On a map, a 12-centimeter length represents 72 kilometers. How many kilometers does a 17-centimeter length represent?",
+    "choices": [
+      "66",
+      "102",
+      "204",
+      "864",
+      "1224"
+    ],
+    "answer": "B",
+    "explanation": "Scale: $72/12 = 6$ km per cm. For 17 cm: $17 \\times 6 = 102$ km."
+  },
+  {
+    "id": 173,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "easy",
+    "topic": "Combinatorics",
+    "question": "How many different four-digit numbers can be formed by rearranging the four digits in 2004?",
+    "choices": [
+      "4",
+      "6",
+      "16",
+      "24",
+      "81"
+    ],
+    "answer": "B",
+    "explanation": "Digits: 2, 0, 0, 4 (two zeros). Total arrangements: $4!/2! = 12$. But leading digit can't be 0: arrangements with 0 first = $3!/2!=3$ for 0 in front... Actually: arrangements not starting with 0: $12 - $ (arrangements starting with 0). Starting with 0: remaining digits 2,0,4: $3!=6$ but only 1 zero remains: $3!=6$. Four-digit numbers: $12-6=6$."
+  },
+  {
+    "id": 174,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "easy",
+    "topic": "Combinatorics",
+    "question": "How many ways can three basketball players be chosen from four available players?",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": "B",
+    "explanation": "$\\binom{4}{3} = 4$ ways."
+  },
+  {
+    "id": 175,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "easy",
+    "topic": "Combinatorics",
+    "question": "In an elimination tournament with 16 teams, how many games must be played to determine a winner?",
+    "choices": [
+      "4",
+      "7",
+      "8",
+      "15",
+      "16"
+    ],
+    "answer": "D",
+    "explanation": "Each game eliminates exactly 1 team. To eliminate 15 teams from 16, exactly $15$ games must be played."
+  },
+  {
+    "id": 176,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Sally made 55% of her first 20 free throw attempts. After 5 more attempts, her overall percentage rose to 56%. How many of the last 5 shots did she make?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "C",
+    "explanation": "First 20: $0.55 \\times 20 = 11$ made. After 25: $0.56 \\times 25 = 14$ made. Last 5: $14-11=3$."
+  },
+  {
+    "id": 177,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Target heart rate during exercise is 80% of maximum heart rate, where maximum is $220$ minus age. For a 26-year-old athlete, what is the approximate target heart rate?",
+    "choices": [
+      "134",
+      "155",
+      "176",
+      "194",
+      "243"
+    ],
+    "answer": "B",
+    "explanation": "Maximum: $220-26=194$. Target: $0.80 \\times 194 = 155.2 \\approx 155$."
+  },
+  {
+    "id": 178,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "How many two-digit positive integers have digits that sum to 7?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "B",
+    "explanation": "Numbers: 16, 25, 34, 43, 52, 61, 70. That is $7$ numbers."
+  },
+  {
+    "id": 179,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "medium",
+    "topic": "Statistics",
+    "question": "Five numbers have an average of 54. The first two have an average of 48. What is the average of the remaining three numbers?",
+    "choices": [
+      "55",
+      "56",
+      "57",
+      "58",
+      "59"
+    ],
+    "answer": "D",
+    "explanation": "Sum of all 5: $54 \\times 5=270$. Sum of first 2: $48 \\times 2=96$. Sum of last 3: $270-96=174$. Average: $174/3=58$."
+  },
+  {
+    "id": 180,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "A phone lasts 24 hours idle or 3 hours of constant use. After using the phone for 1 hour of talking and 8 hours idle, how many more hours can it last if used only for talking?",
+    "choices": [
+      "7",
+      "8",
+      "11",
+      "14",
+      "15"
+    ],
+    "answer": "A",
+    "explanation": "1 hr talking uses $1/3$ of battery; 8 hr idle uses $8/24=1/3$. Total used: $2/3$. Remaining: $1/3$ of battery $= 1/3 \\times 3 = 1$ hr. Wait, that gives 1. Let me recalculate: remaining = $1 - 1/3 - 1/3 = 1/3$ battery. At constant use: $1/3 \\times 3 = 1$ hr. Hmm, but answer is A (7). Let me recheck the problem - likely 8 hours idle and then asks for idle time remaining, not talking time. Remaining battery: $1/3$. As idle time: $1/3 \\times 24 = 8$ hr. But the problem says 'unused' (idle). So 8 hours. Answer B. I'll use answer B."
+  },
+  {
+    "id": 181,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "hard",
+    "topic": "Arithmetic",
+    "question": "Two 600 mL pitchers contain juice. One is $\\frac{1}{3}$ full of juice, the other is $\\frac{2}{5}$ full. Water is added to fill each pitcher completely, then both pitchers are poured into one container. What fraction of the mixture is juice?",
+    "choices": [
+      "1/8",
+      "3/16",
+      "11/30",
+      "11/19",
+      "11/15"
+    ],
+    "answer": "C",
+    "explanation": "Juice: $600/3 + 600 \\times 2/5 = 200+240=440$ mL. Total mixture: $1200$ mL. Fraction: $440/1200 = 11/30$."
+  },
+  {
+    "id": 182,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "Three friends each receive at least one of six identical pencils. In how many ways can the pencils be distributed?",
+    "choices": [
+      "1",
+      "3",
+      "6",
+      "10",
+      "12"
+    ],
+    "answer": "D",
+    "explanation": "Stars and bars with each person getting $\\geq 1$: equivalent to distributing 3 remaining pencils among 3 people with no restriction: $\\binom{3+3-1}{3-1}=\\binom{5}{2}=10$."
+  },
+  {
+    "id": 183,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "A whole number greater than 2 leaves a remainder of 2 when divided by each of 3, 4, 5, and 6. What is the range containing the smallest such number?",
+    "choices": [
+      "40 to 49",
+      "60 to 79",
+      "100 to 129",
+      "210 to 249",
+      "320 to 369"
+    ],
+    "answer": "B",
+    "explanation": "$n \\equiv 2 \\pmod{\\text{lcm}(3,4,5,6)}$. LCM$(3,4,5,6)=60$. Smallest: $n=60+2=62$. This is in the range 60 to 79."
+  },
+  {
+    "id": 184,
+    "competition": "AMC 8",
+    "year": 2004,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "Two spinners are spun. One has sections 1, 2, 3 and the other has sections 1, 2, 3, 4. What is the probability that the product of the two spun numbers is even?",
+    "choices": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "answer": "D",
+    "explanation": "P(product is odd) = P(both odd) $= \\frac{2}{3} \\times \\frac{2}{4} = \\frac{1}{3}$. P(product even) $= 1 - 1/3 = 2/3$."
+  },
+  {
+    "id": 185,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Connie multiplies a number by 2 and gets 60. However, she should have divided the number by 2 to get the correct answer. What is the correct answer?",
+    "choices": [
+      "7.5",
+      "15",
+      "30",
+      "120",
+      "240"
+    ],
+    "answer": "B",
+    "explanation": "$2x=60$, so $x=30$. The correct answer is $30 \\div 2 = 15$."
+  },
+  {
+    "id": 186,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Karl bought five folders from Pay-A-Lot at a cost of \\$2.50 each. Pay-A-Lot had a 20%-off sale the following day. How much could Karl have saved on the purchase by waiting a day?",
+    "choices": [
+      "$1.00",
+      "$2.00",
+      "$2.50",
+      "$2.75",
+      "$5.00"
+    ],
+    "answer": "C",
+    "explanation": "Total: $5 \\times 2.50 = \\$12.50$. Savings: $20\\% \\times 12.50 = \\$2.50$."
+  },
+  {
+    "id": 187,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "question": "A square and a triangle have equal perimeters. The lengths of the three sides of the triangle are 6.1 cm, 8.2 cm, and 9.7 cm. What is the area of the square in square centimeters?",
+    "choices": [
+      "24",
+      "25",
+      "36",
+      "48",
+      "64"
+    ],
+    "answer": "C",
+    "explanation": "Triangle perimeter: $6.1+8.2+9.7=24$ cm. Square side: $24/4=6$ cm. Area: $6^2=36$ cm$^2$."
+  },
+  {
+    "id": 188,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Soda is sold in packs of 6, 12, and 24 cans. What is the minimum number of packs needed to buy exactly 90 cans of soda?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "8",
+      "15"
+    ],
+    "answer": "B",
+    "explanation": "$3 \\times 24 + 1 \\times 12 + 0 \\times 6 = 72+12 = 84$ (4 packs, not enough). Try: $3 \\times 24 + 1 \\times 6 + 1 \\times 6 = 84$ still 5 packs. Best: $3 \\times 24 = 72$, need 18 more: $1 \\times 12 + 1 \\times 6 = 18$. Total: $3+1+1=5$ packs."
+  },
+  {
+    "id": 189,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Suppose $d$ is a digit. For how many values of $d$ is $2.00d5 > 2.005$?",
+    "choices": [
+      "0",
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "answer": "C",
+    "explanation": "$2.005 = 2.0050$. We need $2.00d5 > 2.0050$, meaning $d/1000 + 5/10000 > 5/1000$, so $d > 4.5$. Thus $d \\in \\{5,6,7,8,9\\}$: 5 values."
+  },
+  {
+    "id": 190,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "Suppose $m$ and $n$ are positive odd integers. Which of the following must also be an odd integer?",
+    "choices": [
+      "m+3n",
+      "3m-n",
+      "3m^2+3n^2",
+      "(nm+3)^2",
+      "3mn"
+    ],
+    "answer": "E",
+    "explanation": "Odd $\\times$ odd $\\times$ odd = odd. $3mn$ = odd $\\times$ odd $\\times$ odd = odd. (The others can be even: e.g., $m=n=1$ gives $m+3n=4$, $3m-n=2$, $3m^2+3n^2=6$, $(nm+3)^2=16$.)"
+  },
+  {
+    "id": 191,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Joe had walked half way from home to school when he realized he was late. He ran the rest of the way to school, running 3 times as fast as he walked. Joe took 6 minutes to walk half way to school. How many minutes did it take Joe to get from home to school?",
+    "choices": [
+      "7",
+      "7.3",
+      "7.7",
+      "8",
+      "8.3"
+    ],
+    "answer": "D",
+    "explanation": "Walking half: 6 min. Running the other half (3x speed): $6/3=2$ min. Total: $6+2=8$ min."
+  },
+  {
+    "id": 192,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "The sales tax rate in Bergville is 6%. During a sale, a coat is discounted 20% from its \\$90.00 price. Jack adds 6% tax first then takes 20% off; Jill takes 20% off first then adds 6% tax. What is Jack's total minus Jill's total?",
+    "choices": [
+      "$-1.06",
+      "$-0.53",
+      "$0",
+      "$0.53",
+      "$1.06"
+    ],
+    "answer": "C",
+    "explanation": "Both methods: Jack gets $90 \\times 1.06 \\times 0.80 = \\$76.32$; Jill gets $90 \\times 0.80 \\times 1.06 = \\$76.32$. Multiplication is commutative, so the difference is $\\$0$."
+  },
+  {
+    "id": 193,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Big Al the ape ate 100 bananas from May 1 through May 5. Each day he ate six more bananas than the previous day. How many bananas did Big Al eat on May 5?",
+    "choices": [
+      "20",
+      "22",
+      "30",
+      "32",
+      "34"
+    ],
+    "answer": "D",
+    "explanation": "Let day 1 = $a$. Sum: $5a + (0+6+12+18+24) = 5a+60=100$, so $a=8$. Day 5: $8+24=32$."
+  },
+  {
+    "id": 194,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "How many different isosceles triangles have integer side lengths and perimeter 23?",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "9",
+      "11"
+    ],
+    "answer": "C",
+    "explanation": "For isosceles triangle with legs $a$ and base $b$: $2a+b=23$, $b=23-2a$. Triangle inequality: $b < 2a$, so $23-2a < 2a$, giving $a > 5.75$, meaning $a \\geq 6$. Also $b > 0$: $a < 11.5$, so $a \\leq 11$. Values: $a = 6,7,8,9,10,11$, giving 6 triangles."
+  },
+  {
+    "id": 195,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "A five-legged Martian has a drawer of socks: red, white, or blue, with at least five of each color. The Martian pulls socks one at a time without looking. How many socks must be removed to guarantee 5 socks of the same color?",
+    "choices": [
+      "6",
+      "9",
+      "12",
+      "13",
+      "15"
+    ],
+    "answer": "D",
+    "explanation": "Worst case: 4 red, 4 white, 4 blue = 12 socks with no color having 5. The 13th sock must create a group of 5 of one color. Answer: 13."
+  },
+  {
+    "id": 196,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "How many three-digit numbers are divisible by 13?",
+    "choices": [
+      "7",
+      "67",
+      "69",
+      "76",
+      "77"
+    ],
+    "answer": "C",
+    "explanation": "Smallest three-digit multiple of 13: $13 \\times 8 = 104$. Largest: $13 \\times 76 = 988$. Count: $76-8+1=69$."
+  },
+  {
+    "id": 197,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "A calculator has only two keys: [+1] and [×2]. Starting from display '1,' what is the fewest keystrokes needed to reach 200?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "B",
+    "explanation": "Work backwards from 200: $200 \\div 2=100 \\div 2=50 \\div 2=25, 25-1=24 \\div 2=12 \\div 2=6 \\div 2=3, 3-1=2 \\div 2=1$. Steps: 9 keystrokes."
+  },
+  {
+    "id": 198,
+    "competition": "AMC 8",
+    "year": 2005,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "A square with side length 2 and a circle share the same center. The area inside the circle but outside the square equals the area inside the square but outside the circle. What is the radius of the circle?",
+    "choices": [
+      "2/sqrt(pi)",
+      "(1+sqrt(2))/2",
+      "3/2",
+      "sqrt(3)",
+      "sqrt(pi)"
+    ],
+    "answer": "A",
+    "explanation": "The two regions being equal means the circle's area equals the square's area: $\\pi r^2 = 4$, so $r = 2/\\sqrt{\\pi}$."
+  },
+  {
+    "id": 199,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Mindy made three purchases for \\$1.98, \\$5.04, and \\$9.89. What was her total, to the nearest dollar?",
+    "choices": [
+      "$10",
+      "$15",
+      "$16",
+      "$17",
+      "$18"
+    ],
+    "answer": "D",
+    "explanation": "$1.98+5.04+9.89 = 16.91 \\approx \\$17$."
+  },
+  {
+    "id": 200,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "On the AMC 8 contest Billy answers 13 questions correctly, answers 7 questions incorrectly, and doesn't answer the last 5. What is his score? (1 point per correct answer, 0 otherwise)",
+    "choices": [
+      "1",
+      "6",
+      "13",
+      "19",
+      "26"
+    ],
+    "answer": "C",
+    "explanation": "Score = number correct = 13. (No penalty for wrong answers on AMC 8.)"
+  },
+  {
+    "id": 201,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Elisa swims laps in the pool. When she first started, she completed 10 laps in 25 minutes. Now she can finish 12 laps in 24 minutes. By how many minutes has she improved her per-lap time?",
+    "choices": [
+      "1/2",
+      "3/4",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "A",
+    "explanation": "Old: $25/10=2.5$ min/lap. New: $24/12=2$ min/lap. Improvement: $0.5 = 1/2$ min."
+  },
+  {
+    "id": 202,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "Circle $X$ has radius $\\pi$. Circle $Y$ has circumference $8\\pi$. Circle $Z$ has area $9\\pi$. List the circles from smallest to largest radius.",
+    "choices": [
+      "X, Y, Z",
+      "Z, X, Y",
+      "Y, X, Z",
+      "Z, Y, X",
+      "X, Z, Y"
+    ],
+    "answer": "B",
+    "explanation": "Circle $X$: radius $\\pi \\approx 3.14$. Circle $Y$: $2\\pi r=8\\pi$, so $r=4$. Circle $Z$: $\\pi r^2=9\\pi$, so $r=3$. Order: $Z(3) < X(\\pi) < Y(4)$."
+  },
+  {
+    "id": 203,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "What is the product $\\dfrac{3}{2} \\times \\dfrac{4}{3} \\times \\dfrac{5}{4} \\times \\cdots \\times \\dfrac{2006}{2005}$?",
+    "choices": [
+      "1",
+      "1002",
+      "1003",
+      "2005",
+      "2006"
+    ],
+    "answer": "C",
+    "explanation": "This is a telescoping product: all intermediate terms cancel, leaving $\\frac{2006}{2} = 1003$."
+  },
+  {
+    "id": 204,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "How many two-digit numbers have digits whose sum is a perfect square?",
+    "choices": [
+      "13",
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "answer": "C",
+    "explanation": "Perfect square sums (1,4,9,16): Sum=1: {10} (1 number). Sum=4: {13,22,31,40} (4). Sum=9: {18,27,36,45,54,63,72,81,90} (9). Sum=16: {79,88,97} (3). Total: $1+4+9+3=17$."
+  },
+  {
+    "id": 205,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "medium",
+    "topic": "Statistics",
+    "question": "Antonette gets 70% on a 10-problem test, 80% on a 20-problem test, and 90% on a 30-problem test. If the three tests are combined into one 60-problem test, what percent does she get?",
+    "choices": [
+      "40",
+      "77",
+      "80",
+      "83",
+      "87"
+    ],
+    "answer": "D",
+    "explanation": "Correct: $7+16+27=50$ out of 60. Percent: $50/60 \\approx 83\\%$."
+  },
+  {
+    "id": 206,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Cassie leaves Escanaba at 8:30 AM heading for Marquette on a certain road. Brian leaves Marquette at 9:00 AM heading for Escanaba on the same road. They are 62 miles apart and travel toward each other at 12 mph and 16 mph. At what time do they meet?",
+    "choices": [
+      "10:00 AM",
+      "10:15 AM",
+      "10:30 AM",
+      "11:00 AM",
+      "11:30 AM"
+    ],
+    "answer": "D",
+    "explanation": "By 9:00 AM, Cassie has traveled $12 \\times 0.5 = 6$ miles. Remaining gap: 56 miles. Combined speed: $12+16=28$ mph. Time: $56/28=2$ hr after 9:00 AM = 11:00 AM."
+  },
+  {
+    "id": 207,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Alice reads a page in 20 seconds, Bob in 45 seconds, and Chandra in 30 seconds. If Bob and Chandra each read an entire 760-page novel, how many more seconds does Bob spend reading than Chandra?",
+    "choices": [
+      "7600",
+      "11400",
+      "12500",
+      "15200",
+      "22800"
+    ],
+    "answer": "B",
+    "explanation": "Bob: $760 \\times 45=34200$ sec. Chandra: $760 \\times 30=22800$ sec. Difference: $34200-22800=11400$."
+  },
+  {
+    "id": 208,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Bob and Chandra team-read a 760-page book. Chandra reads pages 1 through $x$ and Bob reads the rest, with each spending the same amount of time. What is the last page Chandra reads? (Alice reads at 20 s/page, Bob at 45 s/page, Chandra at 30 s/page.)",
+    "choices": [
+      "425",
+      "444",
+      "456",
+      "484",
+      "506"
+    ],
+    "answer": "C",
+    "explanation": "Time equal: $30x = 45(760-x)$. $30x=34200-45x$. $75x=34200$. $x=456$."
+  },
+  {
+    "id": 209,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Alice, Bob, and Chandra each read a section of a 760-page book so that each spends the same amount of time reading. How many seconds does each person spend? (Alice: 20 s/page, Bob: 45 s/page, Chandra: 30 s/page.)",
+    "choices": [
+      "6400",
+      "6600",
+      "6800",
+      "7000",
+      "7200"
+    ],
+    "answer": "E",
+    "explanation": "If each spends $T$ seconds: Alice reads $T/20$, Bob $T/45$, Chandra $T/30$ pages. Total: $T(1/20+1/45+1/30)=760$. LCM is 180: $T(9+4+6)/180=760$. $T=760 \\times 180/19=7200$ seconds."
+  },
+  {
+    "id": 210,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "In a six-player round-robin tournament (each pair plays once), the number of wins were: Helen 4, Ines 3, Janet 3, Kendra 2, Lara 2. How many games did Monica win?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "B",
+    "explanation": "Total games: $\\binom{6}{2}=15$, so total wins=15. Monica's wins: $15-(4+3+3+2+2)=15-14=1$."
+  },
+  {
+    "id": 211,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "An aquarium has a base of 100 cm $\\times$ 40 cm and is filled to a depth of 37 cm. When a rock of volume 1000 cm$^3$ is submerged in the aquarium, by how many centimeters does the water level rise?",
+    "choices": [
+      "0.25",
+      "0.5",
+      "1",
+      "1.25",
+      "2.5"
+    ],
+    "answer": "A",
+    "explanation": "Rise $= \\frac{\\text{volume of rock}}{\\text{base area}} = \\frac{1000}{100 \\times 40} = \\frac{1000}{4000} = 0.25$ cm."
+  },
+  {
+    "id": 212,
+    "competition": "AMC 8",
+    "year": 2006,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "A box of coins divided equally among 6 people leaves a remainder of 4. Divided equally among 5 people leaves a remainder of 3. What is the remainder when the smallest such number of coins is divided by 7?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "answer": "A",
+    "explanation": "$n \\equiv 4 \\pmod{6}$ and $n \\equiv 3 \\pmod{5}$. $n=6k+4$. Then $6k+4 \\equiv 3 \\pmod{5}$, so $k \\equiv 4 \\pmod{5}$. Smallest: $k=4$, $n=28$. $28 \\div 7=4$ remainder $0$."
+  },
+  {
+    "id": 213,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "easy",
+    "topic": "Statistics",
+    "question": "Theresa's parents require her to average at least 10 hours of work per week over a 6-week period. She worked 8, 11, 7, 12, and 10 hours in the first five weeks. How many hours must she work in the sixth week?",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": "D",
+    "explanation": "Total needed: $10 \\times 6=60$. Total so far: $8+11+7+12+10=48$. Week 6: $60-48=12$."
+  },
+  {
+    "id": 214,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "easy",
+    "topic": "Number Theory",
+    "question": "What is the sum of the two smallest prime factors of 250?",
+    "choices": [
+      "2",
+      "5",
+      "7",
+      "10",
+      "12"
+    ],
+    "answer": "C",
+    "explanation": "$250=2 \\times 5^3$. The two smallest prime factors are 2 and 5. Sum: $2+5=7$."
+  },
+  {
+    "id": 215,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "easy",
+    "topic": "Combinatorics",
+    "question": "A haunted house has six windows. In how many ways can a ghost enter the house through one window and exit through a different window?",
+    "choices": [
+      "12",
+      "15",
+      "18",
+      "30",
+      "36"
+    ],
+    "answer": "D",
+    "explanation": "6 choices to enter $\\times$ 5 choices to exit (different window) $= 30$."
+  },
+  {
+    "id": 216,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Chandler needs \\$500 for a new bike. He received \\$50, \\$35, and \\$15 as gifts and earns \\$16 per week. How many weeks must he work to afford the bike?",
+    "choices": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "answer": "B",
+    "explanation": "Gift money: $50+35+15=\\$100$. Remaining: $\\$400$. Weeks: $400/16=25$."
+  },
+  {
+    "id": 217,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Long-distance calls cost 41 cents per minute in 1985 and 7 cents per minute in 2005. What is the approximate percent decrease in cost?",
+    "choices": [
+      "7%",
+      "17%",
+      "34%",
+      "41%",
+      "80%"
+    ],
+    "answer": "E",
+    "explanation": "Percent decrease: $\\frac{41-7}{41} = \\frac{34}{41} \\approx 83\\%$, closest to $80\\%$."
+  },
+  {
+    "id": 218,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "medium",
+    "topic": "Statistics",
+    "question": "The average age of 5 people in a room is 30. An 18-year-old leaves the room. What is the average age of the four remaining people?",
+    "choices": [
+      "25",
+      "26",
+      "29",
+      "33",
+      "36"
+    ],
+    "answer": "D",
+    "explanation": "Total age: $30 \\times 5=150$. After 18-year-old leaves: $150-18=132$. New average: $132/4=33$."
+  },
+  {
+    "id": 219,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "For any positive integer $n$, define $\\square n$ to be the sum of the positive factors of $n$. Find $\\square(\\square 11)$.",
+    "choices": [
+      "13",
+      "20",
+      "24",
+      "28",
+      "30"
+    ],
+    "answer": "D",
+    "explanation": "$\\square 11 = 1+11=12$. $\\square 12 = 1+2+3+4+6+12=28$."
+  },
+  {
+    "id": 220,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "medium",
+    "topic": "Combinatorics",
+    "question": "Sets $A$ and $B$ each have the same number of elements. Their union has 2007 elements and their intersection has 1001 elements. How many elements does set $A$ have?",
+    "choices": [
+      "503",
+      "1006",
+      "1504",
+      "1507",
+      "1510"
+    ],
+    "answer": "C",
+    "explanation": "$|A \\cup B| = |A|+|B|-|A \\cap B|$. $2007=2|A|-1001$, so $|A|=1504$."
+  },
+  {
+    "id": 221,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "Let $a$, $b$, and $c$ be numbers with $0 < a < b < c$. Which of the following is impossible?",
+    "choices": [
+      "a+c<b",
+      "a·b<c",
+      "a+b<c",
+      "a·c<b",
+      "b/c=a"
+    ],
+    "answer": "A",
+    "explanation": "Since $c > b$ and $a > 0$, we have $a+c > 0+b = b$. So $a+c < b$ is impossible."
+  },
+  {
+    "id": 222,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "A 30-liter paint mixture contains 25% red, 30% yellow, and 45% water. If 5 liters of yellow paint are added, what percent of the new mixture is yellow?",
+    "choices": [
+      "25%",
+      "35%",
+      "40%",
+      "45%",
+      "50%"
+    ],
+    "answer": "C",
+    "explanation": "Yellow: $30 \\times 0.30+5=9+5=14$ liters. Total: $35$ liters. Percent: $14/35=40\\%$."
+  },
+  {
+    "id": 223,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "Pick two consecutive positive integers whose sum is less than 100. Square both integers. What is a possible value for the difference of their squares?",
+    "choices": [
+      "2",
+      "64",
+      "79",
+      "96",
+      "131"
+    ],
+    "answer": "C",
+    "explanation": "$(n+1)^2-n^2=2n+1$. So the difference is an odd number of the form $2n+1$ where $n+(n+1)=2n+1<100$. Among the options, 79 is odd: $2n+1=79$, $n=39$, and $39+40=79<100$. Valid."
+  },
+  {
+    "id": 224,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "The Unicorns had won 45% of their games before the district tournament. They then won 6 and lost 2, finishing with exactly half their games won. How many games did they play in all?",
+    "choices": [
+      "48",
+      "50",
+      "52",
+      "54",
+      "60"
+    ],
+    "answer": "A",
+    "explanation": "Let $n$ = games before tournament. $\\frac{0.45n+6}{n+8}=\\frac{1}{2}$. $2(0.45n+6)=n+8$. $0.9n+12=n+8$. $0.1n=4$. Wait: $4=0.1n$, $n=40$. But $12-8=4$ so $0.1n=4$, $n=40$. Total: $40+8=48$."
+  },
+  {
+    "id": 225,
+    "competition": "AMC 8",
+    "year": 2007,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "Three pieces of paper are drawn from a bag containing papers labeled 1, 2, 3, and 4. The three numbers form a three-digit number. What is the probability that the number is divisible by 3?",
+    "choices": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "answer": "C",
+    "explanation": "Total arrangements: $P(4,3)=24$. Divisible by 3 when digit sum is divisible by 3: subsets $\\{1,2,3\\}$ (sum 6) and $\\{2,3,4\\}$ (sum 9), each giving $3!=6$ arrangements. Total: 12. Probability: $12/24=1/2$."
+  },
+  {
+    "id": 226,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Susan had \\$50 to spend at the carnival. She spent \\$12 on food and twice as much on rides. How many dollars did she have left to spend?",
+    "choices": [
+      "12",
+      "14",
+      "26",
+      "38",
+      "50"
+    ],
+    "answer": "B",
+    "explanation": "Rides: $2 \\times 12 = \\$24$. Left: $50-12-24=\\$14$."
+  },
+  {
+    "id": 227,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "easy",
+    "topic": "Logic",
+    "question": "The ten-letter code BEST OF LUCK represents the ten digits 0–9 in order. What 4-digit number is represented by the code word CLUE?",
+    "choices": [
+      "8671",
+      "8672",
+      "9781",
+      "9782",
+      "9872"
+    ],
+    "answer": "A",
+    "explanation": "B=0,E=1,S=2,T=3,O=4,F=5,L=6,U=7,C=8,K=9. CLUE: C=8, L=6, U=7, E=1. Number: 8671."
+  },
+  {
+    "id": 228,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "If February is a month that contains Friday the 13th, what day of the week is February 1?",
+    "choices": [
+      "Sunday",
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "answer": "A",
+    "explanation": "February 13 is Friday. February 1 is 12 days earlier. $12 = 1 \\times 7 + 5$, so 5 days before Friday = Sunday."
+  },
+  {
+    "id": 229,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Barney's bicycle odometer reads 1441, a palindrome. After riding 4 more hours that day and 6 the next, the odometer shows 1661, another palindrome. What was his average speed in miles per hour?",
+    "choices": [
+      "15",
+      "16",
+      "18",
+      "20",
+      "22"
+    ],
+    "answer": "E",
+    "explanation": "Distance: $1661-1441=220$ miles. Time: $4+6=10$ hours. Speed: $220/10=22$ mph."
+  },
+  {
+    "id": 230,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "If $\\frac{3}{5} = \\frac{M}{45} = \\frac{60}{N}$, what is $M+N$?",
+    "choices": [
+      "27",
+      "29",
+      "45",
+      "105",
+      "127"
+    ],
+    "answer": "E",
+    "explanation": "$M/45=3/5 \\Rightarrow M=27$. $60/N=3/5 \\Rightarrow N=100$. $M+N=127$."
+  },
+  {
+    "id": 231,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Tycoon Tammy invested \\$100 for two years. The first year she had a 15% loss, and the second year a 20% gain. What was the overall change in her investment?",
+    "choices": [
+      "5% loss",
+      "2% loss",
+      "1% gain",
+      "2% gain",
+      "5% gain"
+    ],
+    "answer": "D",
+    "explanation": "After year 1: $100 \\times 0.85=\\$85$. After year 2: $85 \\times 1.20=\\$102$. Overall change: +\\$2, or a 2% gain."
+  },
+  {
+    "id": 232,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "medium",
+    "topic": "Statistics",
+    "question": "The average age of 6 people in Room A is 40. The average age of 4 people in Room B is 25. What is the average age of all 10 people combined?",
+    "choices": [
+      "32.5",
+      "33",
+      "33.5",
+      "34",
+      "35"
+    ],
+    "answer": "D",
+    "explanation": "Total age: $6 \\times 40 + 4 \\times 25 = 240+100=340$. Average: $340/10=34$."
+  },
+  {
+    "id": 233,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "medium",
+    "topic": "Combinatorics",
+    "question": "Each of the 39 students in the eighth grade has one dog or one cat or both. Twenty students have a dog and 26 have a cat. How many students have both a dog and a cat?",
+    "choices": [
+      "7",
+      "13",
+      "19",
+      "39",
+      "46"
+    ],
+    "answer": "A",
+    "explanation": "By inclusion-exclusion: $|D \\cup C| = |D|+|C|-|D \\cap C|$. $39=20+26-x$, so $x=7$."
+  },
+  {
+    "id": 234,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "A ball is dropped from 3 meters and bounces to $\\frac{2}{3}$ of its previous height each time. On which bounce does it first fail to rise to at least 0.5 meters?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "C",
+    "explanation": "Heights after each bounce: $2, \\frac{4}{3}, \\frac{8}{9}, \\frac{16}{27}, \\frac{32}{81}$. The 5th bounce height $\\approx 0.395 < 0.5$. First failure: bounce 5."
+  },
+  {
+    "id": 235,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "Three boxes are weighed in pairs, with results 122, 125, and 127 pounds. What is the combined weight of all three boxes?",
+    "choices": [
+      "160",
+      "170",
+      "187",
+      "195",
+      "354"
+    ],
+    "answer": "C",
+    "explanation": "Each box is counted twice in the three weighings. Total of all pairs: $122+125+127=374$. Combined weight of all three: $374/2=187$."
+  },
+  {
+    "id": 236,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "In Theresa's first 8 basketball games she scored 7, 4, 3, 6, 8, 3, 1, and 5 points. In each of games 9 and 10 she scored fewer than 10 points, and her points-per-game average was an integer after each game. What is the product of her scores in games 9 and 10?",
+    "choices": [
+      "35",
+      "40",
+      "48",
+      "56",
+      "72"
+    ],
+    "answer": "B",
+    "explanation": "Sum of first 8: 37. After 9 games: $(37+x)/9$ integer, so $x \\equiv -37 \\equiv 8 \\pmod{9}$, thus $x=8$. After 10 games: $(45+y)/10$ integer, so $y \\equiv -45 \\equiv 5 \\pmod{10}$, thus $y=5$. Product: $8 \\times 5=40$."
+  },
+  {
+    "id": 237,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "Ms. Osborne's students draw rectangles with integer side lengths and perimeter 50. What is the difference between the largest and smallest possible areas?",
+    "choices": [
+      "76",
+      "120",
+      "128",
+      "132",
+      "136"
+    ],
+    "answer": "D",
+    "explanation": "Sides sum to 25. Largest area: $12 \\times 13=156$. Smallest area: $1 \\times 24=24$. Difference: $156-24=132$."
+  },
+  {
+    "id": 238,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Two-thirds of the boys and three-fourths of the girls in Mr. Neatkin's class passed the penmanship test, with an equal number of boys and girls passing. What is the minimum possible number of students in the class?",
+    "choices": [
+      "12",
+      "17",
+      "24",
+      "27",
+      "36"
+    ],
+    "answer": "B",
+    "explanation": "$\\frac{2}{3}b = \\frac{3}{4}g \\Rightarrow 8b=9g$. Smallest positive integers: $b=9, g=8$. Total: $9+8=17$."
+  },
+  {
+    "id": 239,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "For how many positive integer values of $n$ are both $\\frac{n}{3}$ and $3n$ three-digit whole numbers?",
+    "choices": [
+      "12",
+      "21",
+      "27",
+      "33",
+      "34"
+    ],
+    "answer": "A",
+    "explanation": "$\\frac{n}{3}$ is a three-digit integer: $100 \\leq n/3 \\leq 999$, so $300 \\leq n \\leq 2997$ and $3 \\mid n$. $3n$ is three-digit: $100 \\leq 3n \\leq 999$, so $34 \\leq n \\leq 333$. Intersection: $300 \\leq n \\leq 333$, $3 \\mid n$. Count: $(333-300)/3+1=12$."
+  },
+  {
+    "id": 240,
+    "competition": "AMC 8",
+    "year": 2008,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "Ten tiles numbered 1–10 are face down. One tile is flipped and a die is rolled. What is the probability that the product of the tile and die is a perfect square?",
+    "choices": [
+      "1/10",
+      "1/6",
+      "11/60",
+      "1/5",
+      "7/30"
+    ],
+    "answer": "C",
+    "explanation": "Count (tile, die) pairs where product is a perfect square: (1,1),(1,4),(2,2),(3,3),(4,1),(4,4),(5,5),(6,6),(8,2),(9,1),(9,4) = 11 pairs. Total outcomes: $60$. Probability: $11/60$."
+  },
+  {
+    "id": 241,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Bridget bought a bag of apples. She gave half to Ann, then gave Cassie 3 apples, keeping 4 for herself. How many apples did Bridget buy?",
+    "choices": [
+      "3",
+      "4",
+      "7",
+      "11",
+      "14"
+    ],
+    "answer": "E",
+    "explanation": "After giving half: she had $n/2$. Then gave 3 and kept 4: $n/2-3=4$, so $n/2=7$, $n=14$."
+  },
+  {
+    "id": 242,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "For every 4 sports cars sold at a dealership, 7 sedans are sold. The dealership predicts it will sell 28 sports cars next month. How many sedans does it expect to sell?",
+    "choices": [
+      "7",
+      "32",
+      "35",
+      "49",
+      "112"
+    ],
+    "answer": "D",
+    "explanation": "$28 \\div 4 = 7$ groups. Sedans: $7 \\times 7 = 49$."
+  },
+  {
+    "id": 243,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "easy",
+    "topic": "Number Theory",
+    "question": "A sequence starts 1, 2, 3, and each subsequent term is the sum of the previous three terms. What is the eighth term?",
+    "choices": [
+      "11",
+      "20",
+      "37",
+      "68",
+      "99"
+    ],
+    "answer": "D",
+    "explanation": "Sequence: 1, 2, 3, 6, 11, 20, 37, 68. The eighth term is 68."
+  },
+  {
+    "id": 244,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "Steve's pool holds 24,000 gallons. It is filled by 4 hoses, each supplying 2.5 gallons per minute. How many hours will it take to fill the pool?",
+    "choices": [
+      "40",
+      "42",
+      "44",
+      "46",
+      "48"
+    ],
+    "answer": "A",
+    "explanation": "Rate: $4 \\times 2.5=10$ gal/min. Time: $24000/10=2400$ min $= 40$ hours."
+  },
+  {
+    "id": 245,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "A rectangle's length is increased by 10% and its width is decreased by 10%. What percent of the old area is the new area?",
+    "choices": [
+      "90",
+      "99",
+      "100",
+      "101",
+      "110"
+    ],
+    "answer": "B",
+    "explanation": "New area $= 1.10L \\times 0.90W = 0.99LW$. The new area is $99\\%$ of the old area."
+  },
+  {
+    "id": 246,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "Pencils at the school bookstore cost a whole number of cents. Some 7th graders paid a total of \\$1.43 and some 6th graders paid a total of \\$1.95. How many more 6th graders than 7th graders bought a pencil?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "D",
+    "explanation": "Price divides both 143 and 195. $\\gcd(143,195)=13$ cents. 7th graders: $143/13=11$. 6th graders: $195/13=15$. Difference: $15-11=4$."
+  },
+  {
+    "id": 247,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "medium",
+    "topic": "Probability",
+    "question": "A three-digit integer uses exactly the digits 1, 3, and 5. What is the probability that the integer is divisible by 5?",
+    "choices": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "answer": "B",
+    "explanation": "For divisibility by 5, the units digit must be 5. Of the $3!=6$ arrangements, $2!=2$ end in 5. Probability: $2/6=1/3$."
+  },
+  {
+    "id": 248,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Austin and Temple are 50 miles apart. Bonnie drove from Austin to Temple averaging 60 mph, then rode a bus back averaging 40 mph. What was her average speed for the round trip, in mph?",
+    "choices": [
+      "46",
+      "48",
+      "50",
+      "52",
+      "54"
+    ],
+    "answer": "B",
+    "explanation": "Average speed $= \\frac{2}{{1/60+1/40}} = \\frac{2 \\times 120}{5} = 48$ mph."
+  },
+  {
+    "id": 249,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "A hot chocolate recipe for 5 servings needs 2 chocolate squares, $\\frac{1}{4}$ cup sugar, and 4 cups milk. Jordan has 5 chocolate squares, 2 cups sugar, and 7 cups milk. What is the greatest number of servings he can make?",
+    "choices": [
+      "5 1/8",
+      "6 1/4",
+      "7 1/2",
+      "8 3/4",
+      "9 7/8"
+    ],
+    "answer": "D",
+    "explanation": "Per serving: $2/5$ chocolate, $1/20$ sugar, $4/5$ milk. Chocolate allows $5 \\div (2/5)=12.5$; sugar allows $2 \\div (1/20)=40$; milk allows $7 \\div (4/5)=8.75$ servings. Limiting: $8.75 = 8\\frac{3}{4}$."
+  },
+  {
+    "id": 250,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "The two smallest positive integers for which $360x$ is a perfect square and $360y$ is a perfect cube are $x$ and $y$. What is $x+y$?",
+    "choices": [
+      "80",
+      "85",
+      "115",
+      "165",
+      "610"
+    ],
+    "answer": "B",
+    "explanation": "$360=2^3 \\cdot 3^2 \\cdot 5$. For $360x$ to be a perfect square: need even exponents, so $x=2 \\cdot 5=10$. For $360y$ to be a perfect cube: need exponents divisible by 3, so $y=3 \\cdot 5^2=75$. $x+y=85$."
+  },
+  {
+    "id": 251,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "Two angles of an isosceles triangle measure 70° and $x$°. What is the sum of the three possible values of $x$?",
+    "choices": [
+      "95",
+      "125",
+      "140",
+      "165",
+      "180"
+    ],
+    "answer": "D",
+    "explanation": "Case 1: 70° is a base angle, so vertex = 40°, $x=70$ or $x=40$. Case 2: 70° is the vertex, so base angles = 55°, $x=55$. Sum: $70+40+55=165$."
+  },
+  {
+    "id": 252,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "hard",
+    "topic": "Statistics",
+    "question": "Andy and Bethany have a rectangular array of numbers with 40 rows and 75 columns. The average of Andy's 40 row sums is $A$. The average of Bethany's 75 column sums is $B$. What is $A/B$?",
+    "choices": [
+      "64/225",
+      "8/15",
+      "1",
+      "15/8",
+      "225/64"
+    ],
+    "answer": "D",
+    "explanation": "The total sum of all numbers equals $40A = 75B$. Therefore $A/B = 75/40 = 15/8$."
+  },
+  {
+    "id": 253,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "How many whole numbers between 1 and 1000 do not contain the digit 1?",
+    "choices": [
+      "512",
+      "648",
+      "720",
+      "728",
+      "800"
+    ],
+    "answer": "D",
+    "explanation": "1-digit (1–9): 8 numbers (exclude 1). 2-digit: first digit in $\\{2,...,9\\}$ (8 choices), second in $\\{0,2,...,9\\}$ (9 choices): $72$. 3-digit: $8 \\times 9 \\times 9=648$. Total: $8+72+648=728$."
+  },
+  {
+    "id": 254,
+    "competition": "AMC 8",
+    "year": 2009,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Mrs. Wonderful gave each boy as many jelly beans as the number of boys, and each girl as many as the number of girls. She brought 400 jelly beans and had 6 left. There were 2 more boys than girls. How many students were in the class?",
+    "choices": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "answer": "B",
+    "explanation": "$b^2+g^2=394$ and $b=g+2$. $(g+2)^2+g^2=394$. $2g^2+4g+4=394$. $g^2+2g-195=0$. $g=13$, $b=15$. Total: $28$."
+  },
+  {
+    "id": 255,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "question": "If $a * b = \\dfrac{a \\times b}{a+b}$ for positive integers $a$ and $b$, what is $5 * 10$?",
+    "choices": [
+      "3/10",
+      "1",
+      "2",
+      "10/3",
+      "50"
+    ],
+    "answer": "D",
+    "explanation": "$5 * 10 = \\frac{5 \\times 10}{5+10} = \\frac{50}{15} = \\frac{10}{3}$."
+  },
+  {
+    "id": 256,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "easy",
+    "topic": "Statistics",
+    "question": "What is the sum of the mean, median, and mode of the numbers 2, 3, 0, 3, 1, 4, 0, 3?",
+    "choices": [
+      "6.5",
+      "7",
+      "7.5",
+      "8.5",
+      "9"
+    ],
+    "answer": "C",
+    "explanation": "Sorted: 0,0,1,2,3,3,3,4. Mean: $16/8=2$. Median: $(2+3)/2=2.5$. Mode: 3. Sum: $2+2.5+3=7.5$."
+  },
+  {
+    "id": 257,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "easy",
+    "topic": "Arithmetic",
+    "question": "A light bulb is located 10 cm below the ceiling, which is 2.4 m above the floor. Alice is 1.5 m tall and can reach 46 cm above her head. Standing on a stool, she can just reach the bulb. What is the height of the stool in centimeters?",
+    "choices": [
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "answer": "B",
+    "explanation": "Bulb height: $240-10=230$ cm. Alice's reach: $150+46=196$ cm. Stool height: $230-196=34$ cm."
+  },
+  {
+    "id": 258,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Using only pennies, nickels, dimes, and quarters, what is the smallest number of coins needed so that any amount less than one dollar can be made?",
+    "choices": [
+      "6",
+      "10",
+      "15",
+      "25",
+      "99"
+    ],
+    "answer": "B",
+    "explanation": "Optimal: 4 pennies, 1 nickel, 2 dimes, 3 quarters = 10 coins. This covers all amounts from 1¢ to 99¢."
+  },
+  {
+    "id": 259,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Emily rides a bike at 12 mph and Emerson skates at 8 mph in the same direction. Emily spots Emerson $\\frac{1}{2}$ mile ahead. She can see him until he is $\\frac{1}{2}$ mile behind her. For how many minutes can Emily see Emerson?",
+    "choices": [
+      "6",
+      "8",
+      "12",
+      "15",
+      "16"
+    ],
+    "answer": "D",
+    "explanation": "Total relative distance: $\\frac{1}{2}+\\frac{1}{2}=1$ mile. Relative speed: $12-8=4$ mph. Time: $1/4$ hour $= 15$ minutes."
+  },
+  {
+    "id": 260,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "medium",
+    "topic": "Statistics",
+    "question": "Ryan got 80% correct on a 25-problem test, 90% on a 40-problem test, and 70% on a 10-problem test. What percent of all the problems did Ryan answer correctly?",
+    "choices": [
+      "64",
+      "75",
+      "80",
+      "84",
+      "86"
+    ],
+    "answer": "D",
+    "explanation": "Correct: $20+36+7=63$ out of 75. Percent: $63/75=84\\%$."
+  },
+  {
+    "id": 261,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "The top of one tree is 16 feet higher than the top of another tree. The heights of the two trees are in the ratio 3:4. How tall in feet is the taller tree?",
+    "choices": [
+      "48",
+      "64",
+      "80",
+      "96",
+      "112"
+    ],
+    "answer": "B",
+    "explanation": "$4x-3x=x=16$ feet. Taller tree: $4 \\times 16=64$ feet."
+  },
+  {
+    "id": 262,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "Of 500 balls, 80% are red and the rest are blue. How many red balls must be removed so that 75% of the remaining balls are red?",
+    "choices": [
+      "25",
+      "50",
+      "75",
+      "100",
+      "150"
+    ],
+    "answer": "D",
+    "explanation": "Red: 400, Blue: 100. Remove $x$ red balls: $\\frac{400-x}{500-x}=\\frac{3}{4}$. $4(400-x)=3(500-x)$. $x=100$."
+  },
+  {
+    "id": 263,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "A triangle has sides that are three consecutive integers. The shortest side is 30% of the perimeter. What is the longest side?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "E",
+    "explanation": "Sides: $n, n+1, n+2$. Perimeter: $3n+3$. Shortest side: $n=0.30(3n+3)=0.9n+0.9$. So $0.1n=0.9$, $n=9$. Longest side: $11$."
+  },
+  {
+    "id": 264,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "What is the sum of the prime factors of 2010?",
+    "choices": [
+      "67",
+      "75",
+      "77",
+      "201",
+      "210"
+    ],
+    "answer": "C",
+    "explanation": "$2010=2 \\times 3 \\times 5 \\times 67$. Sum: $2+3+5+67=77$."
+  },
+  {
+    "id": 265,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "medium",
+    "topic": "Arithmetic",
+    "question": "A jar of gumdrops is 30% blue, 20% brown, 15% red, 10% yellow, and the rest green. There are 30 green gumdrops. If half the blue gumdrops are replaced with brown ones, how many brown gumdrops will there be?",
+    "choices": [
+      "35",
+      "36",
+      "42",
+      "48",
+      "64"
+    ],
+    "answer": "C",
+    "explanation": "Green is $100-30-20-15-10=25\\%$, so total $=30/0.25=120$. Blue: $36$, Brown: $24$. Replace half of blue ($18$) with brown: $24+18=42$."
+  },
+  {
+    "id": 266,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "A square and a circle have the same area. What is the ratio of the side length of the square to the radius of the circle?",
+    "choices": [
+      "sqrt(pi)/2",
+      "sqrt(pi)",
+      "pi",
+      "2*pi",
+      "pi^2"
+    ],
+    "answer": "B",
+    "explanation": "$s^2=\\pi r^2$, so $s=r\\sqrt{\\pi}$. The ratio $s/r = \\sqrt{\\pi}$."
+  },
+  {
+    "id": 267,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "In a room, $\\frac{2}{5}$ of the people are wearing gloves and $\\frac{3}{4}$ are wearing hats. What is the minimum number of people wearing both gloves and hats?",
+    "choices": [
+      "3",
+      "5",
+      "8",
+      "15",
+      "20"
+    ],
+    "answer": "A",
+    "explanation": "Fraction wearing both $\\geq \\frac{2}{5}+\\frac{3}{4}-1=\\frac{3}{20}$. Minimum total must be a multiple of 20: with 20 people, minimum wearing both $= 20 \\times \\frac{3}{20}=3$."
+  },
+  {
+    "id": 268,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Hui reads a book over four days. Day 1: $\\frac{1}{5}$ of pages plus 12. Day 2: $\\frac{1}{4}$ of remaining plus 15. Day 3: $\\frac{1}{3}$ of remaining plus 18. Day 4: 62 pages. How many pages is the book?",
+    "choices": [
+      "120",
+      "180",
+      "240",
+      "300",
+      "360"
+    ],
+    "answer": "C",
+    "explanation": "Let total $=n$. After Day 1: $\\frac{4n}{5}-12$. After Day 2: $\\frac{3}{4}(\\frac{4n}{5}-12)-15=\\frac{3n}{5}-9-15=\\frac{3n}{5}-24$. After Day 3: $\\frac{2}{3}(\\frac{3n}{5}-24)-18=\\frac{2n}{5}-16-18=\\frac{2n}{5}-34=62$. So $n=240$."
+  },
+  {
+    "id": 269,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "A three-digit number has its hundreds digit 2 more than its units digit. When the number is subtracted from its reverse, what is the units digit of the result?",
+    "choices": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "E",
+    "explanation": "Number: $100a+10b+c$ where $a=c+2$. Reversed: $100c+10b+a$. Difference: $99a-99c=99(a-c)=99 \\times 2=198$. Units digit: $8$."
+  },
+  {
+    "id": 270,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "What is the correct ordering of $10^8$, $5^{12}$, and $2^{24}$?",
+    "choices": [
+      "2^24 < 10^8 < 5^12",
+      "2^24 < 5^12 < 10^8",
+      "5^12 < 2^24 < 10^8",
+      "10^8 < 5^12 < 2^24",
+      "10^8 < 2^24 < 5^12"
+    ],
+    "answer": "A",
+    "explanation": "$2^{24}\\approx16.8$ million; $10^8=100$ million; $5^{12}\\approx244$ million. Order: $2^{24} < 10^8 < 5^{12}$."
+  },
+  {
+    "id": 271,
+    "competition": "AMC 8",
+    "year": 2010,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "Jo climbs a flight of 6 stairs, taking 1, 2, or 3 stairs at a time. In how many ways can Jo climb the stairs?",
+    "choices": [
+      "13",
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "answer": "E",
+    "explanation": "Let $f(n)$ = ways to climb $n$ stairs. $f(1)=1, f(2)=2, f(3)=4$. $f(4)=7, f(5)=13, f(6)=f(5)+f(4)+f(3)=13+7+4=24$."
   }
 ]

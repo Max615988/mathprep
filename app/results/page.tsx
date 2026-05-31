@@ -65,6 +65,9 @@ function ResultsContent() {
                 {a.correct ? "✓" : "✗"}
               </span>
             </div>
+            {a.question.source === "ai" && (
+              <span className="inline-block mb-2 text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full font-medium">AI Generated</span>
+            )}
             <div className="space-y-1 mb-3">
               {a.question.choices.map((choice, ci) => {
                 const letter = CHOICES[ci];

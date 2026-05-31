@@ -8,4 +8,5 @@ export interface Question {
   choices: string[];
   answer: string;
   explanation: string;
+  source: "ai" | "real";
 }

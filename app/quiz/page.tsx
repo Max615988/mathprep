@@ -119,10 +119,13 @@ function QuizContent() {
         <div className="bg-blue-600 h-1.5 rounded-full transition-all" style={{ width: `${progress}%` }} />
       </div>
 
-      <div className="mb-2 flex gap-2 text-xs">
+      <div className="mb-2 flex flex-wrap gap-2 text-xs">
         <span className="bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">{q.competition}</span>
         <span className="bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">{q.topic}</span>
         <span className="bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full capitalize">{q.difficulty}</span>
+        {q.source === "ai" && (
+          <span className="bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full font-medium">AI Generated</span>
+        )}
       </div>
 
       <div className="bg-white border border-gray-200 rounded-xl p-6 mb-6">

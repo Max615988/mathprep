@@ -90,7 +90,7 @@
     "year": 2023,
     "difficulty": "easy",
     "topic": "Statistics",
-    "question": "A bag contains 3 red, 4 blue, and 2 green marbles. What is the probability of randomly selecting a blue marble?",
+    "question": "A sack contains 3 red, 4 blue, and 2 green pebbles. What is the probability of randomly selecting a blue pebble?",
     "choices": [
       "$\\frac{1}{3}$",
       "$\\frac{4}{9}$",
@@ -99,7 +99,7 @@
       "$\\frac{4}{3}$"
     ],
     "answer": "B",
-    "explanation": "Total marbles $= 3 + 4 + 2 = 9$. $P(\\text{blue}) = \\frac{4}{9}$."
+    "explanation": "Total pebbles $= 3 + 4 + 2 = 9$. $P(\\text{blue}) = \\frac{4}{9}$."
   },
   {
     "id": 7,
@@ -124,7 +124,7 @@
     "year": 2021,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "A train travels 120 miles in 2 hours. What is its average speed in miles per hour?",
+    "question": "A tram travels 120 miles in 2 hours. What is its average speed in miles per hour?",
     "choices": [
       "40",
       "50",
@@ -209,7 +209,7 @@
     "year": 2021,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "A store sells shirts for $15 each. After a 20% discount, what is the sale price?",
+    "question": "A shop sells shirts for $15 each. After a 20% discount, what is the sale price?",
     "choices": [
       "$10",
       "$11",
@@ -1110,7 +1110,7 @@
     "year": 2022,
     "difficulty": "medium",
     "topic": "Combinatorics",
-    "question": "In a class of 30 students, 18 play soccer and 12 play basketball. If 6 play both sports, how many play neither?",
+    "question": "In a class of 30 participants, 18 play soccer and 12 play volleyball. If 6 play both sports, how many play neither?",
     "choices": [
       "0",
       "4",
@@ -1119,7 +1119,7 @@
       "10"
     ],
     "answer": "C",
-    "explanation": "By inclusion-exclusion: $|S \\cup B| = 18 + 12 - 6 = 24$. Students playing neither $= 30 - 24 = 6$."
+    "explanation": "By inclusion-exclusion: $|S \\cup B| = 18 + 12 - 6 = 24$. Participants playing neither $= 30 - 24 = 6$."
   },
   {
     "id": 67,
@@ -1212,7 +1212,7 @@
     "year": 2022,
     "difficulty": "hard",
     "topic": "Statistics",
-    "question": "A car depreciates 15% per year. If it is worth $\\$20{,}000$ today, what will it be worth after 1 year?",
+    "question": "A car depreciates 15% per year. If it is worth $\\$20{,}000$ today, what Wade it be worth after 1 year?",
     "choices": [
       "$\\$15{,}000$",
       "$\\$16{,}000$",
@@ -1416,7 +1416,7 @@
     "year": 2023,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "Harold eats $\\frac{1}{4}$ of a pie. A moose eats $\\frac{1}{3}$ of what Harold left. A porcupine eats $\\frac{1}{3}$ of what the moose left. How much of the original pie remains?",
+    "question": "Holden eats $\\frac{1}{4}$ of a tart. A moose eats $\\frac{1}{3}$ of what Holden left. A porcupine eats $\\frac{1}{3}$ of what the moose left. How much of the original tart remains?",
     "choices": [
       "$\\frac{1}{12}$",
       "$\\frac{1}{6}$",
@@ -1425,7 +1425,7 @@
       "$\\frac{5}{12}$"
     ],
     "answer": "D",
-    "explanation": "Harold leaves $\\frac{3}{4}$. Moose eats $\\frac{1}{3} \\cdot \\frac{3}{4} = \\frac{1}{4}$, leaving $\\frac{1}{2}$. Porcupine eats $\\frac{1}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$, leaving $\\frac{1}{2} - \\frac{1}{6} = \\frac{1}{3}$."
+    "explanation": "Holden leaves $\\frac{3}{4}$. Moose eats $\\frac{1}{3} \\cdot \\frac{3}{4} = \\frac{1}{4}$, leaving $\\frac{1}{2}$. Porcupine eats $\\frac{1}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$, leaving $\\frac{1}{2} - \\frac{1}{6} = \\frac{1}{3}$."
   },
   {
     "id": 85,
@@ -1450,7 +1450,7 @@
     "year": 2023,
     "difficulty": "medium",
     "topic": "Algebra",
-    "question": "Along a bicycle race, 7 water stations are evenly spaced and 2 repair stations are evenly spaced between start and finish. The 3rd water station is located 2 miles after the 1st repair station. How long is the race in miles?",
+    "question": "Along a scooter race, 7 water stations are evenly spaced and 2 repair stations are evenly spaced between start and finish. The 3rd water station is located 2 miles after the 1st repair station. How long is the race in miles?",
     "choices": [
       "8",
       "16",
@@ -1535,7 +1535,7 @@
     "year": 2022,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Five years ago, Bella turned 6 and received a newborn kitten. Today the sum of the ages of Anna, Bella, and the kitten is 30. How many years older than Bella is Anna?",
+    "question": "Five years ago, Bella turned 6 and received a newborn kitten. Today the sum of the ages of Nora, Bella, and the kitten is 30. How many years older than Bella is Nora?",
     "choices": [
       "1",
       "2",
@@ -1544,7 +1544,7 @@
       "5"
     ],
     "answer": "C",
-    "explanation": "Now Bella is 11 and the kitten is 5. Anna's age $= 30 - 11 - 5 = 14$. Anna is $14 - 11 = 3$ years older than Bella."
+    "explanation": "Now Bella is 11 and the kitten is 5. Nora's age $= 30 - 11 - 5 = 14$. Nora is $14 - 11 = 3$ years older than Bella."
   },
   {
     "id": 92,
@@ -1620,7 +1620,7 @@
     "year": 2022,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "Henry eats 3 inches of pasta from the middle of one piece at a time, ending with 10 pieces whose total length is 17 inches. How long was the original piece in inches?",
+    "question": "Finn eats 3 inches of pasta from the middle of one piece at a time, ending with 10 pieces whose total length is 17 inches. How long was the original piece in inches?",
     "choices": [
       "34",
       "38",
@@ -1671,7 +1671,7 @@
     "year": 2022,
     "difficulty": "hard",
     "topic": "Statistics",
-    "question": "Steph scored 15/20 baskets in the first half and 10/10 in the second. Candace took 12 attempts in the first half and 18 in the second. Steph had a higher percentage in each half, but both had the same overall percentage. How many more baskets did Candace score in the second half than in the first?",
+    "question": "Steph scored 15/20 crates in the first half and 10/10 in the second. Candace took 12 attempts in the first half and 18 in the second. Steph had a higher percentage in each half, but both had the same overall percentage. How many more crates did Candace score in the second half than in the first?",
     "choices": [
       "7",
       "8",
@@ -1680,7 +1680,7 @@
       "11"
     ],
     "answer": "C",
-    "explanation": "Steph's overall rate: $\\frac{25}{30} = \\frac{5}{6}$. Candace also made $\\frac{5}{6} \\times 30 = 25$ baskets. Let $x$ be Candace's first-half baskets. Then $x + y = 25$ and $y = 25 - x$. Since $\\frac{x}{12} < \\frac{3}{4}$, we have $x \\leq 8$. Since $y < 18$, $y \\leq 17$, so $x \\geq 8$. Thus $x=8, y=17$. Difference $= 17-8=9$."
+    "explanation": "Steph's overall rate: $\\frac{25}{30} = \\frac{5}{6}$. Candace also made $\\frac{5}{6} \\times 30 = 25$ crates. Let $x$ be Candace's first-half crates. Then $x + y = 25$ and $y = 25 - x$. Since $\\frac{x}{12} < \\frac{3}{4}$, we have $x \\leq 8$. Since $y < 18$, $y \\leq 17$, so $x \\geq 8$. Thus $x=8, y=17$. Difference $= 17-8=9$."
   },
   {
     "id": 100,
@@ -1688,7 +1688,7 @@
     "year": 2022,
     "difficulty": "hard",
     "topic": "Arithmetic",
-    "question": "A bus drives 2 minutes between stops and waits 1 minute at each stop. Zia walks 5 minutes per stop. Both start at the same time toward the library, with the bus 3 stops behind Zia. After how many minutes does Zia board the bus?",
+    "question": "A shuttle drives 2 minutes between stops and waits 1 minute at each stop. Zia walks 5 minutes per stop. Both start at the same time toward the reading room, with the shuttle 3 stops behind Zia. After how many minutes does Zia board the shuttle?",
     "choices": [
       "17",
       "19",
@@ -1697,7 +1697,7 @@
       "23"
     ],
     "answer": "A",
-    "explanation": "Zia arrives stop 3 (her third ahead stop) at $t=15$. The bus reaches stop 2 at $t=14$ and is still there waiting at $t=15$. Since the bus is at the previous stop, Zia waits. The bus leaves stop 2 at $t=15$, arrives stop 3 at $t=17$. Zia boards at $t=17$."
+    "explanation": "Zia arrives stop 3 (her third ahead stop) at $t=15$. The shuttle reaches stop 2 at $t=14$ and is still there waiting at $t=15$. Since the shuttle is at the previous stop, Zia waits. The shuttle leaves stop 2 at $t=15$, arrives stop 3 at $t=17$. Zia boards at $t=17$."
   },
   {
     "id": 101,
@@ -1705,7 +1705,7 @@
     "year": 2019,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Ike and Mike have $30.00 total. Sandwiches cost $4.50 each and soft drinks cost $1.00 each. They buy as many sandwiches as possible and spend remaining money on drinks. How many items do they buy in total?",
+    "question": "Ike and Chris have $30.00 total. Sandwiches cost $4.50 each and soft drinks cost $1.00 each. They buy as many sandwiches as possible and spend remaining money on drinks. How many items do they buy in total?",
     "choices": [
       "6",
       "7",
@@ -1756,7 +1756,7 @@
     "year": 2019,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "Gilda gives 20% of her marbles to Pedro, then 10% of what remains to Ebony, then 25% of what remains to Jimmy. What percentage of her original marbles does Gilda have left?",
+    "question": "Gilda gives 20% of her pebbles to Pedro, then 10% of what remains to Ebony, then 25% of what remains to Jimmy. What percentage of her original pebbles does Gilda have left?",
     "choices": [
       "20",
       "33⅓",
@@ -1773,7 +1773,7 @@
     "year": 2019,
     "difficulty": "medium",
     "topic": "Geometry",
-    "question": "Alex's cat food cans are 6 cm diameter and 12 cm high. Felicia's cans are 12 cm diameter and 6 cm high. What is the ratio of the volume of one of Alex's cans to one of Felicia's?",
+    "question": "Alex's rabbit food cans are 6 cm diameter and 12 cm high. Felicia's cans are 12 cm diameter and 6 cm high. What is the ratio of the volume of one of Alex's cans to one of Felicia's?",
     "choices": [
       "1:4",
       "1:2",
@@ -1790,7 +1790,7 @@
     "year": 2019,
     "difficulty": "medium",
     "topic": "Combinatorics",
-    "question": "An 8th grade class has 93 students. There are 70 taking math and 54 taking a foreign language, and every student takes at least one. How many students take only math (not foreign language)?",
+    "question": "An 8th grade class has 93 participants. There are 70 taking math and 54 taking a foreign language, and every participant takes at least one. How many participants take only math (not foreign language)?",
     "choices": [
       "16",
       "23",
@@ -1892,7 +1892,7 @@
     "year": 2019,
     "difficulty": "hard",
     "topic": "Combinatorics",
-    "question": "Alice has 24 apples. In how many ways can she share them with Becky and Chris so that each of the three people has at least 2 apples?",
+    "question": "Lily has 24 pears. In how many ways can she share them with Becky and Chris so that each of the three people has at least 2 pears?",
     "choices": [
       "105",
       "114",
@@ -1901,7 +1901,7 @@
       "380"
     ],
     "answer": "C",
-    "explanation": "After giving each person 2 apples, 18 remain to distribute freely among 3 people. By stars and bars: $\\binom{18+2}{2} = \\binom{20}{2} = 190$."
+    "explanation": "After giving each person 2 pears, 18 remain to distribute freely among 3 people. By stars and bars: $\\binom{18+2}{2} = \\binom{20}{2} = 190$."
   },
   {
     "id": 113,
@@ -1926,7 +1926,7 @@
     "year": 2021,
     "difficulty": "easy",
     "topic": "Algebra",
-    "question": "Portia's high school has 3 times as many students as Lara's. Together they have 2600 students. How many students does Portia's school have?",
+    "question": "Portia's high academy has 3 times as many participants as Lara's. Together they have 2600 participants. How many participants does Portia's academy have?",
     "choices": [
       "600",
       "650",
@@ -1935,7 +1935,7 @@
       "2050"
     ],
     "answer": "C",
-    "explanation": "Let Lara's have $L$ students. Then $3L + L = 2600 \\Rightarrow L = 650$. Portia's $= 3 \\times 650 = 1950$."
+    "explanation": "Let Lara's have $L$ participants. Then $3L + L = 2600 \\Rightarrow L = 650$. Portia's $= 3 \\times 650 = 1950$."
   },
   {
     "id": 115,
@@ -1960,7 +1960,7 @@
     "year": 2021,
     "difficulty": "medium",
     "topic": "Algebra",
-    "question": "Tom has 13 snakes: all happy snakes can add, no purple snakes can subtract, and all snakes that can't subtract also can't add. Which conclusion must be true?",
+    "question": "Jake has 13 snakes: all happy snakes can add, no purple snakes can subtract, and all snakes that can't subtract also can't add. Which conclusion must be true?",
     "choices": [
       "Purple snakes can add",
       "Purple snakes are happy",
@@ -2011,7 +2011,7 @@
     "year": 2021,
     "difficulty": "easy",
     "topic": "Algebra",
-    "question": "In an after-school program with 28 total students, 25% of juniors and 10% of seniors are on the debate team, which has an equal number from each class. How many juniors are in the program?",
+    "question": "In an after-academy program with 28 total participants, 25% of juniors and 10% of seniors are on the debate team, which has an equal number from each class. How many juniors are in the program?",
     "choices": [
       "5",
       "6",
@@ -2028,7 +2028,7 @@
     "year": 2021,
     "difficulty": "easy",
     "topic": "Statistics",
-    "question": "The morning class mean score is 84, the afternoon class mean is 70, and the ratio of morning to afternoon students is 3:4. What is the overall mean?",
+    "question": "The morning class mean score is 84, the afternoon class mean is 70, and the ratio of morning to afternoon participants is 3:4. What is the overall mean?",
     "choices": [
       "74",
       "75",
@@ -2037,7 +2037,7 @@
       "78"
     ],
     "answer": "C",
-    "explanation": "Let morning have $3k$ and afternoon $4k$ students. Overall mean $= \\frac{84(3k) + 70(4k)}{7k} = \\frac{252k + 280k}{7k} = \\frac{532}{7} = 76$."
+    "explanation": "Let morning have $3k$ and afternoon $4k$ participants. Overall mean $= \\frac{84(3k) + 70(4k)}{7k} = \\frac{252k + 280k}{7k} = \\frac{532}{7} = 76$."
   },
   {
     "id": 121,
@@ -2147,7 +2147,7 @@
     "year": 2020,
     "difficulty": "easy",
     "topic": "Geometry",
-    "question": "Carl has 5 cubes each with side length 1, and Kate has 5 cubes each with side length 2. What is the total volume of all 10 cubes?",
+    "question": "Caleb has 5 cubes each with side length 1, and Ella has 5 cubes each with side length 2. What is the total volume of all 10 cubes?",
     "choices": [
       "24",
       "25",
@@ -2156,7 +2156,7 @@
       "45"
     ],
     "answer": "E",
-    "explanation": "Carl's total: $5 \\times 1^3 = 5$. Kate's total: $5 \\times 2^3 = 40$. Grand total $= 45$."
+    "explanation": "Caleb's total: $5 \\times 1^3 = 5$. Ella's total: $5 \\times 2^3 = 40$. Grand total $= 45$."
   },
   {
     "id": 128,
@@ -2215,7 +2215,7 @@
     "year": 2001,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Casey's shop class is making a golf trophy. He has to paint 300 dimples on a golf ball. If it takes him 2 seconds to paint one dimple, how many minutes will he need to paint all the dimples?",
+    "question": "Jordan's shop class is making a science award. He has to paint 300 spots on a tennis ball. If it takes him 2 seconds to paint one spot, how many minutes Wade he need to paint all the spots?",
     "choices": [
       "4",
       "6",
@@ -2300,7 +2300,7 @@
     "year": 2001,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "A collector offers to buy state quarters for 2000% of their face value. At that rate how much will Bryden get for his four state quarters?",
+    "question": "A collector offers to buy state quarters for 2000% of their face value. At that rate how much Wade Bryden get for his four state quarters?",
     "choices": [
       "$20",
       "$50",
@@ -2334,7 +2334,7 @@
     "year": 2001,
     "difficulty": "medium",
     "topic": "Statistics",
-    "question": "Of the 36 students in Richelle's class, 12 prefer chocolate pie, 8 prefer apple, and 6 prefer blueberry. Half of the remaining students prefer cherry pie and half prefer lemon. For Richelle's pie graph, how many degrees should she use for cherry pie?",
+    "question": "Of the 36 participants in Richelle's class, 12 prefer chocolate tart, 8 prefer pear, and 6 prefer blueberry. Half of the remaining participants prefer cherry tart and half prefer lemon. For Richelle's tart graph, how many degrees should she use for cherry tart?",
     "choices": [
       "10",
       "20",
@@ -2343,7 +2343,7 @@
       "72"
     ],
     "answer": "D",
-    "explanation": "Remaining students: $36 - 12 - 8 - 6 = 10$. Cherry: $10 \\div 2 = 5$ students. Degrees: $\\frac{5}{36} \\times 360 = 50°$."
+    "explanation": "Remaining participants: $36 - 12 - 8 - 6 = 10$. Cherry: $10 \\div 2 = 5$ participants. Degrees: $\\frac{5}{36} \\times 360 = 50°$."
   },
   {
     "id": 139,
@@ -2351,7 +2351,7 @@
     "year": 2001,
     "difficulty": "medium",
     "topic": "Combinatorics",
-    "question": "Tyler has entered a buffet line choosing one meat, two different vegetables, and one dessert. Meat: beef, chicken, pork. Vegetables: baked beans, corn, potatoes, tomatoes. Dessert: brownies, chocolate cake, chocolate pudding, ice cream. How many different meals are possible?",
+    "question": "Tyler has entered a buffet line choosing one meat, two different vegetables, and one dessert. Meat: beef, duck, pork. Vegetables: baked beans, corn, potatoes, tomatoes. Dessert: brownies, chocolate brownie, chocolate pudding, ice cream. How many different meals are possible?",
     "choices": [
       "4",
       "24",
@@ -2521,7 +2521,7 @@
     "year": 2002,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Carlos Montado was born on Saturday, November 9, 2002. On what day of the week will Carlos be 706 days old?",
+    "question": "Carlos Montado was born on Saturday, November 9, 2002. On what day of the week Wade Carlos be 706 days old?",
     "choices": [
       "Monday",
       "Wednesday",
@@ -2606,7 +2606,7 @@
     "year": 2002,
     "difficulty": "medium",
     "topic": "Algebra",
-    "question": "In a mathematics contest with ten problems, a student gains 5 points for a correct answer and loses 2 points for an incorrect answer. If Olivia answered every problem and her score was 29, how many correct answers did she have?",
+    "question": "In a mathematics contest with ten problems, a participant gains 5 points for a correct answer and loses 2 points for an incorrect answer. If Opal answered every problem and her score was 29, how many correct answers did she have?",
     "choices": [
       "5",
       "6",
@@ -2657,7 +2657,7 @@
     "year": 2002,
     "difficulty": "hard",
     "topic": "Probability",
-    "question": "Harold tosses a coin four times. The probability that he gets at least as many heads as tails is",
+    "question": "Holden tosses a coin four times. The probability that he gets at least as many heads as tails is",
     "choices": [
       "5/16",
       "3/8",
@@ -2674,7 +2674,7 @@
     "year": 2002,
     "difficulty": "hard",
     "topic": "Arithmetic",
-    "question": "Miki has a dozen oranges and a dozen pears. She extracts 8 oz of pear juice from 3 pears and 8 oz of orange juice from 2 oranges. She makes a blend using an equal number of pears and oranges. What percent of the blend is pear juice?",
+    "question": "Miki has a dozen oranges and a dozen pears. She extracts 8 oz of pear smoothie from 3 pears and 8 oz of orange smoothie from 2 oranges. She makes a blend using an equal number of pears and oranges. What percent of the blend is pear smoothie?",
     "choices": [
       "30",
       "40",
@@ -2683,7 +2683,7 @@
       "70"
     ],
     "answer": "B",
-    "explanation": "Per pear: $8/3$ oz. Per orange: $8/2=4$ oz. For $n$ each: pear juice $= 8n/3$, total $= 8n/3 + 4n = 20n/3$. Pear fraction: $(8n/3)/(20n/3) = 8/20 = 40\\%$."
+    "explanation": "Per pear: $8/3$ oz. Per orange: $8/2=4$ oz. For $n$ each: pear smoothie $= 8n/3$, total $= 8n/3 + 4n = 20n/3$. Pear fraction: $(8n/3)/(20n/3) = 8/20 = 40\\%$."
   },
   {
     "id": 159,
@@ -2759,7 +2759,7 @@
     "year": 2003,
     "difficulty": "easy",
     "topic": "Algebra",
-    "question": "A group of children riding on bicycles and tricycles rode past Billy Bob's house. Billy Bob counted 7 children and 19 wheels. How many tricycles were there?",
+    "question": "A group of children riding on scooters and tricycles rode past Billy Marcus's cottage. Billy Marcus counted 7 children and 19 wheels. How many tricycles were there?",
     "choices": [
       "2",
       "4",
@@ -2768,7 +2768,7 @@
       "7"
     ],
     "answer": "C",
-    "explanation": "Let $t$ = tricycles, $b$ = bicycles. $t+b=7$ and $3t+2b=19$. Subtracting: $t=5$."
+    "explanation": "Let $t$ = tricycles, $b$ = scooters. $t+b=7$ and $3t+2b=19$. Subtracting: $t=5$."
   },
   {
     "id": 164,
@@ -2793,7 +2793,7 @@
     "year": 2003,
     "difficulty": "medium",
     "topic": "Statistics",
-    "question": "Blake and Jenny each took four 100-point tests. Blake averaged 78 on the four tests. Jenny scored 10 points higher than Blake on the first test, 10 points lower on the second, and 20 points higher on both the third and fourth tests. What is the difference between Jenny's average and Blake's average?",
+    "question": "Blake and Grace each took four 100-point tests. Blake averaged 78 on the four tests. Grace scored 10 points higher than Blake on the first test, 10 points lower on the second, and 20 points higher on both the third and fourth tests. What is the difference between Grace's average and Blake's average?",
     "choices": [
       "10",
       "15",
@@ -2802,7 +2802,7 @@
       "40"
     ],
     "answer": "A",
-    "explanation": "Jenny's total change: $+10-10+20+20=+40$ points. Difference in averages: $40/4=10$."
+    "explanation": "Grace's total change: $+10-10+20+20=+40$ points. Difference in averages: $40/4=10$."
   },
   {
     "id": 166,
@@ -2946,7 +2946,7 @@
     "year": 2004,
     "difficulty": "easy",
     "topic": "Combinatorics",
-    "question": "How many ways can three basketball players be chosen from four available players?",
+    "question": "How many ways can three volleyball players be chosen from four available players?",
     "choices": [
       "2",
       "4",
@@ -3065,7 +3065,7 @@
     "year": 2004,
     "difficulty": "hard",
     "topic": "Arithmetic",
-    "question": "Two 600 mL pitchers contain juice. One is $\\frac{1}{3}$ full of juice, the other is $\\frac{2}{5}$ full. Water is added to fill each pitcher completely, then both pitchers are poured into one container. What fraction of the mixture is juice?",
+    "question": "Two 600 mL pitchers contain smoothie. One is $\\frac{1}{3}$ full of smoothie, the other is $\\frac{2}{5}$ full. Water is added to fill each pitcher completely, then both pitchers are poured into one container. What fraction of the mixture is smoothie?",
     "choices": [
       "1/8",
       "3/16",
@@ -3074,7 +3074,7 @@
       "11/15"
     ],
     "answer": "C",
-    "explanation": "Juice: $600/3 + 600 \\times 2/5 = 200+240=440$ mL. Total mixture: $1200$ mL. Fraction: $440/1200 = 11/30$."
+    "explanation": "Smoothie: $600/3 + 600 \\times 2/5 = 200+240=440$ mL. Total mixture: $1200$ mL. Fraction: $440/1200 = 11/30$."
   },
   {
     "id": 182,
@@ -3150,7 +3150,7 @@
     "year": 2005,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Karl bought five folders from Pay-A-Lot at a cost of \\$2.50 each. Pay-A-Lot had a 20%-off sale the following day. How much could Karl have saved on the purchase by waiting a day?",
+    "question": "Knox bought five folders from Pay-A-Lot at a cost of \\$2.50 each. Pay-A-Lot had a 20%-off sale the following day. How much could Knox have saved on the purchase by waiting a day?",
     "choices": [
       "$1.00",
       "$2.00",
@@ -3184,7 +3184,7 @@
     "year": 2005,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Soda is sold in packs of 6, 12, and 24 cans. What is the minimum number of packs needed to buy exactly 90 cans of soda?",
+    "question": "Lemonade is sold in packs of 6, 12, and 24 cans. What is the minimum number of packs needed to buy exactly 90 cans of lemonade?",
     "choices": [
       "4",
       "5",
@@ -3235,7 +3235,7 @@
     "year": 2005,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "Joe had walked half way from home to school when he realized he was late. He ran the rest of the way to school, running 3 times as fast as he walked. Joe took 6 minutes to walk half way to school. How many minutes did it take Joe to get from home to school?",
+    "question": "Ethan had walked half way from dwelling to academy when he realized he was late. He ran the rest of the way to academy, running 3 times as fast as he walked. Ethan took 6 minutes to walk half way to academy. How many minutes did it take Ethan to get from dwelling to academy?",
     "choices": [
       "7",
       "7.3",
@@ -3252,7 +3252,7 @@
     "year": 2005,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "The sales tax rate in Bergville is 6%. During a sale, a coat is discounted 20% from its \\$90.00 price. Jack adds 6% tax first then takes 20% off; Jill takes 20% off first then adds 6% tax. What is Jack's total minus Jill's total?",
+    "question": "The sales tax rate in Bergville is 6%. During a sale, a coat is discounted 20% from its \\$90.00 price. Jace adds 6% tax first then takes 20% off; Jill takes 20% off first then adds 6% tax. What is Jace's total minus Jill's total?",
     "choices": [
       "$-1.06",
       "$-0.53",
@@ -3261,7 +3261,7 @@
       "$1.06"
     ],
     "answer": "C",
-    "explanation": "Both methods: Jack gets $90 \\times 1.06 \\times 0.80 = \\$76.32$; Jill gets $90 \\times 0.80 \\times 1.06 = \\$76.32$. Multiplication is commutative, so the difference is $\\$0$."
+    "explanation": "Both methods: Jace gets $90 \\times 1.06 \\times 0.80 = \\$76.32$; Jill gets $90 \\times 0.80 \\times 1.06 = \\$76.32$. Multiplication is commutative, so the difference is $\\$0$."
   },
   {
     "id": 193,
@@ -3507,7 +3507,7 @@
     "year": 2006,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "Alice reads a page in 20 seconds, Bob in 45 seconds, and Chandra in 30 seconds. If Bob and Chandra each read an entire 760-page novel, how many more seconds does Bob spend reading than Chandra?",
+    "question": "Lily reads a page in 20 seconds, Marcus in 45 seconds, and Chandra in 30 seconds. If Marcus and Chandra each read an entire 760-page novel, how many more seconds does Marcus spend reading than Chandra?",
     "choices": [
       "7600",
       "11400",
@@ -3516,7 +3516,7 @@
       "22800"
     ],
     "answer": "B",
-    "explanation": "Bob: $760 \\times 45=34200$ sec. Chandra: $760 \\times 30=22800$ sec. Difference: $34200-22800=11400$."
+    "explanation": "Marcus: $760 \\times 45=34200$ sec. Chandra: $760 \\times 30=22800$ sec. Difference: $34200-22800=11400$."
   },
   {
     "id": 208,
@@ -3524,7 +3524,7 @@
     "year": 2006,
     "difficulty": "hard",
     "topic": "Algebra",
-    "question": "Bob and Chandra team-read a 760-page book. Chandra reads pages 1 through $x$ and Bob reads the rest, with each spending the same amount of time. What is the last page Chandra reads? (Alice reads at 20 s/page, Bob at 45 s/page, Chandra at 30 s/page.)",
+    "question": "Marcus and Chandra team-read a 760-page book. Chandra reads pages 1 through $x$ and Marcus reads the rest, with each spending the same amount of time. What is the last page Chandra reads? (Lily reads at 20 s/page, Marcus at 45 s/page, Chandra at 30 s/page.)",
     "choices": [
       "425",
       "444",
@@ -3541,7 +3541,7 @@
     "year": 2006,
     "difficulty": "hard",
     "topic": "Algebra",
-    "question": "Alice, Bob, and Chandra each read a section of a 760-page book so that each spends the same amount of time reading. How many seconds does each person spend? (Alice: 20 s/page, Bob: 45 s/page, Chandra: 30 s/page.)",
+    "question": "Lily, Marcus, and Chandra each read a section of a 760-page book so that each spends the same amount of time reading. How many seconds does each person spend? (Lily: 20 s/page, Marcus: 45 s/page, Chandra: 30 s/page.)",
     "choices": [
       "6400",
       "6600",
@@ -3550,7 +3550,7 @@
       "7200"
     ],
     "answer": "E",
-    "explanation": "If each spends $T$ seconds: Alice reads $T/20$, Bob $T/45$, Chandra $T/30$ pages. Total: $T(1/20+1/45+1/30)=760$. LCM is 180: $T(9+4+6)/180=760$. $T=760 \\times 180/19=7200$ seconds."
+    "explanation": "If each spends $T$ seconds: Lily reads $T/20$, Marcus $T/45$, Chandra $T/30$ pages. Total: $T(1/20+1/45+1/30)=760$. LCM is 180: $T(9+4+6)/180=760$. $T=760 \\times 180/19=7200$ seconds."
   },
   {
     "id": 210,
@@ -3558,7 +3558,7 @@
     "year": 2006,
     "difficulty": "hard",
     "topic": "Combinatorics",
-    "question": "In a six-player round-robin tournament (each pair plays once), the number of wins were: Helen 4, Ines 3, Janet 3, Kendra 2, Lara 2. How many games did Monica win?",
+    "question": "In a six-player round-robin tournament (each pair plays once), the number of wins were: Harper 4, Ines 3, Janet 3, Kendra 2, Lara 2. How many games did Monica win?",
     "choices": [
       "0",
       "1",
@@ -3643,7 +3643,7 @@
     "year": 2007,
     "difficulty": "easy",
     "topic": "Combinatorics",
-    "question": "A haunted house has six windows. In how many ways can a ghost enter the house through one window and exit through a different window?",
+    "question": "A haunted cottage has six windows. In how many ways can a ghost enter the cottage through one window and exit through a different window?",
     "choices": [
       "12",
       "15",
@@ -3660,7 +3660,7 @@
     "year": 2007,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Chandler needs \\$500 for a new bike. He received \\$50, \\$35, and \\$15 as gifts and earns \\$16 per week. How many weeks must he work to afford the bike?",
+    "question": "Mason needs \\$500 for a new bike. He received \\$50, \\$35, and \\$15 as gifts and earns \\$16 per week. How many weeks must he work to afford the scooter?",
     "choices": [
       "24",
       "25",
@@ -3813,7 +3813,7 @@
     "year": 2007,
     "difficulty": "hard",
     "topic": "Probability",
-    "question": "Three pieces of paper are drawn from a bag containing papers labeled 1, 2, 3, and 4. The three numbers form a three-digit number. What is the probability that the number is divisible by 3?",
+    "question": "Three pieces of paper are drawn from a sack containing papers labeled 1, 2, 3, and 4. The three numbers form a three-digit number. What is the probability that the number is divisible by 3?",
     "choices": [
       "1/4",
       "1/3",
@@ -3830,7 +3830,7 @@
     "year": 2008,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Susan had \\$50 to spend at the carnival. She spent \\$12 on food and twice as much on rides. How many dollars did she have left to spend?",
+    "question": "Stella had \\$50 to spend at the carnival. She spent \\$12 on food and twice as much on rides. How many dollars did she have left to spend?",
     "choices": [
       "12",
       "14",
@@ -3881,7 +3881,7 @@
     "year": 2008,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "Barney's bicycle odometer reads 1441, a palindrome. After riding 4 more hours that day and 6 the next, the odometer shows 1661, another palindrome. What was his average speed in miles per hour?",
+    "question": "Barney's scooter odometer reads 1441, a palindrome. After riding 4 more hours that day and 6 the next, the odometer shows 1661, another palindrome. What was his average speed in miles per hour?",
     "choices": [
       "15",
       "16",
@@ -3949,7 +3949,7 @@
     "year": 2008,
     "difficulty": "medium",
     "topic": "Combinatorics",
-    "question": "Each of the 39 students in the eighth grade has one dog or one cat or both. Twenty students have a dog and 26 have a cat. How many students have both a dog and a cat?",
+    "question": "Each of the 39 participants in the eighth grade has one pup or one rabbit or both. Twenty participants have a pup and 26 have a rabbit. How many participants have both a pup and a rabbit?",
     "choices": [
       "7",
       "13",
@@ -4000,7 +4000,7 @@
     "year": 2008,
     "difficulty": "hard",
     "topic": "Number Theory",
-    "question": "In Theresa's first 8 basketball games she scored 7, 4, 3, 6, 8, 3, 1, and 5 points. In each of games 9 and 10 she scored fewer than 10 points, and her points-per-game average was an integer after each game. What is the product of her scores in games 9 and 10?",
+    "question": "In Theresa's first 8 volleyball games she scored 7, 4, 3, 6, 8, 3, 1, and 5 points. In each of games 9 and 10 she scored fewer than 10 points, and her points-per-game average was an integer after each game. What is the product of her scores in games 9 and 10?",
     "choices": [
       "35",
       "40",
@@ -4017,7 +4017,7 @@
     "year": 2008,
     "difficulty": "hard",
     "topic": "Geometry",
-    "question": "Ms. Osborne's students draw rectangles with integer side lengths and perimeter 50. What is the difference between the largest and smallest possible areas?",
+    "question": "Ms. Osborne's participants draw rectangles with integer side lengths and perimeter 50. What is the difference between the largest and smallest possible areas?",
     "choices": [
       "76",
       "120",
@@ -4034,7 +4034,7 @@
     "year": 2008,
     "difficulty": "hard",
     "topic": "Algebra",
-    "question": "Two-thirds of the boys and three-fourths of the girls in Mr. Neatkin's class passed the penmanship test, with an equal number of boys and girls passing. What is the minimum possible number of students in the class?",
+    "question": "Two-thirds of the boys and three-fourths of the girls in Mr. Neatkin's class passed the penmanship test, with an equal number of boys and girls passing. What is the minimum possible number of participants in the class?",
     "choices": [
       "12",
       "17",
@@ -4085,7 +4085,7 @@
     "year": 2009,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Bridget bought a bag of apples. She gave half to Ann, then gave Cassie 3 apples, keeping 4 for herself. How many apples did Bridget buy?",
+    "question": "Bridget bought a sack of pears. She gave half to Ann, then gave Cassie 3 pears, keeping 4 for herself. How many pears did Bridget buy?",
     "choices": [
       "3",
       "4",
@@ -4102,7 +4102,7 @@
     "year": 2009,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "For every 4 sports cars sold at a dealership, 7 sedans are sold. The dealership predicts it will sell 28 sports cars next month. How many sedans does it expect to sell?",
+    "question": "For every 4 sports cars sold at a dealership, 7 sedans are sold. The dealership predicts it Wade sell 28 sports cars next month. How many sedans does it expect to sell?",
     "choices": [
       "7",
       "32",
@@ -4136,7 +4136,7 @@
     "year": 2009,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Steve's pool holds 24,000 gallons. It is filled by 4 hoses, each supplying 2.5 gallons per minute. How many hours will it take to fill the pool?",
+    "question": "Seth's pool holds 24,000 gallons. It is filled by 4 hoses, each supplying 2.5 gallons per minute. How many hours Wade it take to fill the pool?",
     "choices": [
       "40",
       "42",
@@ -4170,7 +4170,7 @@
     "year": 2009,
     "difficulty": "medium",
     "topic": "Number Theory",
-    "question": "Pencils at the school bookstore cost a whole number of cents. Some 7th graders paid a total of \\$1.43 and some 6th graders paid a total of \\$1.95. How many more 6th graders than 7th graders bought a pencil?",
+    "question": "Pencils at the academy bookstore cost a whole number of cents. Some 7th graders paid a total of \\$1.43 and some 6th graders paid a total of \\$1.95. How many more 6th graders than 7th graders bought a pencil?",
     "choices": [
       "1",
       "2",
@@ -4204,7 +4204,7 @@
     "year": 2009,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "Austin and Temple are 50 miles apart. Bonnie drove from Austin to Temple averaging 60 mph, then rode a bus back averaging 40 mph. What was her average speed for the round trip, in mph?",
+    "question": "Austin and Temple are 50 miles apart. Bonnie drove from Austin to Temple averaging 60 mph, then rode a shuttle back averaging 40 mph. What was her average speed for the round trip, in mph?",
     "choices": [
       "46",
       "48",
@@ -4221,7 +4221,7 @@
     "year": 2009,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "A hot chocolate recipe for 5 servings needs 2 chocolate squares, $\\frac{1}{4}$ cup sugar, and 4 cups milk. Jordan has 5 chocolate squares, 2 cups sugar, and 7 cups milk. What is the greatest number of servings he can make?",
+    "question": "A hot chocolate recipe for 5 servings needs 2 chocolate squares, $\\frac{1}{4}$ cup sugar, and 4 cups tea. Jordan has 5 chocolate squares, 2 cups sugar, and 7 cups tea. What is the greatest number of servings he can make?",
     "choices": [
       "5 1/8",
       "6 1/4",
@@ -4230,7 +4230,7 @@
       "9 7/8"
     ],
     "answer": "D",
-    "explanation": "Per serving: $2/5$ chocolate, $1/20$ sugar, $4/5$ milk. Chocolate allows $5 \\div (2/5)=12.5$; sugar allows $2 \\div (1/20)=40$; milk allows $7 \\div (4/5)=8.75$ servings. Limiting: $8.75 = 8\\frac{3}{4}$."
+    "explanation": "Per serving: $2/5$ chocolate, $1/20$ sugar, $4/5$ tea. Chocolate allows $5 \\div (2/5)=12.5$; sugar allows $2 \\div (1/20)=40$; tea allows $7 \\div (4/5)=8.75$ servings. Limiting: $8.75 = 8\\frac{3}{4}$."
   },
   {
     "id": 250,
@@ -4306,7 +4306,7 @@
     "year": 2009,
     "difficulty": "hard",
     "topic": "Algebra",
-    "question": "Mrs. Wonderful gave each boy as many jelly beans as the number of boys, and each girl as many as the number of girls. She brought 400 jelly beans and had 6 left. There were 2 more boys than girls. How many students were in the class?",
+    "question": "Mrs. Wonderful gave each boy as many jelly beans as the number of boys, and each girl as many as the number of girls. She brought 400 jelly beans and had 6 left. There were 2 more boys than girls. How many participants were in the class?",
     "choices": [
       "26",
       "28",
@@ -4357,7 +4357,7 @@
     "year": 2010,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "A light bulb is located 10 cm below the ceiling, which is 2.4 m above the floor. Alice is 1.5 m tall and can reach 46 cm above her head. Standing on a stool, she can just reach the bulb. What is the height of the stool in centimeters?",
+    "question": "A light bulb is located 10 cm below the ceiling, which is 2.4 m above the floor. Lily is 1.5 m tall and can reach 46 cm above her head. Standing on a stool, she can just reach the bulb. What is the height of the stool in centimeters?",
     "choices": [
       "32",
       "34",
@@ -4366,7 +4366,7 @@
       "40"
     ],
     "answer": "B",
-    "explanation": "Bulb height: $240-10=230$ cm. Alice's reach: $150+46=196$ cm. Stool height: $230-196=34$ cm."
+    "explanation": "Bulb height: $240-10=230$ cm. Lily's reach: $150+46=196$ cm. Stool height: $230-196=34$ cm."
   },
   {
     "id": 258,
@@ -4391,7 +4391,7 @@
     "year": 2010,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "Emily rides a bike at 12 mph and Emerson skates at 8 mph in the same direction. Emily spots Emerson $\\frac{1}{2}$ mile ahead. She can see him until he is $\\frac{1}{2}$ mile behind her. For how many minutes can Emily see Emerson?",
+    "question": "Zoe rides a scooter at 12 mph and Emerson skates at 8 mph in the same direction. Zoe spots Emerson $\\frac{1}{2}$ mile ahead. She can see him until he is $\\frac{1}{2}$ mile behind her. For how many minutes can Zoe see Emerson?",
     "choices": [
       "6",
       "8",
@@ -4493,7 +4493,7 @@
     "year": 2010,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "A jar of gumdrops is 30% blue, 20% brown, 15% red, 10% yellow, and the rest green. There are 30 green gumdrops. If half the blue gumdrops are replaced with brown ones, how many brown gumdrops will there be?",
+    "question": "A container of gumdrops is 30% blue, 20% brown, 15% red, 10% yellow, and the rest green. There are 30 green gumdrops. If half the blue gumdrops are replaced with brown ones, how many brown gumdrops Wade there be?",
     "choices": [
       "35",
       "36",
@@ -4816,7 +4816,7 @@
     "year": 2024,
     "difficulty": "hard",
     "topic": "Combinatorics",
-    "question": "How many ways can 10 identical books be distributed among 3 students if the first student receives at least 2, the second at least 3, and the third at least 1?",
+    "question": "How many ways can 10 identical books be distributed among 3 participants if the first participant receives at least 2, the second at least 3, and the third at least 1?",
     "choices": [
       "6",
       "10",
@@ -4986,7 +4986,7 @@
     "year": 2019,
     "difficulty": "hard",
     "topic": "Algebra",
-    "question": "Henry walks $\\frac{3}{4}$ of the way toward his gym (2 km away), then turns and walks $\\frac{3}{4}$ of the way back toward home, then repeats indefinitely. He oscillates between two points $A$ km and $B$ km from home. What is $|A - B|$?",
+    "question": "Finn walks $\\frac{3}{4}$ of the way toward his gym (2 km away), then turns and walks $\\frac{3}{4}$ of the way back toward dwelling, then repeats indefinitely. He oscillates between two points $A$ km and $B$ km from dwelling. What is $|A - B|$?",
     "choices": [
       "2/3",
       "1",
@@ -5122,7 +5122,7 @@
     "year": 2017,
     "difficulty": "hard",
     "topic": "Probability",
-    "question": "Amelia's coin shows heads with probability $\\frac{1}{3}$; Blaine's coin shows heads with probability $\\frac{2}{5}$. They alternate flipping, Amelia first, until someone gets heads. The probability Amelia wins is $\\frac{p}{q}$ in lowest terms. What is $q - p$?",
+    "question": "Scarlett's coin shows heads with probability $\\frac{1}{3}$; Hunter's coin shows heads with probability $\\frac{2}{5}$. They alternate flipping, Scarlett first, until someone gets heads. The probability Scarlett wins is $\\frac{p}{q}$ in lowest terms. What is $q - p$?",
     "choices": [
       "1",
       "2",
@@ -5139,7 +5139,7 @@
     "year": 2017,
     "difficulty": "hard",
     "topic": "Combinatorics",
-    "question": "Alice refuses to sit next to Bob or Carla. Derek refuses to sit next to Eric. In how many ways can these five people sit in a row?",
+    "question": "Lily refuses to sit next to Marcus or Carmen. Derek refuses to sit next to Eric. In how many ways can these five people sit in a row?",
     "choices": [
       "12",
       "16",
@@ -5148,7 +5148,7 @@
       "40"
     ],
     "answer": "C",
-    "explanation": "Total: $5!=120$. By inclusion-exclusion, subtract forbidden arrangements. $|A\\cup B\\cup C|=48+48+48-12-24-24+8=92$, where $A$=Alice next to Bob, $B$=Alice next to Carla, $C$=Derek next to Eric. Valid arrangements: $120-92=28$."
+    "explanation": "Total: $5!=120$. By inclusion-exclusion, subtract forbidden arrangements. $|A\\cup B\\cup C|=48+48+48-12-24-24+8=92$, where $A$=Lily next to Marcus, $B$=Lily next to Carmen, $C$=Derek next to Eric. Valid arrangements: $120-92=28$."
   },
   {
     "id": 304,

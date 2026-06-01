@@ -13,6 +13,7 @@ function QuizContent() {
   const router = useRouter();
   const competition = searchParams.get("competition") || "";
   const topic = searchParams.get("topic") || "";
+  const isPractice = searchParams.get("mode") !== "test";
 
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
@@ -38,7 +39,7 @@ function QuizContent() {
   }, [answers, router]);
 
   useEffect(() => {
-    if (!started || timeLeft <= 0) return;
+    if (isPractice || !started || timeLeft <= 0) return;
     const t = setInterval(() => {
       setTimeLeft((prev) => {
         if (prev <= 1) { clearInterval(t); finish(); return 0; }
@@ -46,13 +47,14 @@ function QuizContent() {
       });
     }, 1000);
     return () => clearInterval(t);
-  }, [started, timeLeft, finish]);
+  }, [isPractice, started, timeLeft, finish]);
 
   const formatTime = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 
   const handleSelect = (choice: string) => {
     if (revealed) return;
     setSelected(choice);
+    if (isPractice) setRevealed(true);
   };
 
   const handleReveal = () => {
@@ -90,29 +92,42 @@ function QuizContent() {
     const label = competition || topic || "All Topics";
     return (
       <div className="max-w-2xl mx-auto px-6 py-20 text-center">
-        <h1 className="text-3xl font-bold text-gray-900 mb-4">{label} Practice Test</h1>
+        <div className="inline-flex items-center gap-2 mb-4">
+          <span className={`text-xs font-semibold px-3 py-1 rounded-full ${isPractice ? "bg-green-100 text-green-700" : "bg-blue-100 text-blue-700"}`}>
+            {isPractice ? "Practice Mode" : "Test Mode"}
+          </span>
+        </div>
+        <h1 className="text-3xl font-bold text-gray-900 mb-4">{label}</h1>
         <p className="text-gray-500 mb-2">{questions.length} questions</p>
-        <p className="text-gray-500 mb-8">You&apos;ll have {formatTime(timeLeft)} to complete the test.</p>
+        {isPractice ? (
+          <p className="text-gray-500 mb-8">Select an answer and get instant feedback. No time limit.</p>
+        ) : (
+          <p className="text-gray-500 mb-8">You&apos;ll have {formatTime(timeLeft)} to complete the test.</p>
+        )}
         <button
           onClick={() => setStarted(true)}
           className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
         >
-          Start Test
+          {isPractice ? "Start Practice" : "Start Test"}
         </button>
       </div>
     );
   }
 
   const q = questions[current];
-  const progress = ((current) / questions.length) * 100;
+  const progress = (current / questions.length) * 100;
 
   return (
     <div className="max-w-2xl mx-auto px-6 py-10">
       <div className="flex items-center justify-between mb-4 text-sm text-gray-500">
         <span>Question {current + 1} of {questions.length}</span>
-        <span className={`font-mono font-semibold ${timeLeft < 60 ? "text-red-500" : "text-gray-700"}`}>
-          {formatTime(timeLeft)}
-        </span>
+        {isPractice ? (
+          <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-green-100 text-green-700">Practice</span>
+        ) : (
+          <span className={`font-mono font-semibold ${timeLeft < 60 ? "text-red-500" : "text-gray-700"}`}>
+            {formatTime(timeLeft)}
+          </span>
+        )}
       </div>
 
       <div className="w-full bg-gray-200 rounded-full h-1.5 mb-8">
@@ -151,21 +166,28 @@ function QuizContent() {
               className={`w-full text-left border rounded-lg px-4 py-3 transition-colors flex items-center gap-3 ${style}`}
             >
               <span className="font-semibold text-gray-500 w-5 shrink-0">{letter}.</span>
-              <span className="text-gray-800"><MathText text={choice} /></span>
+              <span className="text-gray-800 flex-1"><MathText text={choice} /></span>
+              {revealed && isCorrect && <span className="text-green-600 font-bold text-sm shrink-0">✓</span>}
+              {revealed && isSelected && !isCorrect && <span className="text-red-500 font-bold text-sm shrink-0">✗</span>}
             </button>
           );
         })}
       </div>
 
       {revealed && (
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-6 text-sm text-gray-700">
+        <div className={`border rounded-xl p-4 mb-6 text-sm text-gray-700 ${isPractice && selected !== q.answer ? "bg-red-50 border-red-200" : "bg-blue-50 border-blue-200"}`}>
+          {isPractice && (
+            <p className={`font-bold text-base mb-2 ${selected === q.answer ? "text-green-700" : "text-red-600"}`}>
+              {selected === q.answer ? "Correct!" : `Incorrect — the answer is ${q.answer}`}
+            </p>
+          )}
           <p className="font-semibold text-blue-700 mb-1">Explanation</p>
           <p><MathText text={q.explanation} /></p>
         </div>
       )}
 
       <div className="flex gap-3">
-        {!revealed ? (
+        {!revealed && !isPractice && (
           <button
             onClick={handleReveal}
             disabled={!selected}
@@ -173,7 +195,7 @@ function QuizContent() {
           >
             Show Answer
           </button>
-        ) : null}
+        )}
         <button
           onClick={handleNext}
           disabled={!selected}

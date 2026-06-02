@@ -5642,5 +5642,515 @@
     ],
     "answer": "D",
     "explanation": "Testing $x=1$: $1-7+14-8=0$ ✓. Dividing out $(x-1)$ gives $x^2-6x+8=(x-2)(x-4)$. Roots are 1, 2, 4. By Vieta's, $a+b+c=7$ and $abc=8$, so $a+b+c+abc=7+8=15$."
+  },
+  {
+    "id": 333,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "question": "If $4x - 9 = 23$, what is the value of $x$?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "D",
+    "explanation": "$4x - 9 = 23 \\Rightarrow 4x = 32 \\Rightarrow x = 8$."
+  },
+  {
+    "id": 334,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "question": "If $\\dfrac{x + 3}{4} = 5$, what is the value of $x$?",
+    "choices": [
+      "14",
+      "17",
+      "20",
+      "23",
+      "26"
+    ],
+    "answer": "B",
+    "explanation": "Multiply both sides by 4: $x + 3 = 20$, so $x = 17$."
+  },
+  {
+    "id": 335,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "If $3(2x - 4) = 2(x + 6)$, what is the value of $x$?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": "D",
+    "explanation": "$6x - 12 = 2x + 12 \\Rightarrow 4x = 24 \\Rightarrow x = 6$."
+  },
+  {
+    "id": 336,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "If $\\dfrac{2x - 1}{3} = \\dfrac{x + 4}{2}$, what is the value of $x$?",
+    "choices": [
+      "-11",
+      "-5",
+      "5",
+      "11",
+      "14"
+    ],
+    "answer": "E",
+    "explanation": "Multiply both sides by 6: $2(2x-1) = 3(x+4) \\Rightarrow 4x - 2 = 3x + 12 \\Rightarrow x = 14$. Check: $(28-1)/3 = 9$ and $(14+4)/2 = 9$ ✓."
+  },
+  {
+    "id": 337,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "A shop charges a flat fee of $3.00 plus $2.50 per item. If a customer's total bill is $18.00, how many items did they purchase?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "C",
+    "explanation": "$3.00 + 2.50n = 18.00 \\Rightarrow 2.50n = 15.00 \\Rightarrow n = 6$."
+  },
+  {
+    "id": 338,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "The formula $C = \\dfrac{5}{9}(F - 32)$ converts Fahrenheit to Celsius. What Fahrenheit temperature is equivalent to $15^{\\circ}C$?",
+    "choices": [
+      "47°F",
+      "51°F",
+      "55°F",
+      "59°F",
+      "63°F"
+    ],
+    "answer": "D",
+    "explanation": "$15 = \\frac{5}{9}(F - 32) \\Rightarrow 27 = F - 32 \\Rightarrow F = 59^{\\circ}F$."
+  },
+  {
+    "id": 339,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "The surface area of a rectangular prism is $S = 2(lw + lh + wh)$. Which expression correctly gives $h$ in terms of $S$, $l$, and $w$?",
+    "choices": [
+      "$h = \\dfrac{S - 2lw}{2(l + w)}$",
+      "$h = \\dfrac{S}{2(l+w)} - lw$",
+      "$h = \\dfrac{S - lw}{l + w}$",
+      "$h = \\dfrac{S}{2} - lw$",
+      "$h = \\dfrac{S + 2lw}{2(l+w)}$"
+    ],
+    "answer": "A",
+    "explanation": "$S - 2lw = 2lh + 2wh = 2h(l+w) \\Rightarrow h = \\dfrac{S - 2lw}{2(l+w)}$."
+  },
+  {
+    "id": 340,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "question": "What is the slope of the line passing through $(-1,\\, 4)$ and $(3,\\, -4)$?",
+    "choices": [
+      "-2",
+      "$-\\dfrac{1}{2}$",
+      "$\\dfrac{1}{2}$",
+      "2",
+      "4"
+    ],
+    "answer": "A",
+    "explanation": "Slope $= \\dfrac{-4 - 4}{3 - (-1)} = \\dfrac{-8}{4} = -2$."
+  },
+  {
+    "id": 341,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "Line $\\ell$ has slope 3 and passes through $(2,\\, 7)$. What is the $y$-intercept of line $\\ell$?",
+    "choices": [
+      "-1",
+      "0",
+      "1",
+      "3",
+      "7"
+    ],
+    "answer": "C",
+    "explanation": "Point-slope: $y - 7 = 3(x - 2) \\Rightarrow y = 3x + 1$. The $y$-intercept is 1."
+  },
+  {
+    "id": 342,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "Line $m$ is perpendicular to $4x - 2y = 6$ and passes through $(0,\\, 3)$. What is the equation of line $m$?",
+    "choices": [
+      "$y = 2x + 3$",
+      "$y = -2x + 3$",
+      "$y = -\\dfrac{1}{2}x + 3$",
+      "$y = \\dfrac{1}{2}x + 3$",
+      "$y = -\\dfrac{1}{2}x - 3$"
+    ],
+    "answer": "C",
+    "explanation": "$4x - 2y = 6 \\Rightarrow y = 2x - 3$, slope 2. Perpendicular slope: $-\\frac{1}{2}$. Through $(0, 3)$: $y = -\\frac{1}{2}x + 3$."
+  },
+  {
+    "id": 343,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "In the $xy$-plane, the line $y = kx - 4$ passes through $(3,\\, 5)$. What is the value of $k$?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "C",
+    "explanation": "Substitute: $5 = 3k - 4 \\Rightarrow 9 = 3k \\Rightarrow k = 3$."
+  },
+  {
+    "id": 344,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "question": "If $2x + y = 13$ and $x - y = 2$, what is the value of $x$?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "C",
+    "explanation": "Add the two equations: $3x = 15 \\Rightarrow x = 5$."
+  },
+  {
+    "id": 345,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "If $3x + y = 11$ and $x + y = 5$, what is the value of $x$?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "C",
+    "explanation": "Subtract the second equation from the first: $2x = 6 \\Rightarrow x = 3$."
+  },
+  {
+    "id": 346,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "A theater sold adult tickets for $12 each and child tickets for $7 each. A total of 50 tickets were sold for $460. How many adult tickets were sold?",
+    "choices": [
+      "14",
+      "16",
+      "18",
+      "20",
+      "22"
+    ],
+    "answer": "E",
+    "explanation": "Let $a$ = adult tickets. Then $a + c = 50$ and $12a + 7c = 460$. Substituting $c = 50 - a$: $12a + 7(50-a) = 460 \\Rightarrow 5a = 110 \\Rightarrow a = 22$."
+  },
+  {
+    "id": 347,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "For what value of $k$ does the system $2x - 4y = 6$ and $-3x + ky = -9$ have infinitely many solutions?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": "D",
+    "explanation": "Divide the first equation by 2: $x - 2y = 3$. Multiply by $-3$: $-3x + 6y = -9$. Matching $-3x + ky = -9$ gives $k = 6$."
+  },
+  {
+    "id": 348,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "The system $5x + 2y = c$ and $10x + 4y = 18$ has no solution. What must be true about $c$?",
+    "choices": [
+      "$c = 9$",
+      "$c \\neq 9$",
+      "$c = 18$",
+      "$c \\neq 18$",
+      "$c = 0$"
+    ],
+    "answer": "B",
+    "explanation": "Divide the second equation by 2: $5x + 2y = 9$. The system has no solution when $c \\neq 9$ (parallel lines, same left side, different constants)."
+  },
+  {
+    "id": 349,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "question": "What are the solutions to $x^2 - 5x + 6 = 0$?",
+    "choices": [
+      "$x = -2$ and $x = -3$",
+      "$x = 2$ and $x = 3$",
+      "$x = 1$ and $x = 6$",
+      "$x = -1$ and $x = 6$",
+      "$x = -6$ and $x = 1$"
+    ],
+    "answer": "B",
+    "explanation": "Factor: $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$."
+  },
+  {
+    "id": 350,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "What are the solutions to $2x^2 + 5x - 3 = 0$?",
+    "choices": [
+      "$x = \\dfrac{1}{2}$ and $x = -3$",
+      "$x = -\\dfrac{1}{2}$ and $x = 3$",
+      "$x = 1$ and $x = -3$",
+      "$x = 3$ and $x = -\\dfrac{1}{2}$",
+      "$x = \\dfrac{3}{2}$ and $x = -1$"
+    ],
+    "answer": "A",
+    "explanation": "Factor: $(2x - 1)(x + 3) = 0 \\Rightarrow x = \\frac{1}{2}$ or $x = -3$."
+  },
+  {
+    "id": 351,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "What are the coordinates of the vertex of the parabola $y = x^2 - 8x + 13$?",
+    "choices": [
+      "$(4,\\,-3)$",
+      "$(4,\\,3)$",
+      "$(-4,\\,-3)$",
+      "$(8,\\,13)$",
+      "$(4,\\,0)$"
+    ],
+    "answer": "A",
+    "explanation": "Complete the square: $y = (x-4)^2 - 16 + 13 = (x-4)^2 - 3$. Vertex: $(4,\\,-3)$."
+  },
+  {
+    "id": 352,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "A ball is launched upward. Its height in feet after $t$ seconds is $h(t) = -16t^2 + 64t + 5$. What is the maximum height of the ball, in feet?",
+    "choices": [
+      "64",
+      "69",
+      "73",
+      "77",
+      "85"
+    ],
+    "answer": "B",
+    "explanation": "Vertex at $t = -\\frac{64}{2(-16)} = 2$ s. $h(2) = -16(4) + 64(2) + 5 = -64 + 128 + 5 = 69$ ft."
+  },
+  {
+    "id": 353,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "If $x^2 - 7x + k = 0$ has exactly one real solution, what is the value of $k$?",
+    "choices": [
+      "$\\dfrac{7}{4}$",
+      "$\\dfrac{49}{4}$",
+      "$7$",
+      "$14$",
+      "$49$"
+    ],
+    "answer": "B",
+    "explanation": "Discriminant $= 0$: $(-7)^2 - 4k = 0 \\Rightarrow 49 = 4k \\Rightarrow k = \\dfrac{49}{4}$."
+  },
+  {
+    "id": 354,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Which of the following is equivalent to $x^2 + 10x - 3$?",
+    "choices": [
+      "$(x+5)^2 - 28$",
+      "$(x+5)^2 - 22$",
+      "$(x+10)^2 - 103$",
+      "$(x+5)^2 + 22$",
+      "$(x-5)^2 - 28$"
+    ],
+    "answer": "A",
+    "explanation": "Complete the square: $x^2 + 10x - 3 = (x+5)^2 - 25 - 3 = (x+5)^2 - 28$."
+  },
+  {
+    "id": 355,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "For the equation $x^2 + bx + c = 0$, the sum of the roots is 5 and the product of the roots is $-14$. What is $b + c$?",
+    "choices": [
+      "-19",
+      "-9",
+      "9",
+      "19",
+      "21"
+    ],
+    "answer": "A",
+    "explanation": "By Vieta's formulas: sum $= -b = 5 \\Rightarrow b = -5$; product $= c = -14$. So $b + c = -5 + (-14) = -19$."
+  },
+  {
+    "id": 356,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "If $\\dfrac{x^2 - 16}{x - 4} = 9$ and $x \\neq 4$, what is the value of $x$?",
+    "choices": [
+      "4",
+      "5",
+      "9",
+      "13",
+      "16"
+    ],
+    "answer": "B",
+    "explanation": "For $x \\neq 4$: $\\dfrac{(x-4)(x+4)}{x-4} = x + 4 = 9 \\Rightarrow x = 5$. Check: $(25-16)/(5-4) = 9$ ✓."
+  },
+  {
+    "id": 357,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "What is the sum of all values of $x$ satisfying $x^3 - 4x^2 - 7x + 10 = 0$?",
+    "choices": [
+      "-4",
+      "0",
+      "4",
+      "7",
+      "10"
+    ],
+    "answer": "C",
+    "explanation": "By Vieta's, the sum of roots $= -(-4)/1 = 4$. (Roots are 1, 5, and $-2$: $1+5+(-2)=4$, verified by checking each is a root.)"
+  },
+  {
+    "id": 358,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Which of the following $(x,\\,y)$ pairs is a solution to both $y = x^2 - 4$ and $y = x + 2$?",
+    "choices": [
+      "$(3,\\,5)$",
+      "$(-3,\\,5)$",
+      "$(2,\\,4)$",
+      "$(-1,\\,1)$",
+      "$(4,\\,12)$"
+    ],
+    "answer": "A",
+    "explanation": "Substituting: $x^2 - 4 = x + 2 \\Rightarrow x^2 - x - 6 = 0 \\Rightarrow (x-3)(x+2)=0$. For $x=3$: $y=5$. The pair $(3,5)$ satisfies both equations."
+  },
+  {
+    "id": 359,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "If $\\sqrt{3x + 7} = x - 1$, what is the value of $x$?",
+    "choices": [
+      "3",
+      "6",
+      "7",
+      "9",
+      "11"
+    ],
+    "answer": "B",
+    "explanation": "Squaring (requiring $x \\geq 1$): $3x+7 = x^2-2x+1 \\Rightarrow x^2-5x-6=0 \\Rightarrow (x-6)(x+1)=0$. $x=6$: $\\sqrt{25}=5=6-1$ ✓. $x=-1$: extraneous ($\\sqrt{4}=2\\neq-2$). Answer: $x=6$."
+  },
+  {
+    "id": 360,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "easy",
+    "topic": "Algebra",
+    "question": "Which of the following is the solution to $-3x + 5 \\leq 17$?",
+    "choices": [
+      "$x \\leq -4$",
+      "$x \\geq -4$",
+      "$x \\leq 4$",
+      "$x \\geq 4$",
+      "$x \\leq -22/3$"
+    ],
+    "answer": "B",
+    "explanation": "$-3x + 5 \\leq 17 \\Rightarrow -3x \\leq 12 \\Rightarrow x \\geq -4$ (inequality flips when dividing by a negative)."
+  },
+  {
+    "id": 361,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "What is the solution set of $|2x - 5| < 9$?",
+    "choices": [
+      "$-7 < x < 2$",
+      "$-2 < x < 7$",
+      "$x < -2$ or $x > 7$",
+      "$-7 < x < 7$",
+      "$x > -2$"
+    ],
+    "answer": "B",
+    "explanation": "$|2x-5|<9 \\Rightarrow -9 < 2x-5 < 9 \\Rightarrow -4 < 2x < 14 \\Rightarrow -2 < x < 7$."
+  },
+  {
+    "id": 362,
+    "competition": "SAT",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Which of the following is the solution set of $x^2 - 3x - 10 < 0$?",
+    "choices": [
+      "$x < -2$ or $x > 5$",
+      "$-5 < x < 2$",
+      "$-2 < x < 5$",
+      "$x < -5$ or $x > 2$",
+      "$-2 \\leq x \\leq 5$"
+    ],
+    "answer": "C",
+    "explanation": "Factor: $(x-5)(x+2)<0$. Roots at $x=-2$ and $x=5$. The upward parabola is negative between its roots: $-2 < x < 5$."
   }
 ]

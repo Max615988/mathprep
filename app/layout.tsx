@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 import "./globals.css";
 import "katex/dist/katex.min.css";
 import Link from "next/link";
@@ -61,6 +62,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           MathPrep © 2025 — Free math competition practice
         </footer>
         <Analytics />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2877150109049287"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

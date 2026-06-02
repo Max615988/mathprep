@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    "google-adsense-account": "ca-pub-2877150109049287",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -175,16 +175,16 @@
     "year": 2023,
     "difficulty": "medium",
     "topic": "Geometry",
-    "question": "Two angles of a triangle are $45°$ and $60°$. What is the measure of the third angle?",
+    "question": "Two angles of a triangle are $45^{\\circ}$ and $60^{\\circ}$. What is the measure of the third angle?",
     "choices": [
-      "65°",
-      "70°",
-      "75°",
-      "80°",
-      "85°"
+      "65^{\\circ}",
+      "70^{\\circ}",
+      "75^{\\circ}",
+      "80^{\\circ}",
+      "85^{\\circ}"
     ],
     "answer": "C",
-    "explanation": "The angles of a triangle sum to $180°$. Third angle $= 180 - 45 - 60 = 75°$."
+    "explanation": "The angles of a triangle sum to $180^{\\circ}$. Third angle $= 180 - 45 - 60 = 75^{\\circ}$."
   },
   {
     "id": 12,
@@ -330,14 +330,14 @@
     "topic": "Geometry",
     "question": "What is the sum of the interior angles of a hexagon?",
     "choices": [
-      "540°",
-      "600°",
-      "660°",
-      "720°",
-      "900°"
+      "540^{\\circ}",
+      "600^{\\circ}",
+      "660^{\\circ}",
+      "720^{\\circ}",
+      "900^{\\circ}"
     ],
     "answer": "D",
-    "explanation": "Sum of interior angles $= (n - 2) \\times 180° = (6 - 2) \\times 180° = 720°$."
+    "explanation": "Sum of interior angles $= (n - 2) \\times 180^{\\circ} = (6 - 2) \\times 180^{\\circ} = 720^{\\circ}$."
   },
   {
     "id": 21,
@@ -566,7 +566,7 @@
     "year": 2022,
     "difficulty": "easy",
     "topic": "Algebra",
-    "question": "What is the value of $\\sin(30°)$?",
+    "question": "What is the value of $\\sin(30^{\\circ})$?",
     "choices": [
       "$\\frac{1}{4}$",
       "$\\frac{1}{2}$",
@@ -575,7 +575,7 @@
       "1"
     ],
     "answer": "B",
-    "explanation": "$\\sin(30°) = \\frac{1}{2}$. This is one of the standard values to memorize."
+    "explanation": "$\\sin(30^{\\circ}) = \\frac{1}{2}$. This is one of the standard values to memorize."
   },
   {
     "id": 35,
@@ -806,14 +806,14 @@
     "topic": "Geometry",
     "question": "What is the measure of each interior angle of a regular pentagon?",
     "choices": [
-      "100°",
-      "104°",
-      "108°",
-      "112°",
-      "120°"
+      "100^{\\circ}",
+      "104^{\\circ}",
+      "108^{\\circ}",
+      "112^{\\circ}",
+      "120^{\\circ}"
     ],
     "answer": "C",
-    "explanation": "Sum of interior angles $= (5-2) \\times 180° = 540°$. Each angle $= \\frac{540°}{5} = 108°$."
+    "explanation": "Sum of interior angles $= (5-2) \\times 180^{\\circ} = 540^{\\circ}$. Each angle $= \\frac{540^{\\circ}}{5} = 108^{\\circ}$."
   },
   {
     "id": 49,
@@ -1382,7 +1382,7 @@
     "year": 2023,
     "difficulty": "easy",
     "topic": "Arithmetic",
-    "question": "Suppose the air temperature is $36°F$ and the wind speed is 18 mph. Using the formula $W = T - 0.7 \\cdot S$, which of the following is closest to the wind chill?",
+    "question": "Suppose the air temperature is $36^{\\circ}F$ and the wind speed is 18 mph. Using the formula $W = T - 0.7 \\cdot S$, which of the following is closest to the wind chill?",
     "choices": [
       "18",
       "23",
@@ -1603,7 +1603,7 @@
     "year": 2022,
     "difficulty": "medium",
     "topic": "Arithmetic",
-    "question": "A cup of boiling water (212°F) cools in a 68°F room. The temperature difference halves every 5 minutes. What is the water temperature after 15 minutes?",
+    "question": "A cup of boiling water (212^{\\circ}F) cools in a 68^{\\circ}F room. The temperature difference halves every 5 minutes. What is the water temperature after 15 minutes?",
     "choices": [
       "77",
       "86",
@@ -1612,7 +1612,7 @@
       "104"
     ],
     "answer": "B",
-    "explanation": "Initial difference: $212 - 68 = 144°$. After 5 min: 72°. After 10 min: 36°. After 15 min: 18°. Temperature $= 68 + 18 = 86°F$."
+    "explanation": "Initial difference: $212 - 68 = 144^{\\circ}$. After 5 min: 72^{\\circ}. After 10 min: 36^{\\circ}. After 15 min: 18^{\\circ}. Temperature $= 68 + 18 = 86^{\\circ}F$."
   },
   {
     "id": 96,
@@ -2164,7 +2164,7 @@
     "year": 2020,
     "difficulty": "easy",
     "topic": "Geometry",
-    "question": "The acute angles of a right triangle are $a°$ and $b°$ where $a > b$ and both are prime. What is the least possible value of $b$?",
+    "question": "The acute angles of a right triangle are $a^{\\circ}$ and $b^{\\circ}$ where $a > b$ and both are prime. What is the least possible value of $b$?",
     "choices": [
       "2",
       "3",
@@ -2343,7 +2343,7 @@
       "72"
     ],
     "answer": "D",
-    "explanation": "Remaining participants: $36 - 12 - 8 - 6 = 10$. Cherry: $10 \\div 2 = 5$ participants. Degrees: $\\frac{5}{36} \\times 360 = 50°$."
+    "explanation": "Remaining participants: $36 - 12 - 8 - 6 = 10$. Cherry: $10 \\div 2 = 5$ participants. Degrees: $\\frac{5}{36} \\times 360 = 50^{\\circ}$."
   },
   {
     "id": 139,
@@ -2897,14 +2897,14 @@
     "topic": "Geometry",
     "question": "What is the measure of the acute angle formed by the hands of the clock at 4:20 AM?",
     "choices": [
-      "0°",
-      "5°",
-      "8°",
-      "10°",
-      "12°"
+      "0^{\\circ}",
+      "5^{\\circ}",
+      "8^{\\circ}",
+      "10^{\\circ}",
+      "12^{\\circ}"
     ],
     "answer": "D",
-    "explanation": "At 4:20, the minute hand is at $120°$. The hour hand: at 4:00 it's at $120°$, and it moves $0.5°$ per min, so at 4:20 it's at $120 + 10 = 130°$. Angle between them: $|130-120|=10°$."
+    "explanation": "At 4:20, the minute hand is at $120^{\\circ}$. The hour hand: at 4:00 it's at $120^{\\circ}$, and it moves $0.5^{\\circ}$ per min, so at 4:20 it's at $120 + 10 = 130^{\\circ}$. Angle between them: $|130-120|=10^{\\circ}$."
   },
   {
     "id": 172,
@@ -4255,7 +4255,7 @@
     "year": 2009,
     "difficulty": "hard",
     "topic": "Geometry",
-    "question": "Two angles of an isosceles triangle measure 70° and $x$°. What is the sum of the three possible values of $x$?",
+    "question": "Two angles of an isosceles triangle measure 70^{\\circ} and $x$^{\\circ}. What is the sum of the three possible values of $x$?",
     "choices": [
       "95",
       "125",
@@ -4264,7 +4264,7 @@
       "180"
     ],
     "answer": "D",
-    "explanation": "Case 1: 70° is a base angle, so vertex = 40°, $x=70$ or $x=40$. Case 2: 70° is the vertex, so base angles = 55°, $x=55$. Sum: $70+40+55=165$."
+    "explanation": "Case 1: 70^{\\circ} is a base angle, so vertex = 40^{\\circ}, $x=70$ or $x=40$. Case 2: 70^{\\circ} is the vertex, so base angles = 55^{\\circ}, $x=55$. Sum: $70+40+55=165$."
   },
   {
     "id": 252,
@@ -5736,11 +5736,11 @@
     "topic": "Algebra",
     "question": "The formula $C = \\dfrac{5}{9}(F - 32)$ converts Fahrenheit to Celsius. What Fahrenheit temperature is equivalent to $15^{\\circ}C$?",
     "choices": [
-      "47°F",
-      "51°F",
-      "55°F",
-      "59°F",
-      "63°F"
+      "47^{\\circ}F",
+      "51^{\\circ}F",
+      "55^{\\circ}F",
+      "59^{\\circ}F",
+      "63^{\\circ}F"
     ],
     "answer": "D",
     "explanation": "$15 = \\frac{5}{9}(F - 32) \\Rightarrow 27 = F - 32 \\Rightarrow F = 59^{\\circ}F$."
@@ -6342,5 +6342,365 @@
     "explanation": "An inscribed angle is half the central angle subtending the same arc. The inscribed angle $\\angle APB$ subtends the minor arc $AB$ (central angle $70^\\circ$), so $\\angle APB = \\frac{70}{2} = 35^\\circ$.",
     "source": "ai",
     "image": "/images/q372.svg"
+  },
+  {
+    "id": 373,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "The two roots of $x^2 - 7x + 2 = 0$ are $p$ and $q$. What is the value of $p^3 + q^3$?",
+    "choices": [
+      "$245$",
+      "$280$",
+      "$301$",
+      "$343$",
+      "$378$"
+    ],
+    "answer": "C",
+    "explanation": "By Vieta's formulas, $p+q=7$ and $pq=2$. Then $p^2+q^2=(p+q)^2-2pq=49-4=45$. Using the sum-of-cubes factorization: $p^3+q^3=(p+q)(p^2-pq+q^2)=7(45-2)=7\\times43=\\boxed{301}$.",
+    "source": "ai"
+  },
+  {
+    "id": 374,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "What are the last two digits of $3^{100}$?",
+    "choices": [
+      "$01$",
+      "$09$",
+      "$27$",
+      "$49$",
+      "$81$"
+    ],
+    "answer": "A",
+    "explanation": "By Euler's theorem, $\\phi(100)=40$ and $\\gcd(3,100)=1$, so $3^{40}\\equiv1\\pmod{100}$. Since $100=2\\cdot40+20$, we get $3^{100}=(3^{40})^2\\cdot3^{20}\\equiv3^{20}\\pmod{100}$. Computing: $3^{10}=59049\\equiv49\\pmod{100}$, so $3^{20}\\equiv49^2=2401\\equiv01\\pmod{100}$.",
+    "source": "ai"
+  },
+  {
+    "id": 375,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many integers from 1 to 120 are divisible by at least one of 2, 3, or 5?",
+    "choices": [
+      "$84$",
+      "$86$",
+      "$88$",
+      "$90$",
+      "$92$"
+    ],
+    "answer": "C",
+    "explanation": "By inclusion-exclusion: $|A_2|=60$, $|A_3|=40$, $|A_5|=24$. Pairwise: $|A_6|=20$, $|A_{10}|=12$, $|A_{15}|=8$. Triple: $|A_{30}|=4$. Total $= 60+40+24-20-12-8+4=88$.",
+    "source": "ai"
+  },
+  {
+    "id": 376,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "A right triangle has legs of length 9 and 40. What is the radius of the inscribed circle?",
+    "choices": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$",
+      "$6$"
+    ],
+    "answer": "C",
+    "explanation": "The hypotenuse is $\\sqrt{81+1600}=\\sqrt{1681}=41$. The inradius of a right triangle with legs $a,b$ and hypotenuse $c$ is $r=\\dfrac{a+b-c}{2}=\\dfrac{9+40-41}{2}=4$.",
+    "source": "ai"
+  },
+  {
+    "id": 377,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "If $x+y=5$ and $xy=4$, what is $x^3+y^3$?",
+    "choices": [
+      "$45$",
+      "$55$",
+      "$60$",
+      "$65$",
+      "$80$"
+    ],
+    "answer": "D",
+    "explanation": "Use the identity $x^3+y^3=(x+y)^3-3xy(x+y)=125-3(4)(5)=125-60=65$.",
+    "source": "ai"
+  },
+  {
+    "id": 378,
+    "competition": "AMC 10",
+    "year": 2022,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "A bag contains 4 red and 6 blue marbles. Two marbles are drawn without replacement. Given that at least one is red, what is the probability that both are red?",
+    "choices": [
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{1}{5}$",
+      "$\\dfrac{2}{9}$",
+      "$\\dfrac{1}{4}$",
+      "$\\dfrac{2}{5}$"
+    ],
+    "answer": "B",
+    "explanation": "$P(\\text{both red})=\\dfrac{\\binom{4}{2}}{\\binom{10}{2}}=\\dfrac{6}{45}=\\dfrac{2}{15}$. $P(\\text{at least one red})=1-\\dfrac{\\binom{6}{2}}{\\binom{10}{2}}=1-\\dfrac{15}{45}=\\dfrac{2}{3}$. Conditional probability: $\\dfrac{2/15}{2/3}=\\dfrac{1}{5}$.",
+    "source": "ai"
+  },
+  {
+    "id": 379,
+    "competition": "AMC 10",
+    "year": 2022,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "What is the remainder when $7^{222}$ is divided by 13?",
+    "choices": [
+      "$1$",
+      "$5$",
+      "$7$",
+      "$12$",
+      "$11$"
+    ],
+    "answer": "D",
+    "explanation": "By Fermat's Little Theorem, $7^{12}\\equiv1\\pmod{13}$. Since $222=18\\cdot12+6$, we get $7^{222}\\equiv7^6\\pmod{13}$. Computing: $7^2\\equiv49\\equiv10$, $7^3\\equiv70\\equiv5$, $7^6\\equiv25\\equiv12\\pmod{13}$.",
+    "source": "ai"
+  },
+  {
+    "id": 380,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "A triangle has sides of length 7, 8, and 9. What is its area?",
+    "choices": [
+      "$6\\sqrt{5}$",
+      "$10\\sqrt{5}$",
+      "$12\\sqrt{5}$",
+      "$24\\sqrt{5}$",
+      "$36\\sqrt{5}$"
+    ],
+    "answer": "C",
+    "explanation": "By Heron's formula with $s=\\dfrac{7+8+9}{2}=12$: $A=\\sqrt{s(s-a)(s-b)(s-c)}=\\sqrt{12\\cdot5\\cdot4\\cdot3}=\\sqrt{720}=\\sqrt{144\\cdot5}=12\\sqrt{5}$.",
+    "source": "ai"
+  },
+  {
+    "id": 381,
+    "competition": "AMC 10",
+    "year": 2022,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "The third term of a geometric sequence is 20 and the sixth term is 160. What is the first term?",
+    "choices": [
+      "$3$",
+      "$4$",
+      "$5$",
+      "$8$",
+      "$10$"
+    ],
+    "answer": "C",
+    "explanation": "Let the first term be $a$ and ratio $r$. Then $ar^2=20$ and $ar^5=160$. Dividing: $r^3=8$, so $r=2$. Then $a=20/r^2=20/4=5$.",
+    "source": "ai"
+  },
+  {
+    "id": 382,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many solutions in positive integers does $x_1+x_2+x_3+x_4=12$ have?",
+    "choices": [
+      "$84$",
+      "$120$",
+      "$143$",
+      "$165$",
+      "$210$"
+    ],
+    "answer": "D",
+    "explanation": "By stars and bars with each $x_i\\geq1$: substitute $y_i=x_i-1$ to get $y_1+y_2+y_3+y_4=8$ with $y_i\\geq0$. The count is $\\binom{8+3}{3}=\\binom{11}{3}=165$.",
+    "source": "ai"
+  },
+  {
+    "id": 383,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "What is the minimum value of $2x + \\dfrac{8}{x}$ for $x > 0$?",
+    "choices": [
+      "$4$",
+      "$6$",
+      "$8$",
+      "$10$",
+      "$12$"
+    ],
+    "answer": "C",
+    "explanation": "By AM-GM: $2x+\\dfrac{8}{x}\\geq2\\sqrt{2x\\cdot\\dfrac{8}{x}}=2\\sqrt{16}=8$. Equality holds when $2x=\\dfrac{8}{x}$, i.e., $x=2$. Minimum value is $8$.",
+    "source": "ai"
+  },
+  {
+    "id": 384,
+    "competition": "AMC 10",
+    "year": 2022,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "How many trailing zeros does $40!$ have?",
+    "choices": [
+      "$7$",
+      "$8$",
+      "$9$",
+      "$10$",
+      "$11$"
+    ],
+    "answer": "C",
+    "explanation": "Trailing zeros come from factors of $10=2\\times5$. Count factors of 5 using Legendre's formula: $\\left\\lfloor\\dfrac{40}{5}\\right\\rfloor+\\left\\lfloor\\dfrac{40}{25}\\right\\rfloor=8+1=9$.",
+    "source": "ai"
+  },
+  {
+    "id": 385,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "From an external point $P$, a tangent to a circle touches at $T$ with $PT=6$. A secant from $P$ intersects the circle at $A$ (nearer) and $B$ with $PA=3$. What is $PB$?",
+    "choices": [
+      "$9$",
+      "$10$",
+      "$11$",
+      "$12$",
+      "$13$"
+    ],
+    "answer": "D",
+    "explanation": "By the Power of a Point theorem: $PT^2=PA\\cdot PB$. So $36=3\\cdot PB$, giving $PB=12$.",
+    "source": "ai"
+  },
+  {
+    "id": 386,
+    "competition": "AMC 10",
+    "year": 2022,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "A fair six-sided die is rolled repeatedly until a 6 first appears. What is the expected number of rolls?",
+    "choices": [
+      "$4$",
+      "$5$",
+      "$6$",
+      "$7$",
+      "$8$"
+    ],
+    "answer": "C",
+    "explanation": "This follows a geometric distribution with success probability $p=\\dfrac{1}{6}$. The expected number of trials is $E=\\dfrac{1}{p}=6$.",
+    "source": "ai"
+  },
+  {
+    "id": 387,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Suppose $a$ and $b$ are real numbers with $a+b=10$ and $a^2+b^2=52$. What is $ab$?",
+    "choices": [
+      "$18$",
+      "$20$",
+      "$22$",
+      "$24$",
+      "$26$"
+    ],
+    "answer": "D",
+    "explanation": "Use the identity $(a+b)^2=a^2+2ab+b^2$. Then $100=52+2ab$, so $2ab=48$ and $ab=24$.",
+    "source": "ai"
+  },
+  {
+    "id": 388,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "What is the smallest positive integer $n$ satisfying $n\\equiv3\\pmod{7}$ and $n\\equiv5\\pmod{11}$?",
+    "choices": [
+      "$26$",
+      "$31$",
+      "$38$",
+      "$45$",
+      "$52$"
+    ],
+    "answer": "C",
+    "explanation": "List numbers with $n\\equiv3\\pmod{7}$: $3,10,17,24,31,38,\\ldots$ Check which satisfies $n\\equiv5\\pmod{11}$: $38\\div11=3$ remainder $5$. So $n=38$.",
+    "source": "ai"
+  },
+  {
+    "id": 389,
+    "competition": "AMC 10",
+    "year": 2022,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "In triangle $ABC$, $\\angle A=50^{\\circ}$ and $\\angle B=70^{\\circ}$. The angle bisector from $C$ meets $AB$ at $D$. What is $\\angle ACD$?",
+    "choices": [
+      "$20^{\\circ}$",
+      "$25^{\\circ}$",
+      "$30^{\\circ}$",
+      "$35^{\\circ}$",
+      "$40^{\\circ}$"
+    ],
+    "answer": "C",
+    "explanation": "$\\angle C=180^{\\circ}-50^{\\circ}-70^{\\circ}=60^{\\circ}$. The angle bisector from $C$ splits $\\angle C$ in half, so $\\angle ACD=30^{\\circ}$.",
+    "source": "ai"
+  },
+  {
+    "id": 390,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "A drawer contains 5 red, 6 blue, and 7 green socks (identical within each color). What is the minimum number of socks you must draw to guarantee at least 3 of the same color?",
+    "choices": [
+      "$5$",
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$"
+    ],
+    "answer": "C",
+    "explanation": "In the worst case you draw 2 of each color: $2+2+2=6$ socks with no color having 3. The 7th sock must match one of the three colors, guaranteeing 3 of that color. By the Pigeonhole Principle, the answer is $7$.",
+    "source": "ai"
+  },
+  {
+    "id": 391,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "A cubic polynomial has roots $r$, $s$, $t$ with $r+s+t=-2$, $rs+rt+st=-5$, and $rst=6$. What is $r^2+s^2+t^2$?",
+    "choices": [
+      "$8$",
+      "$10$",
+      "$12$",
+      "$14$",
+      "$16$"
+    ],
+    "answer": "D",
+    "explanation": "Use the identity $r^2+s^2+t^2=(r+s+t)^2-2(rs+rt+st)=(-2)^2-2(-5)=4+10=14$.",
+    "source": "ai"
+  },
+  {
+    "id": 392,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "The vertices of a triangle are $(0,0)$, $(6,0)$, and $(2,4)$. What is the area of this triangle?",
+    "choices": [
+      "$10$",
+      "$11$",
+      "$12$",
+      "$13$",
+      "$14$"
+    ],
+    "answer": "C",
+    "explanation": "Using the Shoelace formula: $A=\\dfrac{1}{2}|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|=\\dfrac{1}{2}|0(0-4)+6(4-0)+2(0-0)|=\\dfrac{1}{2}\\cdot24=12$.",
+    "source": "ai"
   }
 ]

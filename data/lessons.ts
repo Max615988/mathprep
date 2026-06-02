@@ -185,7 +185,7 @@ export const lessons: Lesson[] = [
       },
       {
         heading: "Triangle Properties",
-        body: "- Angles in any triangle sum to $180°$.\n- **Isosceles triangle**: two equal sides, two equal base angles.\n- **Equilateral triangle**: all sides equal, all angles $60°$.\n- Area using Heron's formula: $A = \\sqrt{s(s-a)(s-b)(s-c)}$ where $s = \\frac{a+b+c}{2}$.",
+        body: "- Angles in any triangle sum to $180^\\circ$.\n- **Isosceles triangle**: two equal sides, two equal base angles.\n- **Equilateral triangle**: all sides equal, all angles $60^\\circ$.\n- Area using Heron's formula: $A = \\sqrt{s(s-a)(s-b)(s-c)}$ where $s = \\frac{a+b+c}{2}$.",
       },
     ],
   },
@@ -198,11 +198,11 @@ export const lessons: Lesson[] = [
     sections: [
       {
         heading: "Core Angle Facts",
-        body: "- **Vertical angles** are equal.\n- **Supplementary angles** sum to $180°$ (a straight line).\n- **Complementary angles** sum to $90°$.\n- Angles in a triangle sum to $180°$.\n- Angles in any convex polygon with $n$ sides sum to $(n-2) \\times 180°$.\n- **Exterior angle theorem**: an exterior angle of a triangle equals the sum of the two non-adjacent interior angles.",
+        body: "- **Vertical angles** are equal.\n- **Supplementary angles** sum to $180^\\circ$ (a straight line).\n- **Complementary angles** sum to $90^\\circ$.\n- Angles in a triangle sum to $180^\\circ$.\n- Angles in any convex polygon with $n$ sides sum to $(n-2) \\times 180^\\circ$.\n- **Exterior angle theorem**: an exterior angle of a triangle equals the sum of the two non-adjacent interior angles.",
         examples: [
           {
-            problem: "In a triangle, two angles are $47°$ and $63°$. Find the third angle.",
-            solution: "$180° - 47° - 63° = \\boxed{70°}$.",
+            problem: "In a triangle, two angles are $47^\\circ$ and $63^\\circ$. Find the third angle.",
+            solution: "$180^\\circ - 47^\\circ - 63^\\circ = \\boxed{70^\\circ}$.",
           },
         ],
       },
@@ -211,18 +211,18 @@ export const lessons: Lesson[] = [
         body: "When a transversal crosses two parallel lines:\n- **Corresponding angles** are equal.\n- **Alternate interior angles** are equal.\n- **Co-interior (same-side interior) angles** are supplementary.",
         examples: [
           {
-            problem: "Two parallel lines are cut by a transversal. One angle is $110°$. Find the alternate interior angle.",
-            solution: "Alternate interior angles are equal: $\\boxed{110°}$.",
+            problem: "Two parallel lines are cut by a transversal. One angle is $110^\\circ$. Find the alternate interior angle.",
+            solution: "Alternate interior angles are equal: $\\boxed{110^\\circ}$.",
           },
         ],
       },
       {
         heading: "Inscribed Angles",
-        body: "An **inscribed angle** in a circle is half the central angle that subtends the same arc.\n\n$$\\angle \\text{inscribed} = \\frac{1}{2} \\times \\angle \\text{central}$$\n\nAny inscribed angle that subtends a **semicircle** (diameter) is $90°$.",
+        body: "An **inscribed angle** in a circle is half the central angle that subtends the same arc.\n\n$$\\angle \\text{inscribed} = \\frac{1}{2} \\times \\angle \\text{central}$$\n\nAny inscribed angle that subtends a **semicircle** (diameter) is $90^\\circ$.",
         examples: [
           {
-            problem: "A central angle in a circle measures $84°$. What is the inscribed angle subtending the same arc?",
-            solution: "$\\dfrac{84°}{2} = \\boxed{42°}$.",
+            problem: "A central angle in a circle measures $84^\\circ$. What is the inscribed angle subtending the same arc?",
+            solution: "$\\dfrac{84^\\circ}{2} = \\boxed{42^\\circ}$.",
           },
         ],
       },
@@ -533,11 +533,11 @@ export const lessons: Lesson[] = [
     sections: [
       {
         heading: "Law of Cosines",
-        body: "For a triangle with sides $a, b, c$ and angle $C$ opposite side $c$:\n\n$$c^2 = a^2 + b^2 - 2ab\\cos C$$\n\nThis generalizes the Pythagorean theorem (when $C = 90°$, $\\cos C = 0$). Use it when you know **two sides and the included angle** (SAS) or **all three sides** (SSS).",
+        body: "For a triangle with sides $a, b, c$ and angle $C$ opposite side $c$:\n\n$$c^2 = a^2 + b^2 - 2ab\\cos C$$\n\nThis generalizes the Pythagorean theorem (when $C = 90^\\circ$, $\\cos C = 0$). Use it when you know **two sides and the included angle** (SAS) or **all three sides** (SSS).",
         examples: [
           {
-            problem: "A triangle has sides $a = 5$, $b = 7$, and included angle $C = 60°$. Find $c$.",
-            solution: "$c^2 = 25 + 49 - 2(5)(7)\\cos 60° = 74 - 70 \\cdot \\frac{1}{2} = 74 - 35 = 39$. So $c = \\boxed{\\sqrt{39}}$.",
+            problem: "A triangle has sides $a = 5$, $b = 7$, and included angle $C = 60^\\circ$. Find $c$.",
+            solution: "$c^2 = 25 + 49 - 2(5)(7)\\cos 60^\\circ = 74 - 70 \\cdot \\frac{1}{2} = 74 - 35 = 39$. So $c = \\boxed{\\sqrt{39}}$.",
           },
         ],
       },
@@ -546,8 +546,8 @@ export const lessons: Lesson[] = [
         body: "$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$$\n\nwhere $R$ is the circumradius of the triangle. Use it when you know **a side and its opposite angle**, plus one more piece.",
         examples: [
           {
-            problem: "In a triangle, $a = 10$, $A = 30°$, $B = 45°$. Find $b$.",
-            solution: "$\\dfrac{b}{\\sin 45°} = \\dfrac{10}{\\sin 30°} = 20$. So $b = 20 \\sin 45° = 20 \\cdot \\dfrac{\\sqrt{2}}{2} = \\boxed{10\\sqrt{2}}$.",
+            problem: "In a triangle, $a = 10$, $A = 30^\\circ$, $B = 45^\\circ$. Find $b$.",
+            solution: "$\\dfrac{b}{\\sin 45^\\circ} = \\dfrac{10}{\\sin 30^\\circ} = 20$. So $b = 20 \\sin 45^\\circ = 20 \\cdot \\dfrac{\\sqrt{2}}{2} = \\boxed{10\\sqrt{2}}$.",
           },
         ],
       },

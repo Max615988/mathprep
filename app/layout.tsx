@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import "katex/dist/katex.min.css";
 import Link from "next/link";
@@ -7,8 +8,36 @@ import Link from "next/link";
 const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MathPrep — Competition Practice Tests",
-  description: "Free practice tests for AMC, MathCounts, AIME, and SAT Math",
+  title: "MathPrep — Free AMC, MathCounts & SAT Math Practice",
+  description:
+    "Free practice tests and instant feedback for AMC 8, AMC 10, MathCounts, AIME, and SAT Math. 300+ problems with step-by-step explanations.",
+  keywords: [
+    "AMC 8 practice",
+    "AMC 10 practice",
+    "MathCounts practice",
+    "AIME practice",
+    "SAT math practice",
+    "math competition problems",
+    "free math practice test",
+    "math olympiad prep",
+  ],
+  openGraph: {
+    title: "MathPrep — Free AMC, MathCounts & SAT Math Practice",
+    description:
+      "300+ competition math problems with instant feedback and step-by-step explanations. Practice for AMC 8, AMC 10, MathCounts, AIME, and SAT Math — free.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary",
+    title: "MathPrep — Free Math Competition Practice",
+    description:
+      "300+ AMC, MathCounts, AIME, and SAT Math problems with instant feedback. Free.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -30,6 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="bg-white border-t border-gray-200 py-6 text-center text-sm text-gray-400">
           MathPrep © 2025 — Free math competition practice
         </footer>
+        <Analytics />
       </body>
     </html>
   );

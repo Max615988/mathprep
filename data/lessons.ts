@@ -389,6 +389,335 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  // ── Advanced Lessons ──────────────────────────────────────────────────────
+  {
+    slug: "am-gm",
+    title: "AM-GM Inequality",
+    topic: "Algebra",
+    parentSlug: "algebra",
+    description: "The AM-GM inequality is the go-to tool for optimization problems — finding a minimum or maximum without calculus.",
+    sections: [
+      {
+        heading: "The Inequality",
+        body: "For non-negative reals $a_1, a_2, \\ldots, a_n$:\n\n$$\\frac{a_1 + a_2 + \\cdots + a_n}{n} \\geq \\sqrt[n]{a_1 a_2 \\cdots a_n}$$\n\nIn words: the **arithmetic mean** is always $\\geq$ the **geometric mean**. Equality holds **if and only if** all values are equal.",
+        examples: [
+          {
+            problem: "Show that for positive $x$, $x + \\dfrac{1}{x} \\geq 2$.",
+            solution: "By AM-GM: $\\dfrac{x + \\frac{1}{x}}{2} \\geq \\sqrt{x \\cdot \\frac{1}{x}} = 1$. So $x + \\frac{1}{x} \\geq 2$, with equality when $x = 1$.",
+          },
+        ],
+      },
+      {
+        heading: "Finding Minimums",
+        body: "AM-GM is most useful when a problem asks you to minimize an expression subject to a constraint (or the constraint is hidden). The strategy:\n1. Write the expression as a sum of terms.\n2. Apply AM-GM to get $\\geq$ some constant.\n3. Check when equality holds.",
+        examples: [
+          {
+            problem: "Find the minimum value of $\\dfrac{x^2 + 4}{x}$ for $x > 0$.",
+            solution: "Rewrite as $x + \\dfrac{4}{x}$. By AM-GM: $x + \\dfrac{4}{x} \\geq 2\\sqrt{x \\cdot \\frac{4}{x}} = 2\\sqrt{4} = 4$. Minimum is $\\boxed{4}$, achieved at $x = 2$.",
+          },
+        ],
+      },
+      {
+        heading: "Weighted AM-GM",
+        body: "A generalization: for weights $w_i > 0$ summing to 1,\n$$w_1 a_1 + w_2 a_2 \\geq a_1^{w_1} a_2^{w_2}$$\nThis comes up in harder AIME and olympiad problems when the standard AM-GM doesn't give a tight bound.",
+      },
+    ],
+  },
+  {
+    slug: "inclusion-exclusion",
+    title: "Inclusion-Exclusion",
+    topic: "Combinatorics",
+    parentSlug: "combinatorics",
+    description: "A systematic method to count elements in unions of sets by adding and subtracting overlaps.",
+    sections: [
+      {
+        heading: "Two Sets",
+        body: "$$|A \\cup B| = |A| + |B| - |A \\cap B|$$\n\nWe add both sets, then subtract the overlap we counted twice.",
+        examples: [
+          {
+            problem: "In a class of 30, 18 play soccer and 15 play basketball, and 8 play both. How many play at least one sport?",
+            solution: "$|S \\cup B| = 18 + 15 - 8 = \\boxed{25}$.",
+          },
+        ],
+      },
+      {
+        heading: "Three Sets",
+        body: "$$|A \\cup B \\cup C| = |A| + |B| + |C| - |A \\cap B| - |A \\cap C| - |B \\cap C| + |A \\cap B \\cap C|$$",
+        examples: [
+          {
+            problem: "How many integers from 1 to 100 are divisible by 2, 3, or 5?",
+            solution: "$|A_2| = 50$, $|A_3| = 33$, $|A_5| = 20$. Pairwise: $|A_6|=16$, $|A_{10}|=10$, $|A_{15}|=6$. Triple: $|A_{30}|=3$. Total: $50+33+20-16-10-6+3 = \\boxed{74}$.",
+          },
+        ],
+      },
+      {
+        heading: "Complementary Counting",
+        body: "Often it's easier to count what you **don't** want:\n$$|\\text{want}| = |\\text{total}| - |\\text{don't want}|$$\nUse this when the condition is complex but its negation is simple.",
+        examples: [
+          {
+            problem: "How many 3-digit numbers have at least one digit equal to 7?",
+            solution: "Total 3-digit numbers: 900. None equal 7: $8 \\times 9 \\times 9 = 648$. Answer: $900 - 648 = \\boxed{252}$.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "stars-and-bars",
+    title: "Stars and Bars",
+    topic: "Combinatorics",
+    parentSlug: "combinatorics",
+    description: "The canonical technique for counting the number of ways to distribute identical objects into distinct bins.",
+    sections: [
+      {
+        heading: "The Formula",
+        body: "The number of ways to distribute $n$ identical objects into $k$ distinct bins (where bins can be empty) is:\n\n$$\\binom{n + k - 1}{k - 1}$$\n\n**Why it works:** imagine $n$ stars and $k-1$ divider bars arranged in a row. Each arrangement corresponds to one distribution.",
+        examples: [
+          {
+            problem: "In how many ways can you distribute 7 identical cookies among 4 children (each child can get zero)?",
+            solution: "$\\binom{7 + 4 - 1}{4 - 1} = \\binom{10}{3} = \\boxed{120}$.",
+          },
+        ],
+      },
+      {
+        heading: "Each Bin Gets At Least One",
+        body: "If every bin must have $\\geq 1$ object, first give one object to each bin, then distribute the remaining $n - k$ freely:\n\n$$\\binom{(n-k) + k - 1}{k-1} = \\binom{n-1}{k-1}$$",
+        examples: [
+          {
+            problem: "How many solutions in positive integers does $x_1 + x_2 + x_3 = 10$ have?",
+            solution: "Positive means each $x_i \\geq 1$. Use $\\binom{10-1}{3-1} = \\binom{9}{2} = \\boxed{36}$.",
+          },
+        ],
+      },
+      {
+        heading: "Recognizing Stars and Bars",
+        body: "A problem calls for stars and bars whenever it asks: \"in how many ways can you write $n$ as an ordered sum of $k$ non-negative (or positive) integers?\" The integers are the bin sizes.",
+      },
+    ],
+  },
+  {
+    slug: "pigeonhole",
+    title: "Pigeonhole Principle",
+    topic: "Combinatorics",
+    parentSlug: "combinatorics",
+    description: "If you put more pigeons than holes, some hole must contain more than one. Simple idea, surprisingly powerful.",
+    sections: [
+      {
+        heading: "Basic Form",
+        body: "If $n + 1$ or more objects are placed into $n$ boxes, then at least one box contains **at least 2** objects.\n\nMore generally: if $m$ objects go into $n$ boxes, at least one box holds $\\geq \\lceil m/n \\rceil$ objects.",
+        examples: [
+          {
+            problem: "In any group of 13 people, show that at least two were born in the same month.",
+            solution: "There are 12 months (boxes) and 13 people (pigeons). By pigeonhole, at least two share a birth month.",
+          },
+        ],
+      },
+      {
+        heading: "Competition Strategy",
+        body: "Pigeonhole problems usually ask you to **prove existence** rather than find a specific example. The key step is identifying the right \"boxes\":\n1. What are you distributing? (pigeons)\n2. What are the categories? (holes)\n3. Compute $\\lceil \\text{pigeons}/\\text{holes} \\rceil$ for the guaranteed minimum.",
+        examples: [
+          {
+            problem: "Given 5 points inside a unit square, show two are within distance $\\dfrac{\\sqrt{2}}{2}$ of each other.",
+            solution: "Divide the square into 4 sub-squares of side $\\frac{1}{2}$. With 5 points in 4 sub-squares, two points share a sub-square. The diagonal of a $\\frac{1}{2} \\times \\frac{1}{2}$ square is $\\frac{\\sqrt{2}}{2}$, so those two points are within $\\frac{\\sqrt{2}}{2}$ of each other.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "law-of-sines-cosines",
+    title: "Law of Sines & Cosines",
+    topic: "Geometry",
+    parentSlug: "geometry",
+    description: "Two formulas that extend the Pythagorean theorem to any triangle — essential for non-right triangles.",
+    sections: [
+      {
+        heading: "Law of Cosines",
+        body: "For a triangle with sides $a, b, c$ and angle $C$ opposite side $c$:\n\n$$c^2 = a^2 + b^2 - 2ab\\cos C$$\n\nThis generalizes the Pythagorean theorem (when $C = 90°$, $\\cos C = 0$). Use it when you know **two sides and the included angle** (SAS) or **all three sides** (SSS).",
+        examples: [
+          {
+            problem: "A triangle has sides $a = 5$, $b = 7$, and included angle $C = 60°$. Find $c$.",
+            solution: "$c^2 = 25 + 49 - 2(5)(7)\\cos 60° = 74 - 70 \\cdot \\frac{1}{2} = 74 - 35 = 39$. So $c = \\boxed{\\sqrt{39}}$.",
+          },
+        ],
+      },
+      {
+        heading: "Law of Sines",
+        body: "$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$$\n\nwhere $R$ is the circumradius of the triangle. Use it when you know **a side and its opposite angle**, plus one more piece.",
+        examples: [
+          {
+            problem: "In a triangle, $a = 10$, $A = 30°$, $B = 45°$. Find $b$.",
+            solution: "$\\dfrac{b}{\\sin 45°} = \\dfrac{10}{\\sin 30°} = 20$. So $b = 20 \\sin 45° = 20 \\cdot \\dfrac{\\sqrt{2}}{2} = \\boxed{10\\sqrt{2}}$.",
+          },
+        ],
+      },
+      {
+        heading: "Choosing the Right Law",
+        body: "- **Law of Cosines**: use for SAS (two sides + included angle) or SSS (all three sides known).\n- **Law of Sines**: use for AAS/ASA (two angles + a side) or ambiguous SSA cases.\n- For right triangles, basic trig (sin/cos/tan) is usually faster than either law.",
+      },
+    ],
+  },
+  {
+    slug: "power-of-a-point",
+    title: "Power of a Point",
+    topic: "Geometry",
+    parentSlug: "geometry",
+    description: "A single number describes how a point relates to a circle — and it gives equations linking chord and secant lengths.",
+    sections: [
+      {
+        heading: "The Power of a Point",
+        body: "For a point $P$ and a circle with center $O$ and radius $r$, the **power** of $P$ is:\n\n$$\\text{pow}(P) = |PO|^2 - r^2$$\n\nIf $P$ is inside the circle, the power is negative; outside, positive; on the circle, zero.",
+      },
+      {
+        heading: "Chord-Chord Case (P inside)",
+        body: "If two chords $AB$ and $CD$ intersect at $P$ inside a circle:\n\n$$PA \\cdot PB = PC \\cdot PD$$",
+        examples: [
+          {
+            problem: "Chords $AB$ and $CD$ intersect at $P$ inside a circle. $PA = 3$, $PB = 8$, $PC = 4$. Find $PD$.",
+            solution: "$PA \\cdot PB = PC \\cdot PD \\Rightarrow 3 \\cdot 8 = 4 \\cdot PD \\Rightarrow PD = \\boxed{6}$.",
+          },
+        ],
+      },
+      {
+        heading: "Secant-Secant and Tangent Cases (P outside)",
+        body: "If two secants from external point $P$ pass through the circle hitting at $A, B$ and $C, D$:\n$$PA \\cdot PB = PC \\cdot PD$$\n\nIf $PT$ is tangent and $PAB$ is a secant:\n$$PT^2 = PA \\cdot PB$$\n\nAll three cases follow from the same power equality.",
+        examples: [
+          {
+            problem: "A tangent from $P$ touches a circle at $T$ with $PT = 6$. A secant from $P$ passes through the circle at $A$ and $B$ with $PA = 4$. Find $PB$.",
+            solution: "$PT^2 = PA \\cdot PB \\Rightarrow 36 = 4 \\cdot PB \\Rightarrow PB = \\boxed{9}$.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "shoelace",
+    title: "Shoelace Formula",
+    topic: "Geometry",
+    parentSlug: "geometry",
+    description: "Given the coordinates of a polygon's vertices, the Shoelace Formula instantly gives the area — no base or height needed.",
+    sections: [
+      {
+        heading: "The Formula",
+        body: "For a polygon with vertices $(x_1, y_1), (x_2, y_2), \\ldots, (x_n, y_n)$ listed in order (clockwise or counter-clockwise):\n\n$$\\text{Area} = \\frac{1}{2} |\\,(x_1 y_2 - x_2 y_1) + (x_2 y_3 - x_3 y_2) + \\cdots + (x_n y_1 - x_1 y_n)\\,|$$\n\nOr in summation form: $\\dfrac{1}{2}\\left|\\sum_{i=1}^{n}(x_i y_{i+1} - x_{i+1} y_i)\\right|$ where indices wrap around.",
+        examples: [
+          {
+            problem: "Find the area of the triangle with vertices $(1,1)$, $(4,2)$, $(3,5)$.",
+            solution: "Area $= \\dfrac{1}{2}|(1\\cdot2 - 4\\cdot1) + (4\\cdot5 - 3\\cdot2) + (3\\cdot1 - 1\\cdot5)|$\n$= \\dfrac{1}{2}|(2-4) + (20-6) + (3-5)|$\n$= \\dfrac{1}{2}|{-2} + 14 + ({-2})| = \\dfrac{1}{2} \\cdot 10 = \\boxed{5}$.",
+          },
+        ],
+      },
+      {
+        heading: "Mnemonic: Diagonal Products",
+        body: "Write the vertices in a column, repeat the first at the bottom. Multiply diagonally down-right and subtract diagonally down-left, then halve the absolute value.\n\nThis is why it's called \"shoelace\" — the products crisscross like laces.",
+      },
+    ],
+  },
+  {
+    slug: "picks-theorem",
+    title: "Pick's Theorem",
+    topic: "Geometry",
+    parentSlug: "geometry",
+    description: "A beautiful formula for the area of any polygon whose vertices are lattice points (integer coordinates).",
+    sections: [
+      {
+        heading: "The Theorem",
+        body: "For a polygon with all vertices on integer coordinates:\n\n$$A = I + \\frac{B}{2} - 1$$\n\nwhere $I$ = number of **interior** lattice points and $B$ = number of **boundary** lattice points (including vertices).",
+        examples: [
+          {
+            problem: "A polygon on a grid has 6 interior lattice points and 8 boundary lattice points. Find its area.",
+            solution: "$A = 6 + \\dfrac{8}{2} - 1 = 6 + 4 - 1 = \\boxed{9}$.",
+          },
+        ],
+      },
+      {
+        heading: "Counting Boundary Points",
+        body: "For each edge from $(x_1, y_1)$ to $(x_2, y_2)$, the number of lattice points **on** that edge (including one endpoint) is $\\gcd(|x_2 - x_1|, |y_2 - y_1|)$.\n\nSum this over all edges to get $B$.",
+        examples: [
+          {
+            problem: "How many lattice points lie on the segment from $(0,0)$ to $(6,4)$ (including both endpoints)?",
+            solution: "$\\gcd(6, 4) = 2$ points strictly between, plus 2 endpoints $= \\gcd(6,4) + 1 = \\boxed{3}$ points total.",
+          },
+        ],
+      },
+      {
+        heading: "When to Use Pick's vs Shoelace",
+        body: "- Use **Pick's** when you can easily count interior and boundary grid points.\n- Use **Shoelace** when you have exact coordinates but the lattice count is messy.\n- Both give exact answers for lattice polygons; pick whichever is faster for the specific figure.",
+      },
+    ],
+  },
+  {
+    slug: "fermats-little-theorem",
+    title: "Fermat's Little Theorem",
+    topic: "Number Theory",
+    parentSlug: "number-theory",
+    description: "A key theorem for reducing large exponents modulo a prime — makes otherwise impossible computations easy.",
+    sections: [
+      {
+        heading: "The Theorem",
+        body: "If $p$ is prime and $\\gcd(a, p) = 1$ (i.e., $p$ does not divide $a$), then:\n\n$$a^{p-1} \\equiv 1 \\pmod{p}$$\n\nEquivalently: $a^p \\equiv a \\pmod{p}$ for any integer $a$.",
+        examples: [
+          {
+            problem: "Find $2^{100} \\pmod{101}$.",
+            solution: "101 is prime and $\\gcd(2, 101) = 1$. By Fermat: $2^{100} \\equiv 1 \\pmod{101}$. Answer: $\\boxed{1}$.",
+          },
+        ],
+      },
+      {
+        heading: "Reducing Large Exponents",
+        body: "To compute $a^n \\pmod{p}$, reduce the exponent mod $p-1$:\n$$a^n \\equiv a^{n \\bmod (p-1)} \\pmod{p}$$\n\n**Steps:**\n1. Find $r = n \\bmod (p-1)$.\n2. Compute $a^r \\pmod{p}$ directly.",
+        examples: [
+          {
+            problem: "Find $3^{302} \\pmod{7}$.",
+            solution: "$p = 7$, so $p - 1 = 6$. $302 = 50 \\times 6 + 2$, so $302 \\equiv 2 \\pmod{6}$. Thus $3^{302} \\equiv 3^2 = 9 \\equiv \\boxed{2} \\pmod{7}$.",
+          },
+        ],
+      },
+      {
+        heading: "Wilson's Theorem (Bonus)",
+        body: "A related result: $(p-1)! \\equiv -1 \\pmod{p}$ for any prime $p$.\n\nExample: $(6)! = 720 \\equiv -1 \\equiv 6 \\pmod{7}$. Useful for competition problems involving factorials mod primes.",
+      },
+    ],
+  },
+  {
+    slug: "floor-function",
+    title: "Floor Function & Legendre's Formula",
+    topic: "Number Theory",
+    parentSlug: "number-theory",
+    description: "The floor function rounds down to the nearest integer — and Legendre's formula uses it to count prime factors in factorials.",
+    sections: [
+      {
+        heading: "Floor and Ceiling",
+        body: "$\\lfloor x \\rfloor$ is the greatest integer $\\leq x$. $\\lceil x \\rceil$ is the least integer $\\geq x$.\n\nKey identities:\n- $\\lfloor n/k \\rfloor$ = number of multiples of $k$ among $1, 2, \\ldots, n$\n- $\\lfloor x \\rfloor + \\lfloor x + \\frac{1}{2} \\rfloor = \\lfloor 2x \\rfloor$ (Hermite's identity)",
+        examples: [
+          {
+            problem: "How many multiples of 7 are there from 1 to 100?",
+            solution: "$\\lfloor 100/7 \\rfloor = \\lfloor 14.28\\ldots \\rfloor = \\boxed{14}$.",
+          },
+        ],
+      },
+      {
+        heading: "Legendre's Formula",
+        body: "The exponent of prime $p$ in $n!$ (the largest power of $p$ dividing $n!$) is:\n\n$$v_p(n!) = \\left\\lfloor \\frac{n}{p} \\right\\rfloor + \\left\\lfloor \\frac{n}{p^2} \\right\\rfloor + \\left\\lfloor \\frac{n}{p^3} \\right\\rfloor + \\cdots$$\n\nThis sum is finite since the terms become 0 once $p^k > n$.",
+        examples: [
+          {
+            problem: "What is the largest power of 2 that divides $20!$?",
+            solution: "$\\lfloor 20/2 \\rfloor + \\lfloor 20/4 \\rfloor + \\lfloor 20/8 \\rfloor + \\lfloor 20/16 \\rfloor = 10 + 5 + 2 + 1 = \\boxed{18}$.",
+          },
+        ],
+      },
+      {
+        heading: "Trailing Zeros in n!",
+        body: "Trailing zeros come from factors of 10 = 2 × 5. Since factors of 2 are always more plentiful than 5s, just count factors of 5:\n\n$$\\text{trailing zeros} = v_5(n!) = \\left\\lfloor \\frac{n}{5} \\right\\rfloor + \\left\\lfloor \\frac{n}{25} \\right\\rfloor + \\left\\lfloor \\frac{n}{125} \\right\\rfloor + \\cdots$$",
+        examples: [
+          {
+            problem: "How many trailing zeros does $100!$ have?",
+            solution: "$\\lfloor 100/5 \\rfloor + \\lfloor 100/25 \\rfloor + \\lfloor 100/125 \\rfloor = 20 + 4 + 0 = \\boxed{24}$.",
+          },
+        ],
+      },
+    ],
+  },
   {
     slug: "statistics",
     title: "Statistics",

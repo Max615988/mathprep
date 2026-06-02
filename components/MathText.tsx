@@ -2,7 +2,10 @@
 
 import { InlineMath, BlockMath } from "react-katex";
 
-// Splits a string on $...$ (inline) and $$...$$ (block) delimiters and renders each part.
+const RawMath = ({ src }: { src: string }) => (
+  <span className="font-mono text-sm text-orange-600">{src}</span>
+);
+
 export default function MathText({ text }: { text: string }) {
   const parts: React.ReactNode[] = [];
   let remaining = text;
@@ -12,35 +15,51 @@ export default function MathText({ text }: { text: string }) {
     const blockStart = remaining.indexOf("$$");
     const inlineStart = remaining.indexOf("$");
 
+    // ── Block math: $$...$$  ────────────────────────────────────────────────
     if (blockStart === 0) {
       const end = remaining.indexOf("$$", 2);
       if (end !== -1) {
         const math = remaining.slice(2, end);
-        parts.push(<BlockMath key={key++} math={math} />);
+        parts.push(
+          <BlockMath key={key++} math={math}
+            renderError={() => <RawMath src={`$$${math}$$`} />}
+          />
+        );
         remaining = remaining.slice(end + 2);
         continue;
       }
     }
 
+    // ── Inline math: $...$ ──────────────────────────────────────────────────
     if (inlineStart === 0) {
-      // Currency sign: $ followed by a digit → treat as literal text
-      if (/^\$\d/.test(remaining)) {
-        const m = remaining.match(/^\$[\d,]+(\.\d+)?/);
-        const literal = m ? m[0] : "$";
-        parts.push(<span key={key++}>{literal}</span>);
-        remaining = remaining.slice(literal.length);
-        continue;
+      // Currency heuristic: $DIGITS where the character after the number is
+      // whitespace, punctuation, or end-of-string — NOT a math operator.
+      // e.g. "$500 for a bike" → currency; "$400=10\times40$" → math
+      const currMatch = remaining.match(/^\$[\d,]+(\.\d+)?/);
+      if (currMatch) {
+        const charAfter = remaining[currMatch[0].length] ?? "";
+        const isMathContext = /[=+\-*/^_\\{}<>%!$]/.test(charAfter);
+        if (!isMathContext) {
+          parts.push(<span key={key++}>{currMatch[0]}</span>);
+          remaining = remaining.slice(currMatch[0].length);
+          continue;
+        }
       }
+
       const end = remaining.indexOf("$", 1);
       if (end !== -1) {
         const math = remaining.slice(1, end);
-        parts.push(<InlineMath key={key++} math={math} />);
+        parts.push(
+          <InlineMath key={key++} math={math}
+            renderError={() => <RawMath src={`$${math}$`} />}
+          />
+        );
         remaining = remaining.slice(end + 1);
         continue;
       }
     }
 
-    // Find the next $ and emit text before it
+    // ── Plain text up to next $ ─────────────────────────────────────────────
     const next = inlineStart > 0 ? inlineStart : remaining.length;
     parts.push(<span key={key++}>{remaining.slice(0, next)}</span>);
     remaining = remaining.slice(next);

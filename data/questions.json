@@ -5302,5 +5302,345 @@
     ],
     "answer": "A",
     "explanation": "Write $x=2^a3^b$, $y=2^d3^e$, $z=2^g3^h5^2$. From the LCMs: $a=3$, $c=0$, $f=0$, $i=2$, $e=2$. For the 2-exponents: max$(d,g)=2$ with $d,g\\leq 2$: 5 pairs. For 3-exponents: $e=2$ fixed, max$(b,h)=1$ with $b,h\\in\\{0,1\\}$: 3 pairs. Total: $5\\times 3 = 15$."
+  },
+  {
+    "id": 313,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "What is the remainder when $3^{100}$ is divided by 7?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "D",
+    "explanation": "Powers of 3 mod 7 cycle with period 6: $3^1\\equiv3$, $3^2\\equiv2$, $3^3\\equiv6$, $3^4\\equiv4$, $3^5\\equiv5$, $3^6\\equiv1$. Since $100 = 16\\times6+4$, we have $3^{100}\\equiv3^4\\equiv81\\equiv4\\pmod{7}$."
+  },
+  {
+    "id": 314,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "How many positive integers less than 200 are divisible by 3 but NOT by 9?",
+    "choices": [
+      "36",
+      "40",
+      "44",
+      "48",
+      "52"
+    ],
+    "answer": "C",
+    "explanation": "Multiples of 3 below 200: $\\lfloor199/3\\rfloor=66$. Multiples of 9 below 200: $\\lfloor199/9\\rfloor=22$. Integers divisible by 3 but not 9: $66-22=44$."
+  },
+  {
+    "id": 315,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "How many lattice points (points with integer coordinates) lie strictly inside the circle $x^2+y^2=25$?",
+    "choices": [
+      "65",
+      "69",
+      "72",
+      "77",
+      "81"
+    ],
+    "answer": "B",
+    "explanation": "For each integer $x$, count integers $y$ with $x^2+y^2<25$. $x=0$: $y\\in\\{-4,\\ldots,4\\}\\to9$. $x=\\pm1$: $y^2<24\\to y\\in\\{-4,\\ldots,4\\}\\to9$ each. $x=\\pm2$: $y^2<21\\to9$ each. $x=\\pm3$: $y^2<16\\to y\\in\\{-3,\\ldots,3\\}\\to7$ each. $x=\\pm4$: $y^2<9\\to y\\in\\{-2,\\ldots,2\\}\\to5$ each. Total: $9+18+18+14+10=69$."
+  },
+  {
+    "id": 316,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "A triangle has side lengths 7, 15, and 20. What is its area?",
+    "choices": [
+      "36",
+      "39",
+      "42",
+      "45",
+      "48"
+    ],
+    "answer": "C",
+    "explanation": "By Heron's formula with $s=\\frac{7+15+20}{2}=21$: Area $=\\sqrt{21\\cdot14\\cdot6\\cdot1}=\\sqrt{1764}=42$."
+  },
+  {
+    "id": 317,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "How many paths are there from $(0,0)$ to $(5,5)$ using only steps right (R) or up (U) that do NOT pass through the point $(2,2)$?",
+    "choices": [
+      "120",
+      "126",
+      "132",
+      "138",
+      "144"
+    ],
+    "answer": "C",
+    "explanation": "Total paths: $\\binom{10}{5}=252$. Paths through $(2,2)$: $\\binom{4}{2}\\cdot\\binom{6}{3}=6\\cdot20=120$. Paths avoiding $(2,2)$: $252-120=132$."
+  },
+  {
+    "id": 318,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "How many positive integer divisors does 2025 have?",
+    "choices": [
+      "9",
+      "12",
+      "15",
+      "18",
+      "21"
+    ],
+    "answer": "C",
+    "explanation": "$2025=45^2=(3^2\\cdot5)^2=3^4\\cdot5^2$. Number of divisors $=(4+1)(2+1)=15$."
+  },
+  {
+    "id": 319,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "In how many ways can 7 people be seated at a round table if two specific people, Kai and Quinn, must NOT sit adjacent to each other?",
+    "choices": [
+      "400",
+      "440",
+      "480",
+      "520",
+      "560"
+    ],
+    "answer": "C",
+    "explanation": "Total circular arrangements: $(7-1)!=720$. Arrangements where Kai and Quinn ARE adjacent: treat them as a single block, giving $(6-1)!\\cdot2=240$. Arrangements where they are NOT adjacent: $720-240=480$."
+  },
+  {
+    "id": 320,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "If $x+y=10$ and $xy=21$, what is $x^3+y^3$?",
+    "choices": [
+      "340",
+      "355",
+      "370",
+      "385",
+      "400"
+    ],
+    "answer": "C",
+    "explanation": "$x^3+y^3=(x+y)^3-3xy(x+y)=10^3-3(21)(10)=1000-630=370$."
+  },
+  {
+    "id": 321,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Probability",
+    "question": "A sack contains 3 red, 5 blue, and 2 green pebbles. Three pebbles are drawn without replacement. What is the probability that one pebble of each color is drawn?",
+    "choices": [
+      "1/8",
+      "1/6",
+      "1/5",
+      "1/4",
+      "1/3"
+    ],
+    "answer": "D",
+    "explanation": "Number of ways to choose one of each color: $3\\cdot5\\cdot2=30$. Total ways to choose 3 from 10: $\\binom{10}{3}=120$. Probability: $30/120=1/4$."
+  },
+  {
+    "id": 322,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "What are the last two digits of $9^{400}$?",
+    "choices": [
+      "01",
+      "21",
+      "41",
+      "61",
+      "81"
+    ],
+    "answer": "A",
+    "explanation": "Since $\\gcd(9,100)=1$ and $\\phi(100)=40$, Euler's theorem gives $9^{40}\\equiv1\\pmod{100}$. Because $400=10\\times40$, we get $9^{400}\\equiv1^{10}=1\\pmod{100}$. The last two digits are $\\mathbf{01}$."
+  },
+  {
+    "id": 323,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "How many perfect-square positive integers are divisors of 720?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "C",
+    "explanation": "$720=2^4\\cdot3^2\\cdot5^1$. A perfect-square divisor needs all even exponents: choices for $2$: $\\{0,2,4\\}$ (3 options); for $3$: $\\{0,2\\}$ (2 options); for $5$: $\\{0\\}$ (1 option). Total: $3\\cdot2\\cdot1=6$."
+  },
+  {
+    "id": 324,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Number Theory",
+    "question": "The Fibonacci sequence is defined by $F_1=1$, $F_2=1$, and $F_n=F_{n-1}+F_{n-2}$. What is the units digit of $F_{60}$?",
+    "choices": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "A",
+    "explanation": "The Pisano period $\\pi(10)=60$, meaning Fibonacci numbers repeat mod 10 every 60 terms. With $F_0=0$, we have $F_{60}\\equiv F_0=0\\pmod{10}$. (Indeed, $F_{60}=1{,}548{,}008{,}755{,}920$ ends in 0.)"
+  },
+  {
+    "id": 325,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Combinatorics",
+    "question": "How many 4-digit positive integers have their digits in strictly increasing order from left to right?",
+    "choices": [
+      "112",
+      "120",
+      "126",
+      "130",
+      "134"
+    ],
+    "answer": "C",
+    "explanation": "We need four distinct digits $d_1<d_2<d_3<d_4$. Since the leading digit cannot be 0, we choose 4 digits from $\\{1,2,\\ldots,9\\}$ — each such set gives exactly one valid number. The count is $\\binom{9}{4}=126$."
+  },
+  {
+    "id": 326,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Probability",
+    "question": "Two standard six-sided dice are rolled. Given that at least one die shows a 6, what is the probability that the sum of the two dice is at most 8?",
+    "choices": [
+      "2/11",
+      "3/11",
+      "4/11",
+      "5/11",
+      "6/11"
+    ],
+    "answer": "C",
+    "explanation": "Outcomes with at least one 6: $\\{(1,6),(2,6),(3,6),(4,6),(5,6),(6,6),(6,1),(6,2),(6,3),(6,4),(6,5)\\}$ — 11 outcomes. Of these, sum $\\leq8$ requires the non-6 die to show $\\leq2$: $(1,6),(2,6),(6,1),(6,2)$ — 4 outcomes. Conditional probability: $4/11$."
+  },
+  {
+    "id": 327,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Algebra",
+    "question": "The two roots of $x^2+6x+8=0$ are $r$ and $s$. What is $r^2+s^2$?",
+    "choices": [
+      "14",
+      "16",
+      "18",
+      "20",
+      "22"
+    ],
+    "answer": "D",
+    "explanation": "By Vieta's formulas, $r+s=-6$ and $rs=8$. Then $r^2+s^2=(r+s)^2-2rs=36-16=20$."
+  },
+  {
+    "id": 328,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "A quadrilateral has vertices at $(0,0)$, $(6,0)$, $(4,4)$, and $(0,3)$ in order. What is its area?",
+    "choices": [
+      "14",
+      "16",
+      "18",
+      "20",
+      "22"
+    ],
+    "answer": "C",
+    "explanation": "By the shoelace formula: Area $=\\tfrac{1}{2}|x_1(y_2-y_4)+x_2(y_3-y_1)+x_3(y_4-y_2)+x_4(y_1-y_3)|=\\tfrac{1}{2}|0(0-3)+6(4-0)+4(3-0)+0(0-4)|=\\tfrac{1}{2}(0+24+12+0)=18$."
+  },
+  {
+    "id": 329,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Number Theory",
+    "question": "What is the sum of the reciprocals of all positive divisors of 12?",
+    "choices": [
+      "5/2",
+      "7/3",
+      "8/3",
+      "3",
+      "10/3"
+    ],
+    "answer": "B",
+    "explanation": "Divisors of 12: 1, 2, 3, 4, 6, 12. Sum of reciprocals: $1+\\tfrac{1}{2}+\\tfrac{1}{3}+\\tfrac{1}{4}+\\tfrac{1}{6}+\\tfrac{1}{12}=\\tfrac{12+6+4+3+2+1}{12}=\\tfrac{28}{12}=\\tfrac{7}{3}$."
+  },
+  {
+    "id": 330,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Combinatorics",
+    "question": "Four participants each place their name tag in a container. The tags are then randomly redistributed, one to each person. In how many ways can this be done so that NO one receives their own tag?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "D",
+    "explanation": "This counts derangements of 4 elements: $D_4=4!\\left(1-\\tfrac{1}{1!}+\\tfrac{1}{2!}-\\tfrac{1}{3!}+\\tfrac{1}{4!}\\right)=24\\cdot\\tfrac{3}{8}=9$."
+  },
+  {
+    "id": 331,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "medium",
+    "topic": "Probability",
+    "question": "A dart is thrown uniformly at random at a $10\\times10$ square board. A circle of radius 3 is drawn at the center of the board. What is the probability that the dart lands inside the circle? Express your answer in terms of $\\pi$.",
+    "choices": [
+      "$9\\pi/100$",
+      "$3\\pi/25$",
+      "$\\pi/10$",
+      "$9\\pi/50$",
+      "$9\\pi/25$"
+    ],
+    "answer": "A",
+    "explanation": "Area of circle: $\\pi(3^2)=9\\pi$. Area of square: $100$. Probability: $9\\pi/100$."
+  },
+  {
+    "id": 332,
+    "competition": "MathCounts",
+    "year": 2025,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "The polynomial $x^3-7x^2+14x-8$ has three positive integer roots $a$, $b$, and $c$. What is $a+b+c+abc$?",
+    "choices": [
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": "D",
+    "explanation": "Testing $x=1$: $1-7+14-8=0$ ✓. Dividing out $(x-1)$ gives $x^2-6x+8=(x-2)(x-4)$. Roots are 1, 2, 4. By Vieta's, $a+b+c=7$ and $abc=8$, so $a+b+c+abc=7+8=15$."
   }
 ]

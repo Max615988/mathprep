@@ -6152,5 +6152,195 @@
     ],
     "answer": "C",
     "explanation": "Factor: $(x-5)(x+2)<0$. Roots at $x=-2$ and $x=5$. The upward parabola is negative between its roots: $-2 < x < 5$."
+  },
+  {
+    "id": 363,
+    "competition": "AMC 8",
+    "year": 2024,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "question": "In the right triangle below, the two legs have lengths 6 and 8. What is the length of the hypotenuse?",
+    "choices": [
+      "7",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "C",
+    "explanation": "By the Pythagorean theorem, the hypotenuse $c$ satisfies $c^2 = 6^2 + 8^2 = 36 + 64 = 100$, so $c = 10$.",
+    "source": "ai",
+    "image": "/images/q363.svg"
+  },
+  {
+    "id": 364,
+    "competition": "MathCounts",
+    "year": 2024,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "The trapezoid shown has parallel sides of length 7 and 13, and a height of 6. What is its area?",
+    "choices": [
+      "48",
+      "54",
+      "60",
+      "66",
+      "72"
+    ],
+    "answer": "C",
+    "explanation": "Area of a trapezoid $= \\frac{1}{2}(b_1 + b_2) \\cdot h = \\frac{1}{2}(7 + 13)(6) = \\frac{1}{2}(20)(6) = 60$.",
+    "source": "ai",
+    "image": "/images/q364.svg"
+  },
+  {
+    "id": 365,
+    "competition": "AMC 8",
+    "year": 2024,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "Two parallel lines are cut by a transversal. The alternate interior angles are labeled $(3x + 15)^\\circ$ and $(5x - 25)^\\circ$ as shown. What is the value of $x$?",
+    "choices": [
+      "15",
+      "18",
+      "20",
+      "22",
+      "25"
+    ],
+    "answer": "C",
+    "explanation": "Alternate interior angles are equal, so $3x + 15 = 5x - 25$. Solving: $40 = 2x$, thus $x = 20$.",
+    "source": "ai",
+    "image": "/images/q365.svg"
+  },
+  {
+    "id": 366,
+    "competition": "SAT",
+    "year": 2024,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "question": "A rectangle has length 12 and width 5. What is the length of its diagonal?",
+    "choices": [
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "answer": "C",
+    "explanation": "Using the Pythagorean theorem: diagonal $= \\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13$.",
+    "source": "ai",
+    "image": "/images/q366.svg"
+  },
+  {
+    "id": 367,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "In circle $O$, the radius is 10. Point $M$ lies on chord $AB$ such that $OM \\perp AB$ and $OM = 6$. What is the length of chord $AB$?",
+    "choices": [
+      "12",
+      "14",
+      "15",
+      "16",
+      "18"
+    ],
+    "answer": "D",
+    "explanation": "Since $OM \\perp AB$, $M$ is the midpoint of $AB$. In right triangle $OMA$: $AM^2 = OA^2 - OM^2 = 100 - 36 = 64$, so $AM = 8$. Therefore $AB = 2 \\cdot 8 = 16$.",
+    "source": "ai",
+    "image": "/images/q367.svg"
+  },
+  {
+    "id": 368,
+    "competition": "AMC 8",
+    "year": 2024,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "question": "A triangle has two angles measuring $40^\\circ$ and $75^\\circ$. What is the measure of the third angle?",
+    "choices": [
+      "55$^\\circ$",
+      "60$^\\circ$",
+      "65$^\\circ$",
+      "70$^\\circ$",
+      "75$^\\circ$"
+    ],
+    "answer": "C",
+    "explanation": "The angles of a triangle sum to $180^\\circ$. The third angle is $180 - 40 - 75 = 65^\\circ$.",
+    "source": "ai",
+    "image": "/images/q368.svg"
+  },
+  {
+    "id": 369,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "medium",
+    "topic": "Geometry",
+    "question": "Triangles $ABC$ and $DEF$ are similar. In $\\triangle ABC$, $AB = 4$ and $BC = 8$. In $\\triangle DEF$, $DE = 6$. What is the length of $EF$?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "E",
+    "explanation": "Because the triangles are similar with ratio $DE/AB = 6/4 = 3/2$, the corresponding sides scale by the same ratio: $EF = BC \\cdot \\frac{3}{2} = 8 \\cdot \\frac{3}{2} = 12$.",
+    "source": "ai",
+    "image": "/images/q369.svg"
+  },
+  {
+    "id": 370,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "A sector of a circle has radius 6 and central angle $120^\\circ$. What is the area of the sector?",
+    "choices": [
+      "$8\\pi$",
+      "$10\\pi$",
+      "$11\\pi$",
+      "$12\\pi$",
+      "$14\\pi$"
+    ],
+    "answer": "D",
+    "explanation": "Area of sector $= \\frac{\\theta}{360} \\cdot \\pi r^2 = \\frac{120}{360} \\cdot \\pi \\cdot 36 = \\frac{1}{3} \\cdot 36\\pi = 12\\pi$.",
+    "source": "ai",
+    "image": "/images/q370.svg"
+  },
+  {
+    "id": 371,
+    "competition": "SAT",
+    "year": 2024,
+    "difficulty": "easy",
+    "topic": "Geometry",
+    "question": "Triangle $ABC$ has vertices at $A(0, 0)$, $B(6, 0)$, and $C(2, 4)$. What is the area of triangle $ABC$?",
+    "choices": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": "C",
+    "explanation": "Using the base-height formula: base $AB = 6$ (along the x-axis), and the height equals the y-coordinate of $C$, which is 4. Area $= \\frac{1}{2} \\cdot 6 \\cdot 4 = 12$.",
+    "source": "ai",
+    "image": "/images/q371.svg"
+  },
+  {
+    "id": 372,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Geometry",
+    "question": "In the circle shown, $\\angle AOB = 70^\\circ$ is the central angle subtending arc $AB$. Point $P$ lies on the major arc. What is the measure of inscribed angle $\\angle APB$?",
+    "choices": [
+      "$25^\\circ$",
+      "$30^\\circ$",
+      "$35^\\circ$",
+      "$40^\\circ$",
+      "$45^\\circ$"
+    ],
+    "answer": "C",
+    "explanation": "An inscribed angle is half the central angle subtending the same arc. The inscribed angle $\\angle APB$ subtends the minor arc $AB$ (central angle $70^\\circ$), so $\\angle APB = \\frac{70}{2} = 35^\\circ$.",
+    "source": "ai",
+    "image": "/images/q372.svg"
   }
 ]

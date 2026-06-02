@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="210" viewBox="0 0 240 210" style="font-family:sans-serif">
+  <rect width="240" height="210" fill="#f9fafb"/>
+  <circle cx="120" cy="110" r="90" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <line x1="120" y1="110" x2="42.1" y2="155.0" stroke="#dc2626" stroke-width="2"/>
+  <line x1="120" y1="110" x2="135.6" y2="198.6" stroke="#dc2626" stroke-width="2"/>
+  <line x1="165.0" y1="32.1" x2="42.1" y2="155.0" stroke="#2563eb" stroke-width="2"/>
+  <line x1="165.0" y1="32.1" x2="135.6" y2="198.6" stroke="#2563eb" stroke-width="2"/>
+  <text x="125" y="115" text-anchor="start" dy="0" font-size="13" fill="#374151">O</text>
+  <text x="170.0" y="24.05771365940052" text-anchor="start" dy="0" font-size="13" fill="#374151">P</text>
+  <text x="34.05771365940052" y="167.0" text-anchor="end" dy="0" font-size="13" fill="#374151">A</text>
+  <text x="140.6283359900237" y="210.63269777109872" text-anchor="start" dy="0" font-size="13" fill="#374151">B</text>
+  <text x="110" y="138" text-anchor="middle" dy="0" font-size="13" fill="#374151">70°</text>
+  <text x="157.0" y="66.0" text-anchor="start" dy="0" font-size="13" fill="#374151">?</text>
+</svg>

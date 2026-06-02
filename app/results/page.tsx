@@ -2,8 +2,10 @@
 
 import { useSearchParams, useRouter } from "next/navigation";
 import { Suspense } from "react";
+import Link from "next/link";
 import type { Question } from "@/types/question";
 import MathText from "@/components/MathText";
+import { topicToSlug } from "@/data/lessons";
 
 type Answer = { question: Question; chosen: string; correct: boolean };
 
@@ -65,8 +67,10 @@ function ResultsContent() {
                 {a.correct ? "✓" : "✗"}
               </span>
             </div>
-            {a.question.source === "ai" && (
-              <span className="inline-block mb-2 text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full font-medium">AI Generated</span>
+            {a.question.image && (
+              <div className="flex justify-center mb-3">
+                <img src={a.question.image} alt="Problem diagram" className="max-w-xs w-full rounded-lg border border-gray-200 bg-white p-2" />
+              </div>
             )}
             <div className="space-y-1 mb-3">
               {a.question.choices.map((choice, ci) => {
@@ -86,6 +90,14 @@ function ResultsContent() {
             <div className="bg-white bg-opacity-60 rounded-lg p-3 text-xs text-gray-600">
               <span className="font-semibold text-gray-700">Explanation: </span>
               <MathText text={a.question.explanation} />
+              {topicToSlug[a.question.topic] && (
+                <Link
+                  href={`/lessons/${topicToSlug[a.question.topic]}`}
+                  className="inline-flex items-center gap-1 mt-2 font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+                >
+                  Learn {a.question.topic} →
+                </Link>
+              )}
             </div>
           </div>
         ))}

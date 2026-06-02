@@ -43,6 +43,13 @@ const competitions = [
 
 const topics = ["Algebra", "Geometry", "Number Theory", "Combinatorics", "Arithmetic", "Statistics"];
 
+const featuredLessons = [
+  { title: "Vieta's Formulas", slug: "vietas-formula", topic: "Algebra" },
+  { title: "Angle Chasing", slug: "angle-chasing", topic: "Geometry" },
+  { title: "Combinatorics", slug: "combinatorics", topic: "Combinatorics" },
+  { title: "Modular Arithmetic", slug: "modular-arithmetic", topic: "Number Theory" },
+];
+
 export default function Home() {
   const [mode, setMode] = useState<"practice" | "test">("practice");
 
@@ -118,7 +125,7 @@ export default function Home() {
       </div>
 
       <h2 className="text-xl font-semibold text-gray-700 mb-4">Browse by Topic</h2>
-      <div className="flex flex-wrap gap-3">
+      <div className="flex flex-wrap gap-3 mb-12">
         {topics.map((topic) => (
           <Link
             key={topic}
@@ -126,6 +133,25 @@ export default function Home() {
             className="px-4 py-2 bg-white border border-gray-200 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors"
           >
             {topic}
+          </Link>
+        ))}
+      </div>
+
+      <div className="flex items-center justify-between mb-4">
+        <h2 className="text-xl font-semibold text-gray-700">Learn the Concepts</h2>
+        <Link href="/lessons" className="text-sm text-blue-600 hover:text-blue-700 font-medium">
+          All lessons →
+        </Link>
+      </div>
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        {featuredLessons.map((l) => (
+          <Link
+            key={l.slug}
+            href={`/lessons/${l.slug}`}
+            className="border border-gray-200 bg-white hover:bg-gray-50 rounded-xl p-4 transition-colors"
+          >
+            <p className="font-semibold text-gray-900 text-sm mb-0.5">{l.title}</p>
+            <p className="text-xs text-gray-400">{l.topic}</p>
           </Link>
         ))}
       </div>

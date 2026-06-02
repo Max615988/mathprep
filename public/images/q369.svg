@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="185" viewBox="0 0 270 185" style="font-family:sans-serif">
+  <rect width="270" height="185" fill="#f9fafb"/>
+  <polygon points="20,150 100,150 20,30" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <polygon points="130,150 250,150 130,10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="60" y="165" text-anchor="middle" dy="0" font-size="13" fill="#374151">AB=4</text>
+  <text x="75" y="90" text-anchor="middle" dy="0" font-size="13" fill="#374151">BC=8</text>
+  <text x="10" y="155" text-anchor="end" dy="0" font-size="13" fill="#374151">A</text>
+  <text x="102" y="165" text-anchor="middle" dy="0" font-size="13" fill="#374151">B</text>
+  <text x="8" y="28" text-anchor="end" dy="0" font-size="13" fill="#374151">C</text>
+  <text x="190" y="165" text-anchor="middle" dy="0" font-size="13" fill="#374151">DE=6</text>
+  <text x="200" y="80" text-anchor="middle" dy="0" font-size="13" fill="#374151">EF=?</text>
+  <text x="126" y="165" text-anchor="end" dy="0" font-size="13" fill="#374151">D</text>
+  <text x="253" y="165" text-anchor="middle" dy="0" font-size="13" fill="#374151">E</text>
+  <text x="118" y="8" text-anchor="end" dy="0" font-size="13" fill="#374151">F</text>
+</svg>

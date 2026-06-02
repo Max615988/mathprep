@@ -3,8 +3,10 @@
 import { useState, useEffect, useCallback } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { Suspense } from "react";
+import Link from "next/link";
 import type { Question } from "@/types/question";
 import MathText from "@/components/MathText";
+import { topicToSlug } from "@/data/lessons";
 
 const CHOICES = ["A", "B", "C", "D", "E"];
 
@@ -178,13 +180,15 @@ function QuizContent() {
         <span className="bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">{q.competition}</span>
         <span className="bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">{q.topic}</span>
         <span className="bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full capitalize">{q.difficulty}</span>
-        {q.source === "ai" && (
-          <span className="bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full font-medium">AI Generated</span>
-        )}
       </div>
 
       <div className="bg-white border border-gray-200 rounded-xl p-6 mb-6">
-        <p className="text-gray-900 text-base leading-relaxed"><MathText text={q.question} /></p>
+        <p className="text-gray-900 text-base leading-relaxed mb-4"><MathText text={q.question} /></p>
+        {q.image && (
+          <div className="flex justify-center">
+            <img src={q.image} alt="Problem diagram" className="max-w-xs w-full rounded-lg border border-gray-200 bg-white p-2" />
+          </div>
+        )}
       </div>
 
       <div className="space-y-3 mb-6">
@@ -223,6 +227,14 @@ function QuizContent() {
           )}
           <p className="font-semibold text-blue-700 mb-1">Explanation</p>
           <p><MathText text={q.explanation} /></p>
+          {topicToSlug[q.topic] && (
+            <Link
+              href={`/lessons/${topicToSlug[q.topic]}`}
+              className="inline-flex items-center gap-1 mt-3 text-xs font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+            >
+              Learn {q.topic} →
+            </Link>
+          )}
         </div>
       )}
 

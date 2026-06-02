@@ -9,4 +9,5 @@ export interface Question {
   answer: string;
   explanation: string;
   source: "ai" | "real";
+  image?: string;
 }

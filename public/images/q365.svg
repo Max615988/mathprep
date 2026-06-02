@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="210" viewBox="0 0 280 210" style="font-family:sans-serif">
+  <rect width="280" height="210" fill="#f9fafb"/>
+  <line x1="20" y1="70" x2="220" y2="70" stroke="#374151" stroke-width="1.8"/>
+  <line x1="20" y1="150" x2="220" y2="150" stroke="#374151" stroke-width="1.8"/>
+  <line x1="60" y1="30" x2="180" y2="190" stroke="#374151" stroke-width="1.8"/>
+  <text x="225" y="75" font-size="12" fill="#6b7280">&gt;&gt;</text>
+  <text x="225" y="155" font-size="12" fill="#6b7280">&gt;&gt;</text>
+  <text x="130" y="65" text-anchor="start" dy="-4" font-size="13" fill="#374151">(3x+15)°</text>
+  <text x="72" y="155" text-anchor="end" dy="14" font-size="13" fill="#374151">(5x-25)°</text>
+</svg>

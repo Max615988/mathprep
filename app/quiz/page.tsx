@@ -31,6 +31,11 @@ function QuizContent() {
   const [sessionAnswers, setSessionAnswers] = useState<Answer[]>([]);
   const [loadingMore, setLoadingMore] = useState(false);
 
+  // AI follow-up
+  const [followUpInput, setFollowUpInput] = useState("");
+  const [followUpAnswer, setFollowUpAnswer] = useState<string | null>(null);
+  const [followUpLoading, setFollowUpLoading] = useState(false);
+
   useEffect(() => {
     fetch("/api/questions?" + new URLSearchParams({ competition, topic }))
       .then((r) => r.json())
@@ -90,9 +95,11 @@ function QuizContent() {
     const correct = selected === q.answer;
     const newAnswers: Answer[] = [...answers, { question: q, chosen: selected, correct }];
 
+    setFollowUpInput("");
+    setFollowUpAnswer(null);
+
     if (current + 1 >= questions.length) {
       if (isPractice) {
-        // Accumulate this batch into the session, then load more
         setSessionAnswers((prev) => [...prev, ...newAnswers]);
         setAnswers([]);
         fetchMoreQuestions();
@@ -104,6 +111,37 @@ function QuizContent() {
       setCurrent((c) => c + 1);
       setSelected(null);
       setRevealed(false);
+    }
+  };
+
+  const handleFollowUp = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!followUpInput.trim() || followUpLoading) return;
+    const q = questions[current];
+    setFollowUpLoading(true);
+    setFollowUpAnswer("");
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          question: q.question,
+          explanation: q.explanation,
+          topic: q.topic,
+          userQuestion: followUpInput,
+        }),
+      });
+      const reader = res.body!.getReader();
+      const decoder = new TextDecoder();
+      let full = "";
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        full += decoder.decode(value, { stream: true });
+        setFollowUpAnswer(full);
+      }
+    } finally {
+      setFollowUpLoading(false);
     }
   };
 
@@ -234,6 +272,31 @@ function QuizContent() {
             >
               Learn {q.topic} →
             </Link>
+          )}
+
+          <form onSubmit={handleFollowUp} className="mt-4 flex gap-2">
+            <input
+              type="text"
+              value={followUpInput}
+              onChange={(e) => setFollowUpInput(e.target.value)}
+              placeholder="Ask a follow-up question..."
+              disabled={followUpLoading}
+              className="flex-1 text-xs border border-gray-300 rounded-lg px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:opacity-50 text-gray-800 placeholder-gray-400"
+            />
+            <button
+              type="submit"
+              disabled={!followUpInput.trim() || followUpLoading}
+              className="px-3 py-2 bg-blue-600 text-white text-xs font-semibold rounded-lg hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors shrink-0"
+            >
+              {followUpLoading ? "…" : "Ask"}
+            </button>
+          </form>
+
+          {followUpAnswer !== null && (
+            <div className="mt-3 text-xs text-gray-700 bg-white bg-opacity-70 rounded-lg p-3 leading-relaxed">
+              <p className="font-semibold text-purple-700 mb-1">AI Tutor</p>
+              <MathText text={followUpAnswer || "…"} />
+            </div>
           )}
         </div>
       )}

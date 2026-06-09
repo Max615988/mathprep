@@ -750,6 +750,276 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  {
+    slug: "consecutive-integers",
+    title: "Consecutive Integers & Variables",
+    topic: "Algebra",
+    parentSlug: "algebra",
+    description: "Master strategies for problems involving consecutive numbers and setting up equations with variables — common in AMC/MathCounts.",
+    sections: [
+      {
+        heading: "Representing Consecutive Integers",
+        body: "Let $n$ be any integer. Then:\n- **Consecutive integers**: $n, n+1, n+2, \\ldots$\n- **Consecutive even integers**: $n, n+2, n+4, \\ldots$ (where $n$ is even)\n- **Consecutive odd integers**: $n, n+2, n+4, \\ldots$ (where $n$ is odd)\n\nAlways use the smallest (or middle) integer as your variable to simplify algebra.",
+        examples: [
+          {
+            problem: "The sum of three consecutive integers is 63. Find the largest.",
+            solution: "Let the integers be $n, n+1, n+2$. Then $n + (n+1) + (n+2) = 63 \\Rightarrow 3n + 3 = 63 \\Rightarrow n = 20$. The largest is $\\boxed{22}$.",
+          },
+        ],
+      },
+      {
+        heading: "Sum and Product Relationships",
+        body: "For consecutive integers starting at $a$ with count $k$:\n- Sum $= \\dfrac{k(2a + k - 1)}{2}$ (or just use the average formula: $k \\times \\text{middle term}$)\n- Product involves all $k$ integers multiplied: $a(a+1)(a+2) \\cdots (a+k-1)$",
+        examples: [
+          {
+            problem: "The product of two consecutive integers is 72. Find them.",
+            solution: "Let them be $n$ and $n+1$. Then $n(n+1) = 72 \\Rightarrow n^2 + n - 72 = 0 \\Rightarrow (n+9)(n-8)=0$. Since $n > 0$, $n = 8$. The integers are $\\boxed{8 \\text{ and } 9}$.",
+          },
+        ],
+      },
+      {
+        heading: "Competition Strategy",
+        body: "When you see \"consecutive,\" immediately set up a variable. Don't try to guess — algebra always wins. Also watch for:\n- **Odd count of consecutive integers**: the middle one equals the average.\n- **Even count**: the average is between the middle two.",
+      },
+    ],
+  },
+  {
+    slug: "distance-rate-time",
+    title: "Distance = Rate × Time (d=rt)",
+    topic: "Algebra",
+    parentSlug: "algebra",
+    description: "The fundamental relationship for motion problems, work-rate problems, and any scenario where rate matters — a staple on AMC/MathCounts.",
+    sections: [
+      {
+        heading: "The Core Formula",
+        body: "$$d = rt$$\n\nwhere $d$ is **distance**, $r$ is **rate** (speed), and $t$ is **time**.\n\nRearrangements:\n- $r = d/t$ (rate if you know distance and time)\n- $t = d/r$ (time if you know distance and rate)\n\nAlways check units: if distance is in miles and time in hours, rate is in miles/hour.",
+        examples: [
+          {
+            problem: "A train travels 300 miles at 60 mph. How long does it take?",
+            solution: "$t = d/r = 300/60 = \\boxed{5 \\text{ hours}}$.",
+          },
+        ],
+      },
+      {
+        heading: "Multiple Moving Objects",
+        body: "When two objects move toward each other or in the same direction:\n\n1. **Toward each other**: total distance $= (r_1 + r_2) \\times t$\n2. **One chasing another**: $d_1 = r_1 t$ and $d_2 = r_2 t$; catch-up happens when $d_1 = d_2$\n\nSet up an equation relating distances or times.",
+        examples: [
+          {
+            problem: "Two cars start 240 miles apart and drive toward each other. Car A goes 50 mph, Car B goes 70 mph. When do they meet?",
+            solution: "Together they close the gap at $50 + 70 = 120$ mph. Time $= 240/120 = \\boxed{2 \\text{ hours}}$.",
+          },
+        ],
+      },
+      {
+        heading: "Average Speed",
+        body: "**Average speed is NOT the average of speeds.**\n\n$$\\text{avg speed} = \\frac{\\text{total distance}}{\\text{total time}}$$\n\nFor equal distances at different speeds, the harmonic mean gives the average speed.",
+        examples: [
+          {
+            problem: "You drive 100 miles at 50 mph, then 100 miles at 60 mph. What's your average speed?",
+            solution: "Total distance $= 200$ miles. Time for first leg $= 2$ hrs, time for second $= 100/60 = 5/3$ hrs. Total time $= 11/3$ hrs. Avg speed $= 200 \\div (11/3) = 600/11 \\approx \\boxed{54.5 \\text{ mph}}$.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "harmonic-mean",
+    title: "Harmonic Mean",
+    topic: "Algebra",
+    parentSlug: "algebra",
+    description: "The harmonic mean averages rates and speeds — essential when distances or quantities are constant but rates vary.",
+    sections: [
+      {
+        heading: "Definition & Formula",
+        body: "For $n$ positive numbers $a_1, a_2, \\ldots, a_n$, the **harmonic mean** is:\n\n$$HM = \\frac{n}{\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n}}$$\n\nFor two numbers: $HM = \\dfrac{2ab}{a+b}$\n\nCompare: AM (arithmetic mean) $\\geq$ HM (harmonic mean), with equality iff all numbers are equal.",
+        examples: [
+          {
+            problem: "Find the harmonic mean of 6 and 12.",
+            solution: "$HM = \\dfrac{2 \\times 6 \\times 12}{6 + 12} = \\dfrac{144}{18} = \\boxed{8}$.",
+          },
+        ],
+      },
+      {
+        heading: "When to Use Harmonic Mean",
+        body: "Use harmonic mean when:\n- **Equal distance at different speeds** — average speed is the harmonic mean of the speeds.\n- **Equal work done at different rates** — average rate is the harmonic mean.\n- Any scenario where the reciprocals are what matter (rates, frequencies, resistances).",
+        examples: [
+          {
+            problem: "Pipe A fills a tank in 6 hours; Pipe B fills it in 12 hours. If both open together, how long to fill?",
+            solution: "Rates: $1/6$ and $1/12$ tanks/hour. Combined rate $= 1/6 + 1/12 = 1/4$ tanks/hour. Time $= \\boxed{4 \\text{ hours}}$.\n\n(This is equivalent: $1/(1/6 + 1/12) = 4$, showing harmonic mean logic.)",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "systems-of-equations",
+    title: "Systems of Equations (Cheating the System)",
+    topic: "Algebra",
+    parentSlug: "algebra",
+    description: "Advanced techniques for solving systems — substitution, elimination, and clever tricks to avoid tedious algebra.",
+    sections: [
+      {
+        heading: "Two Main Methods",
+        body: "**Elimination:** Multiply one or both equations by constants so that a variable cancels when you add/subtract.\n$$2x + 3y = 11 \\quad \\rightarrow \\times 3 \\quad 6x + 9y = 33$$\n$$3x - 2y = -1 \\quad \\rightarrow \\times 2 \\quad 6x - 4y = -2$$\nSubtract: $13y = 35 \\Rightarrow y = 35/13$.\n\n**Substitution:** Solve one equation for a variable, plug into the other.\n$$x = 11 - 3y$$\n$$3(11 - 3y) - 2y = -1 \\Rightarrow 33 - 11y = -1 \\Rightarrow y = \\boxed{\\frac{34}{11}}$$",
+        examples: [
+          {
+            problem: "Solve: $x + y = 5$ and $2x - y = 4$.",
+            solution: "Add: $3x = 9 \\Rightarrow x = 3$. Then $y = 2$. Answer: $\\boxed{(3, 2)}$.",
+          },
+        ],
+      },
+      {
+        heading: "Clever Tricks",
+        body: "- **Add equations**: If you want $x+y$, maybe add both equations directly.\n- **Subtract equations**: To eliminate a variable efficiently.\n- **Look for symmetry**: Sometimes ratios of equations give the answer without full solving.\n- **Non-linear systems**: Substitute or use factorization, e.g., $x^2 + y^2 = 25$ and $x + y = 7$.",
+        examples: [
+          {
+            problem: "Solve: $xy = 12$ and $x + y = 8$.",
+            solution: "$x$ and $y$ are roots of $t^2 - 8t + 12 = 0 \\Rightarrow (t-2)(t-6)=0$. So $\\boxed{(x,y) = (2,6) \\text{ or } (6,2)}$.",
+          },
+        ],
+      },
+      {
+        heading: "Three or More Variables",
+        body: "Use systematic elimination: eliminate one variable from pairs of equations, then solve the resulting 2-variable system.\n\nFor a unique solution, you need at least as many independent equations as variables.",
+      },
+    ],
+  },
+  {
+    slug: "difference-of-squares",
+    title: "Difference of Squares",
+    topic: "Algebra",
+    parentSlug: "algebra",
+    description: "One of the most powerful factoring tools — instantly recognize and factor $a^2 - b^2 = (a-b)(a+b)$.",
+    sections: [
+      {
+        heading: "The Pattern",
+        body: "$$a^2 - b^2 = (a - b)(a + b)$$\n\n**Key insight**: any expression of the form \"perfect square minus perfect square\" factors.\n\nExamples:\n- $x^2 - 1 = (x-1)(x+1)$\n- $9x^2 - 16 = (3x)^2 - 4^2 = (3x-4)(3x+4)$\n- $x^4 - 81 = (x^2)^2 - 9^2 = (x^2-9)(x^2+9) = (x-3)(x+3)(x^2+9)$",
+        examples: [
+          {
+            problem: "Factor $25x^2 - 49y^2$.",
+            solution: "$(5x)^2 - (7y)^2 = \\boxed{(5x-7y)(5x+7y)}$.",
+          },
+        ],
+      },
+      {
+        heading: "Applications",
+        body: "- **Solving equations**: $x^2 - 4 = 0 \\Rightarrow (x-2)(x+2)=0 \\Rightarrow x = \\pm 2$\n- **Mental arithmetic**: $49 \\times 51 = (50-1)(50+1) = 50^2 - 1 = 2499$\n- **Simplifying**: $\\dfrac{x^2 - 9}{x + 3} = \\dfrac{(x-3)(x+3)}{x+3} = x - 3$",
+        examples: [
+          {
+            problem: "Solve $16x^2 = 9$.",
+            solution: "$16x^2 - 9 = 0 \\Rightarrow (4x-3)(4x+3)=0 \\Rightarrow x = \\boxed{\\pm \\frac{3}{4}}$.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "factoring-by-grouping",
+    title: "Factoring by Grouping",
+    topic: "Algebra",
+    parentSlug: "algebra",
+    description: "Handle four-term (and higher) polynomials by grouping strategically — unlocks many harder competition problems.",
+    sections: [
+      {
+        heading: "The Technique",
+        body: "For a 4-term polynomial like $ax^3 + bx^2 + cx + d$:\n\n1. **Group** into pairs: $(ax^3 + bx^2) + (cx + d)$\n2. **Factor each group**: $x^2(ax + b) + d(c/d \\cdot x + 1)$ — adjust signs as needed\n3. **Look for a common factor** in both groups\n4. **Factor out** the binomial\n\n$$x^3 + 2x^2 + 3x + 6 = x^2(x + 2) + 3(x + 2) = (x+2)(x^2+3)$$",
+        examples: [
+          {
+            problem: "Factor $2xy + 3x + 2y + 3$.",
+            solution: "$= x(2y + 3) + 1(2y + 3) = \\boxed{(x+1)(2y+3)}$.",
+          },
+        ],
+      },
+      {
+        heading: "Higher-Degree Polynomials",
+        body: "The same idea extends: group terms to expose common factors.\n\n$$x^4 + x^3 + x^2 + x = x^3(x+1) + x(x+1) = (x+1)(x^3 + x) = x(x+1)(x^2+1)$$",
+        examples: [
+          {
+            problem: "Factor $a^3b - a^3 + b - 1$.",
+            solution: "$= a^3(b-1) + 1(b-1) = \\boxed{(b-1)(a^3+1)} = (b-1)(a+1)(a^2-a+1)$.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "advanced-quadratics",
+    title: "Advanced Quadratics",
+    topic: "Algebra",
+    parentSlug: "algebra",
+    description: "Beyond the basics: vertex form, completing the square, special techniques for competition problems.",
+    sections: [
+      {
+        heading: "Completing the Square",
+        body: "To convert $y = ax^2 + bx + c$ to vertex form $y = a(x-h)^2 + k$:\n\n$$y = ax^2 + bx + c = a\\left(x^2 + \\frac{b}{a}x\\right) + c = a\\left(x + \\frac{b}{2a}\\right)^2 - \\frac{b^2}{4a} + c$$\n\nVertex is at $\\left(-\\frac{b}{2a}, c - \\frac{b^2}{4a}\\right)$.",
+        examples: [
+          {
+            problem: "Convert $y = x^2 - 4x + 3$ to vertex form.",
+            solution: "$y = (x^2 - 4x + 4) - 1 = (x-2)^2 - 1$. Vertex: $\\boxed{(2, -1)}$.",
+          },
+        ],
+      },
+      {
+        heading: "Vieta's Formulas for Quadratics",
+        body: "For $ax^2 + bx + c = 0$ with roots $r$ and $s$:\n$$r + s = -\\frac{b}{a}, \\quad rs = \\frac{c}{a}$$\n\nUse when you need **symmetric expressions** in roots (sums, products, sum of squares) without finding the roots explicitly.",
+        examples: [
+          {
+            problem: "If $x^2 - 3x + 1 = 0$ has roots $p$ and $q$, find $p^3 + q^3$.",
+            solution: "$p + q = 3$, $pq = 1$. Use $p^3 + q^3 = (p+q)^3 - 3pq(p+q) = 27 - 9 = \\boxed{18}$.",
+          },
+        ],
+      },
+      {
+        heading: "Optimization",
+        body: "The vertex of a parabola $y = a(x-h)^2 + k$ is the **maximum** (if $a < 0$) or **minimum** (if $a > 0$) value.\n\n$$\\text{min/max value} = k, \\quad \\text{at } x = h$$",
+        examples: [
+          {
+            problem: "A rectangle has perimeter 24. Find the maximum area.",
+            solution: "If sides are $x$ and $12-x$, area $= x(12-x) = -x^2 + 12x$. Vertex at $x = 6$. Max area $= 6 \\times 6 = \\boxed{36}$.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "advanced-exponents",
+    title: "Advanced Exponents",
+    topic: "Algebra",
+    parentSlug: "algebra",
+    description: "Master exponent rules, fractional and negative exponents, and techniques for solving exponential equations.",
+    sections: [
+      {
+        heading: "Exponent Rules",
+        body: "$$a^m \\cdot a^n = a^{m+n}$$\n$$\\frac{a^m}{a^n} = a^{m-n}$$\n$$(a^m)^n = a^{mn}$$\n$$(ab)^n = a^n b^n$$\n$$a^{-n} = \\frac{1}{a^n}$$\n$$a^{1/n} = \\sqrt[n]{a}$$",
+        examples: [
+          {
+            problem: "Simplify $\\dfrac{x^3 \\cdot x^{-2}}{x^4}$.",
+            solution: "$= \\dfrac{x^{3-2}}{x^4} = \\dfrac{x}{x^4} = x^{1-4} = \\boxed{x^{-3}} = \\dfrac{1}{x^3}$.",
+          },
+        ],
+      },
+      {
+        heading: "Fractional Exponents",
+        body: "$$a^{m/n} = \\sqrt[n]{a^m} = (\\sqrt[n]{a})^m$$\n\nExample: $8^{2/3} = (8^{1/3})^2 = 2^2 = 4$",
+        examples: [
+          {
+            problem: "Evaluate $27^{-2/3}$.",
+            solution: "$= \\dfrac{1}{27^{2/3}} = \\dfrac{1}{(27^{1/3})^2} = \\dfrac{1}{3^2} = \\boxed{\\frac{1}{9}}$.",
+          },
+        ],
+      },
+      {
+        heading: "Exponential Equations",
+        body: "If $a^x = a^y$ (with $a > 0, a \\neq 1$), then $x = y$.\n\nRewrite both sides as powers of the same base, then equate exponents.",
+        examples: [
+          {
+            problem: "Solve $2^{x+1} = 16$.",
+            solution: "$2^{x+1} = 2^4 \\Rightarrow x + 1 = 4 \\Rightarrow x = \\boxed{3}$.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getLessonBySlug(slug: string): Lesson | undefined {

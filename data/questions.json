@@ -6702,5 +6702,383 @@
     "answer": "C",
     "explanation": "Using the Shoelace formula: $A=\\dfrac{1}{2}|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|=\\dfrac{1}{2}|0(0-4)+6(4-0)+2(0-0)|=\\dfrac{1}{2}\\cdot24=12$.",
     "source": "ai"
+  },
+  {
+    "id": 393,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "The sum of three consecutive integers is $51$. What is the product of the largest and smallest?",
+    "choices": [
+      "288",
+      "289",
+      "323",
+      "527",
+      "540"
+    ],
+    "answer": "A",
+    "explanation": "Let the consecutive integers be $n-1, n, n+1$. Sum: $(n-1) + n + (n+1) = 51 \\Rightarrow 3n = 51 \\Rightarrow n = 17$. The integers are 16, 17, 18. Product of largest and smallest: $18 \\times 16 = \\boxed{288}$.",
+    "source": "ai"
+  },
+  {
+    "id": 394,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "A car travels 120 miles at 60 mph, then 120 miles at 40 mph. What is its average speed in mph?",
+    "choices": [
+      "45",
+      "48",
+      "50",
+      "52",
+      "55"
+    ],
+    "answer": "B",
+    "explanation": "Total distance $= 240$ miles. First leg: $t_1 = 120/60 = 2$ hours. Second leg: $t_2 = 120/40 = 3$ hours. Total time $= 5$ hours. Average speed $= 240/5 = \\boxed{48}$ mph.",
+    "source": "ai"
+  },
+  {
+    "id": 395,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Two pipes can fill a tank together in 2 hours. Pipe A alone takes 3 hours. How many hours does Pipe B take alone?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "B",
+    "explanation": "Let Pipe B's time be $t$. Rates: Pipe A is $1/3$ tanks/hr, Pipe B is $1/t$ tanks/hr. Together: $1/3 + 1/t = 1/2$. Solve: $1/t = 1/2 - 1/3 = 1/6 \\Rightarrow t = \\boxed{6}$ hours.",
+    "source": "ai"
+  },
+  {
+    "id": 396,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Factor: $x^3 + 3x^2 + 2x + 6$.",
+    "choices": [
+      "$(x+3)(x^2+2)$",
+      "$(x+3)(x+2)(x+1)$",
+      "$(x+2)(x+3)$",
+      "$(x^2+3)(x+2)$",
+      "$(x+1)(x+2)(x+3)$"
+    ],
+    "answer": "A",
+    "explanation": "Factor by grouping: $x^3 + 3x^2 + 2x + 6 = x^2(x+3) + 2(x+3) = \\boxed{(x+3)(x^2+2)}$.",
+    "source": "ai"
+  },
+  {
+    "id": 397,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Factor: $x^2 - 49$.",
+    "choices": [
+      "$(x-7)^2$",
+      "$(x+7)^2$",
+      "$(x-7)(x+7)$",
+      "$(x-49)(x+1)$",
+      "$(x-14)(x+14)$"
+    ],
+    "answer": "C",
+    "explanation": "Difference of squares: $x^2 - 49 = x^2 - 7^2 = \\boxed{(x-7)(x+7)}$.",
+    "source": "ai"
+  },
+  {
+    "id": 398,
+    "competition": "AMC 10",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Solve: $x + y = 10$ and $xy = 24$. What is $x^2 + y^2$?",
+    "choices": [
+      "52",
+      "76",
+      "100",
+      "124",
+      "148"
+    ],
+    "answer": "A",
+    "explanation": "Use the identity: $x^2 + y^2 = (x+y)^2 - 2xy = 10^2 - 2(24) = 100 - 48 = \\boxed{52}$.",
+    "source": "ai"
+  },
+  {
+    "id": 399,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "If $2^x = 32$, what is $2^{x-2}$?",
+    "choices": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "64"
+    ],
+    "answer": "B",
+    "explanation": "$2^x = 32 = 2^5 \\Rightarrow x = 5$. Then $2^{x-2} = 2^{5-2} = 2^3 = \\boxed{8}$.",
+    "source": "ai"
+  },
+  {
+    "id": 400,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "The difference of squares formula states $a^2 - b^2 = (a-b)(a+b)$. Use this to compute $99^2 - 1^2$.",
+    "choices": [
+      "9800",
+      "9900",
+      "10000",
+      "10100",
+      "10200"
+    ],
+    "answer": "B",
+    "explanation": "$99^2 - 1^2 = (99-1)(99+1) = 98 \\times 100 = \\boxed{9900}$.",
+    "source": "ai"
+  },
+  {
+    "id": 401,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "What is the vertex of the parabola $y = (x-3)^2 + 5$?",
+    "choices": [
+      "$(3, 5)$",
+      "$(5, 3)$",
+      "$(3, -5)$",
+      "$(-3, 5)$",
+      "$(0, 5)$"
+    ],
+    "answer": "A",
+    "explanation": "The vertex form $y = (x-h)^2 + k$ has vertex $(h, k)$. Here, $h = 3$ and $k = 5$, so the vertex is $\\boxed{(3, 5)}$.",
+    "source": "ai"
+  },
+  {
+    "id": 402,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Simplify: $\\dfrac{16x^2 - 9}{4x - 3}$.",
+    "choices": [
+      "$4x + 3$",
+      "$4x - 3$",
+      "$2x + 3$",
+      "$8x + 6$",
+      "$\\dfrac{16x^2 - 9}{4x}$"
+    ],
+    "answer": "A",
+    "explanation": "$16x^2 - 9 = (4x)^2 - 3^2 = (4x-3)(4x+3)$. So $\\dfrac{(4x-3)(4x+3)}{4x-3} = \\boxed{4x+3}$.",
+    "source": "ai"
+  },
+  {
+    "id": 403,
+    "competition": "MathCounts",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Two workers can complete a job together in 6 days. Worker A alone takes 10 days. How many days does Worker B take alone?",
+    "choices": [
+      "10",
+      "12",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": "D",
+    "explanation": "Let Worker B take $t$ days. Rates: A is $1/10$ jobs/day, B is $1/t$ jobs/day. Together: $1/10 + 1/t = 1/6$. Solve: $1/t = 1/6 - 1/10 = (5-3)/30 = 1/15 \\Rightarrow t = \\boxed{15}$ days.",
+    "source": "ai"
+  },
+  {
+    "id": 404,
+    "competition": "MathCounts",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "How many consecutive odd integers starting from 1 sum to 144?",
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "C",
+    "explanation": "The sum of the first $n$ odd integers is $n^2$. We need $n^2 = 144 \\Rightarrow n = \\boxed{12}$.",
+    "source": "ai"
+  },
+  {
+    "id": 405,
+    "competition": "MathCounts",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "If $(x+2)(x-3) = 0$, what is $x^2 - x - 6$?",
+    "choices": [
+      "0",
+      "1",
+      "6",
+      "10",
+      "Cannot be determined"
+    ],
+    "answer": "A",
+    "explanation": "$(x+2)(x-3) = x^2 - x - 6 = 0$, so if $(x+2)(x-3) = 0$, then $\\boxed{x^2 - x - 6 = 0}$.",
+    "source": "ai"
+  },
+  {
+    "id": 406,
+    "competition": "MathCounts",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "What is $8^{-2/3}$?",
+    "choices": [
+      "$1/64$",
+      "$1/16$",
+      "$1/4$",
+      "$1/2$",
+      "$4$"
+    ],
+    "answer": "B",
+    "explanation": "$8^{-2/3} = \\dfrac{1}{8^{2/3}} = \\dfrac{1}{(8^{1/3})^2} = \\dfrac{1}{2^2} = \\boxed{\\dfrac{1}{4}}$.\n\nWait, let me recalculate: $8^{1/3} = 2$, so $8^{2/3} = 4$, thus $8^{-2/3} = 1/4$.",
+    "source": "ai"
+  },
+  {
+    "id": 407,
+    "competition": "AMC 8",
+    "year": 2023,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Moles A and B dig a hole together. Mole A can dig it alone in 4 hours. Mole B can dig it alone in 6 hours. Working together, how long does it take them?",
+    "choices": [
+      "2 hours",
+      "2.4 hours",
+      "$\\dfrac{12}{5}$ hours",
+      "3 hours",
+      "5 hours"
+    ],
+    "answer": "C",
+    "explanation": "Rate of A: $1/4$ hole/hr. Rate of B: $1/6$ hole/hr. Combined: $1/4 + 1/6 = 3/12 + 2/12 = 5/12$ hole/hr. Time: $1 \\div 5/12 = \\boxed{\\dfrac{12}{5}} = 2.4$ hours.",
+    "source": "ai"
+  },
+  {
+    "id": 408,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "A rectangle's length is twice its width. If the perimeter is 24 cm, what is its area?",
+    "choices": [
+      "24 cm²",
+      "32 cm²",
+      "48 cm²",
+      "64 cm²",
+      "96 cm²"
+    ],
+    "answer": "B",
+    "explanation": "Let width $= w$, length $= 2w$. Perimeter: $2(w + 2w) = 24 \\Rightarrow 6w = 24 \\Rightarrow w = 4$. Area $= 4 \\times 8 = \\boxed{32}$ cm².",
+    "source": "ai"
+  },
+  {
+    "id": 409,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Solve the system: $x + 2y = 7$ and $2x - y = 4$. What is $x + y$?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "D",
+    "explanation": "From the first: $x = 7 - 2y$. Substitute into the second: $2(7-2y) - y = 4 \\Rightarrow 14 - 5y = 4 \\Rightarrow y = 2$. Then $x = 3$. So $x + y = \\boxed{5}$.",
+    "source": "ai"
+  },
+  {
+    "id": 410,
+    "competition": "AMC 8",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Factor: $4x^2 - 25y^2$.",
+    "choices": [
+      "$(2x - 5y)^2$",
+      "$(2x + 5y)^2$",
+      "$(2x-5y)(2x+5y)$",
+      "$(x-5y)(4x+5y)$",
+      "$(4x-y)(x+25y)$"
+    ],
+    "answer": "C",
+    "explanation": "$4x^2 - 25y^2 = (2x)^2 - (5y)^2 = \\boxed{(2x-5y)(2x+5y)}$.",
+    "source": "ai"
+  },
+  {
+    "id": 411,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "If $3^x = 81$, what is $3^{x/2}$?",
+    "choices": [
+      "3",
+      "6",
+      "9",
+      "27",
+      "81"
+    ],
+    "answer": "C",
+    "explanation": "$3^x = 81 = 3^4 \\Rightarrow x = 4$. Then $3^{x/2} = 3^{4/2} = 3^2 = \\boxed{9}$.",
+    "source": "ai"
+  },
+  {
+    "id": 412,
+    "competition": "MathCounts",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Solve for $x$: $x^2 - 7x + 12 = 0$. What is the product of the roots?",
+    "choices": [
+      "7",
+      "8",
+      "12",
+      "15",
+      "21"
+    ],
+    "answer": "C",
+    "explanation": "Factor: $(x-3)(x-4) = 0$, so $x = 3$ or $x = 4$. Product of roots: $3 \\times 4 = \\boxed{12}$. (By Vieta's formulas, product $= c/a = 12/1 = 12$.)",
+    "source": "ai"
+  },
+  {
+    "id": 413,
+    "competition": "AMC 10",
+    "year": 2024,
+    "difficulty": "hard",
+    "topic": "Algebra",
+    "question": "Three consecutive even integers sum to 30. What is the smallest?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "A",
+    "explanation": "Let them be $n, n+2, n+4$. Sum: $n + (n+2) + (n+4) = 30 \\Rightarrow 3n + 6 = 30 \\Rightarrow n = \\boxed{8}$.",
+    "source": "ai"
   }
 ]

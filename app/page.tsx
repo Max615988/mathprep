@@ -52,9 +52,10 @@ const featuredLessons = [
 
 export default function Home() {
   const [mode, setMode] = useState<"practice" | "test">("practice");
+  const [answerMode, setAnswerMode] = useState<"multiple-choice" | "typing">("multiple-choice");
 
   const href = (params: Record<string, string>) => {
-    const p = new URLSearchParams({ ...params, mode });
+    const p = new URLSearchParams({ ...params, mode, answerMode });
     return `/quiz?${p.toString()}`;
   };
 
@@ -92,10 +93,39 @@ export default function Home() {
           </button>
         </div>
 
-        <p className="text-sm text-gray-400 mb-4">
+        <p className="text-sm text-gray-400 mb-6">
           {mode === "practice"
             ? "Instant feedback after each answer · No timer"
             : "Timed session · Review all answers at the end"}
+        </p>
+
+        <div className="inline-flex items-center mb-6 bg-gray-100 rounded-lg p-1">
+          <button
+            onClick={() => setAnswerMode("multiple-choice")}
+            className={`px-5 py-2 rounded-md text-sm font-semibold transition-colors ${
+              answerMode === "multiple-choice"
+                ? "bg-white text-blue-700 shadow-sm"
+                : "text-gray-500 hover:text-gray-700"
+            }`}
+          >
+            Multiple Choice
+          </button>
+          <button
+            onClick={() => setAnswerMode("typing")}
+            className={`px-5 py-2 rounded-md text-sm font-semibold transition-colors ${
+              answerMode === "typing"
+                ? "bg-white text-blue-700 shadow-sm"
+                : "text-gray-500 hover:text-gray-700"
+            }`}
+          >
+            Type Answer
+          </button>
+        </div>
+
+        <p className="text-sm text-gray-400 mb-4">
+          {answerMode === "multiple-choice"
+            ? "Choose from 5 options"
+            : "Type or paste your answer"}
         </p>
 
         <Link

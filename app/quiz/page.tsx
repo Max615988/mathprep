@@ -29,6 +29,10 @@ function QuizContent() {
   const [timeLeft, setTimeLeft] = useState(0);
   const [started, setStarted] = useState(false);
 
+  // Retry mechanic
+  const [attemptCount, setAttemptCount] = useState(0);
+  const [wrongOnFirstAttempt, setWrongOnFirstAttempt] = useState(false);
+
   // Practice-mode unlimited session tracking
   const [sessionAnswers, setSessionAnswers] = useState<Answer[]>([]);
   const [loadingMore, setLoadingMore] = useState(false);
@@ -83,7 +87,6 @@ function QuizContent() {
   const handleSelect = (choice: string) => {
     if (revealed) return;
     setSelected(choice);
-    if (isPractice) setRevealed(true);
   };
 
   const matchTypedAnswer = (typed: string, q: Question): string | null => {
@@ -120,8 +123,50 @@ function QuizContent() {
     
     const q = questions[current];
     const correct = answerToCheck === q.answer;
-    const newAnswers: Answer[] = [...answers, { question: q, chosen: answerToCheck, correct }];
 
+    // If wrong answer
+    if (!correct) {
+      // First wrong attempt: show they got it wrong and allow retry
+      if (attemptCount === 0) {
+        setWrongOnFirstAttempt(true);
+        setAttemptCount(1);
+        setRevealed(true);
+        return;
+      }
+      // Second wrong attempt: show explanation and move on
+      else {
+        setWrongOnFirstAttempt(false);
+        const newAnswers: Answer[] = [...answers, { question: q, chosen: answerToCheck, correct: false }];
+        setFollowUpInput("");
+        setFollowUpAnswer(null);
+        
+        if (current + 1 >= questions.length) {
+          if (isPractice) {
+            setSessionAnswers((prev) => [...prev, ...newAnswers]);
+            setAnswers([]);
+            setTypedAnswer("");
+            setAttemptCount(0);
+            setWrongOnFirstAttempt(false);
+            fetchMoreQuestions();
+          } else {
+            finish(newAnswers);
+          }
+        } else {
+          setAnswers(newAnswers);
+          setCurrent((c) => c + 1);
+          setSelected(null);
+          setTypedAnswer("");
+          setRevealed(false);
+          setAttemptCount(0);
+          setWrongOnFirstAttempt(false);
+        }
+        return;
+      }
+    }
+
+    // Correct answer: record and move on
+    const newAnswers: Answer[] = [...answers, { question: q, chosen: answerToCheck, correct: true }];
+    setWrongOnFirstAttempt(false);
     setFollowUpInput("");
     setFollowUpAnswer(null);
 
@@ -130,6 +175,7 @@ function QuizContent() {
         setSessionAnswers((prev) => [...prev, ...newAnswers]);
         setAnswers([]);
         setTypedAnswer("");
+        setAttemptCount(0);
         fetchMoreQuestions();
       } else {
         finish(newAnswers);
@@ -140,6 +186,7 @@ function QuizContent() {
       setSelected(null);
       setTypedAnswer("");
       setRevealed(false);
+      setAttemptCount(0);
     }
   };
 
@@ -333,46 +380,54 @@ function QuizContent() {
       </div>
 
       {revealed && (
-        <div className={`border rounded-xl p-4 mb-6 text-sm text-gray-700 ${isPractice && selected !== q.answer ? "bg-red-50 border-red-200" : "bg-blue-50 border-blue-200"}`}>
-          {isPractice && (
-            <p className={`font-bold text-base mb-2 ${selected === q.answer ? "text-green-700" : "text-red-600"}`}>
-              {selected === q.answer ? "Correct!" : `Incorrect — the answer is ${q.answer}`}
+        <div className={`border rounded-xl p-4 mb-6 text-sm text-gray-700 ${wrongOnFirstAttempt ? "bg-yellow-50 border-yellow-200" : (selected !== q.answer && attemptCount > 0) ? "bg-red-50 border-red-200" : "bg-blue-50 border-blue-200"}`}>
+          {wrongOnFirstAttempt ? (
+            // First wrong attempt: show retry message only
+            <p className="font-bold text-base text-yellow-700">
+              You got it wrong. Try again!
             </p>
-          )}
-          <p className="font-semibold text-blue-700 mb-1">Explanation</p>
-          <p><MathText text={q.explanation} /></p>
-          {topicToSlug[q.topic] && (
-            <Link
-              href={`/lessons/${topicToSlug[q.topic]}`}
-              className="inline-flex items-center gap-1 mt-3 text-xs font-semibold text-blue-600 hover:text-blue-800 transition-colors"
-            >
-              Learn {q.topic} →
-            </Link>
-          )}
+          ) : (
+            <>
+              {/* Second attempt or correct answer */}
+              <p className={`font-bold text-base mb-2 ${selected === q.answer ? "text-green-700" : "text-red-600"}`}>
+                {selected === q.answer ? "Correct!" : `Incorrect — the answer is ${q.answer}`}
+              </p>
+              <p className="font-semibold text-blue-700 mb-1">Explanation</p>
+              <p><MathText text={q.explanation} /></p>
+              {topicToSlug[q.topic] && (
+                <Link
+                  href={`/lessons/${topicToSlug[q.topic]}`}
+                  className="inline-flex items-center gap-1 mt-3 text-xs font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+                >
+                  Learn {q.topic} →
+                </Link>
+              )}
 
-          <form onSubmit={handleFollowUp} className="mt-4 flex gap-2">
-            <input
-              type="text"
-              value={followUpInput}
-              onChange={(e) => setFollowUpInput(e.target.value)}
-              placeholder="Ask a follow-up question..."
-              disabled={followUpLoading}
-              className="flex-1 text-xs border border-gray-300 rounded-lg px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:opacity-50 text-gray-800 placeholder-gray-400"
-            />
-            <button
-              type="submit"
-              disabled={!followUpInput.trim() || followUpLoading}
-              className="px-3 py-2 bg-blue-600 text-white text-xs font-semibold rounded-lg hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors shrink-0"
-            >
-              {followUpLoading ? "…" : "Ask"}
-            </button>
-          </form>
+              <form onSubmit={handleFollowUp} className="mt-4 flex gap-2">
+                <input
+                  type="text"
+                  value={followUpInput}
+                  onChange={(e) => setFollowUpInput(e.target.value)}
+                  placeholder="Ask a follow-up question..."
+                  disabled={followUpLoading}
+                  className="flex-1 text-xs border border-gray-300 rounded-lg px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:opacity-50 text-gray-800 placeholder-gray-400"
+                />
+                <button
+                  type="submit"
+                  disabled={!followUpInput.trim() || followUpLoading}
+                  className="px-3 py-2 bg-blue-600 text-white text-xs font-semibold rounded-lg hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors shrink-0"
+                >
+                  {followUpLoading ? "…" : "Ask"}
+                </button>
+              </form>
 
-          {followUpAnswer !== null && (
-            <div className="mt-3 text-xs text-gray-700 bg-white bg-opacity-70 rounded-lg p-3 leading-relaxed">
-              <p className="font-semibold text-purple-700 mb-1">AI Tutor</p>
-              <MathText text={followUpAnswer || "…"} />
-            </div>
+              {followUpAnswer !== null && (
+                <div className="mt-3 text-xs text-gray-700 bg-white bg-opacity-70 rounded-lg p-3 leading-relaxed">
+                  <p className="font-semibold text-purple-700 mb-1">AI Tutor</p>
+                  <MathText text={followUpAnswer || "…"} />
+                </div>
+              )}
+            </>
           )}
         </div>
       )}
@@ -392,7 +447,7 @@ function QuizContent() {
           disabled={answerMode === "multiple-choice" ? !selected : !matchTypedAnswer(typedAnswer, q)}
           className="px-6 py-2.5 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
         >
-          {isPractice ? "Next" : current + 1 >= questions.length ? "Finish" : "Next Question"}
+          {wrongOnFirstAttempt ? "Try Again" : isPractice ? "Next" : current + 1 >= questions.length ? "Finish" : "Next Question"}
         </button>
         {isPractice && allTotal > 0 && (
           <button
